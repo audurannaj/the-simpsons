@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## The Simpsons Network
 
 You can use the [editor on GitHub](https://github.com/audurannaj/the-simpsons/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
