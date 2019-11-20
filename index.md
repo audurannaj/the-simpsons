@@ -19,7 +19,7 @@ Visulization of the network and some info on it
 # 3. Wordcloud
 General about the wordcloud and then we can make some chapters for different representations
 
-___
+
 ## Main Characters throughout the seasons
 Dropdownlist to choose which character to look at
 
@@ -28,10 +28,10 @@ Dropdownlist to choose which character to look at
 # 4. Sentimental Analysis
 General info on the Sentimental Analysis
 
-___
+
 ## Main Characters
 
-___
+
 ## Seasons
 
 
