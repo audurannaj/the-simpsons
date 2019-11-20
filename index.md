@@ -1,4 +1,3 @@
-# The Simpsons 
 
  https://audurannaj.github.io/the-simpsons/
  
