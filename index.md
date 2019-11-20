@@ -5,28 +5,28 @@ Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 ye
 The ratings and number of viewers have both been decreasing steadily over the years.
 Some say it's because of new writers, but here the goll is dig into the scripts and the synopsis to see if any patterns can be decteded that could decribe this decline.
 
-# Data
+# 1. Data
 Some basic stats that we have done already
 
 
-# The Network
+# 2. The Network
 Visulization of the network and some info on it
 
 
-# Wordcloud
+# 3. Wordcloud
 General about the wordcloud and then we can make some chapters for different representations
 
 
 ## Main Characters throughout the seasons
 Dropdownlist to choose which character to look at
 
-# Sentimental Analysis
+# 4. Sentimental Analysis
 General info on the Sentimental Analysis
 ## Main Characters
 ## Seasons
 
 
-# Webpage Requirements
+# 5. Webpage Requirements
 This part of the assignment is quite free. The main point of the website is to present your idea/analyses to the world in a way that showcases your use of what you've learned in class. It can be as simple as an oldfashioned static web-page, and as complicated as you want it to be. Let your creativity run wild (but keep in mind that this is not a coding class - we care mostly about content and analysis).
 
 The website should be self-contained and tell the story of your dataset without the need for the Explainer Notebook (the purpose of the notebook is to provide additional details for interested readers). Here are some requirements
