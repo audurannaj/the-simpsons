@@ -5,13 +5,16 @@ Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 ye
 The ratings and number of viewers have both been decreasing steadily over the years.
 Some say it's because of new writers, but here the goll is dig into the scripts and the synopsis to see if any patterns can be decteded that could decribe this decline.
 
+---
+
 # 1. Data
 Some basic stats that we have done already
 
-
+---
 # 2. The Network
 Visulization of the network and some info on it
 
+---
 
 # 3. Wordcloud
 General about the wordcloud and then we can make some chapters for different representations
@@ -20,10 +23,15 @@ General about the wordcloud and then we can make some chapters for different rep
 ## Main Characters throughout the seasons
 Dropdownlist to choose which character to look at
 
+---
+
 # 4. Sentimental Analysis
 General info on the Sentimental Analysis
 ## Main Characters
 ## Seasons
+
+
+---
 
 
 # 5. Webpage Requirements
@@ -47,7 +55,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
+markdown
 Syntax highlighted code block
 
 # Header 1
