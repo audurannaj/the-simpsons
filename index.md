@@ -26,7 +26,8 @@ Dropdownlist to choose which character to look at
 ---
 
 # 4. Sentimental Analysis
-General info on the Sentimental Analysis
+Here the goal is to show how the sentiment score of the seasons have changed through the 30 years of production and put it into perspective with the decreasing ratings and views. In order to rate the sentiment of words, a datafile with 10,222 words and their happiness score was used, see [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026752). The sentiment scores were calculated as the average of sentiment scores for the text considered. If a word did not have a sentiment score it was disregarded from the calculation.
+Sentimental Analysis was carried out on the scripts and the synopsis. The main findings are presented in the following chapters.
 
 
 ## 4.1 Main Characters
