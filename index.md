@@ -13,8 +13,8 @@ Some say it's because of new writers, but here the goll is dig into the scripts 
 # 3. Wordcloud
 
 # 4. Sentimental Analysis
-# 4.1 Main Characters
-# 4.2 Seasons
+### 4.1 Main Characters
+## 4.2 Seasons
 
 
 # 5. Requirements 
