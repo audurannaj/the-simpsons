@@ -20,7 +20,7 @@ Visulization of the network and some info on it
 General about the wordcloud and then we can make some chapters for different representations
 
 
-## 3.1 Main Characters throughout the seasons
+## 3.1 Main Characters 
 Dropdownlist to choose which character to look at
 
 ---
