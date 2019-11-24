@@ -1,0 +1,997 @@
+{
+    "nodes": [
+        {
+            "name": "Lisa_Simpson",
+            "weight": 14
+        },
+        {
+            "name": "Bart_Simpson",
+            "weight": 13
+        },
+        {
+            "name": "Ned_Flanders",
+            "weight": 3
+        },
+        {
+            "name": "Allison_Taylor",
+            "weight": 1
+        },
+        {
+            "name": "Homer_Simpson",
+            "weight": 14
+        },
+        {
+            "name": "Marge_Simpson",
+            "weight": 7
+        },
+        {
+            "name": "Ralph_Wiggum",
+            "weight": 1
+        },
+        {
+            "name": "Mindy_Simmons",
+            "weight": 1
+        },
+        {
+            "name": "Joe_Quimby",
+            "weight": 1
+        },
+        {
+            "name": "Robert_Terwilliger",
+            "weight": 1
+        },
+        {
+            "name": "Seymour_Skinner",
+            "weight": 4
+        },
+        {
+            "name": "Waylon_Smithers,_Jr.",
+            "weight": 2
+        },
+        {
+            "name": "Milhouse_Van_Houten",
+            "weight": 2
+        },
+        {
+            "name": "Doris_Freedman",
+            "weight": 1
+        },
+        {
+            "name": "Groundskeeper_Willie",
+            "weight": 3
+        },
+        {
+            "name": "Charles_Montgomery_Burns",
+            "weight": 4
+        },
+        {
+            "name": "Jessica_Lovejoy",
+            "weight": 1
+        },
+        {
+            "name": "Abraham_Simpson_II",
+            "weight": 2
+        },
+        {
+            "name": "Lenny_Leonard",
+            "weight": 1
+        },
+        {
+            "name": "Carl_Carlson",
+            "weight": 1
+        },
+        {
+            "name": "Maggie_Simpson",
+            "weight": 1
+        },
+        {
+            "name": "Krusty_the_Clown",
+            "weight": 1
+        },
+        {
+            "name": "Selma_Bouvier",
+            "weight": 1
+        },
+        {
+            "name": "Patty_Bouvier",
+            "weight": 1
+        },
+        {
+            "name": "Barney_Gumble",
+            "weight": 1
+        },
+        {
+            "name": "Jay_Sherman",
+            "weight": 1
+        },
+        {
+            "name": "Edna_Krabappel",
+            "weight": 1
+        },
+        {
+            "name": "Bleeding_Gums_Murphy",
+            "weight": 1
+        },
+        {
+            "name": "Herman_Hermann",
+            "weight": 1
+        },
+        {
+            "name": "Clancy_Wiggum",
+            "weight": 1
+        },
+        {
+            "name": "Luann_Van_Houten",
+            "weight": 1
+        },
+        {
+            "name": "Nelson_Muntz",
+            "weight": 1
+        },
+        {
+            "name": "Todd_Flanders",
+            "weight": 1
+        },
+        {
+            "name": "Maude_Flanders",
+            "weight": 1
+        },
+        {
+            "name": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "name": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "name": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "name": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "name": "Moe_Szyslak",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Lisa_Simpson",
+            "target": "Bart_Simpson",
+            "weight": 10
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Ned_Flanders",
+            "weight": 2
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Allison_Taylor",
+            "weight": 1
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Homer_Simpson",
+            "weight": 6
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Joe_Quimby",
+            "weight": 1
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Robert_Terwilliger",
+            "weight": 1
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Seymour_Skinner",
+            "weight": 4
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Waylon_Smithers,_Jr.",
+            "weight": 2
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Milhouse_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Doris_Freedman",
+            "weight": 1
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Groundskeeper_Willie",
+            "weight": 2
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Charles_Montgomery_Burns",
+            "weight": 3
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Marge_Simpson",
+            "weight": 1
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Maggie_Simpson",
+            "weight": 1
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Edna_Krabappel",
+            "weight": 1
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Bleeding_Gums_Murphy",
+            "weight": 1
+        },
+        {
+            "source": "Lisa_Simpson",
+            "target": "Moe_Szyslak",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Ned_Flanders",
+            "weight": 3
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Joe_Quimby",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Robert_Terwilliger",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Homer_Simpson",
+            "weight": 5
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Seymour_Skinner",
+            "weight": 4
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Waylon_Smithers,_Jr.",
+            "weight": 2
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Milhouse_Van_Houten",
+            "weight": 2
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Doris_Freedman",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Groundskeeper_Willie",
+            "weight": 2
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Charles_Montgomery_Burns",
+            "weight": 3
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Jessica_Lovejoy",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Marge_Simpson",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Selma_Bouvier",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Patty_Bouvier",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Edna_Krabappel",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Bleeding_Gums_Murphy",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Abraham_Simpson_II",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Luann_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Nelson_Muntz",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Todd_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Maude_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Bart_Simpson",
+            "target": "Moe_Szyslak",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Homer_Simpson",
+            "weight": 2
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Seymour_Skinner",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Abraham_Simpson_II",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Luann_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Nelson_Muntz",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Milhouse_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Todd_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Maude_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Ned_Flanders",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Allison_Taylor",
+            "target": "Homer_Simpson",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Seymour_Skinner",
+            "weight": 3
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Waylon_Smithers,_Jr.",
+            "weight": 2
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Milhouse_Van_Houten",
+            "weight": 2
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Doris_Freedman",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Groundskeeper_Willie",
+            "weight": 3
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Charles_Montgomery_Burns",
+            "weight": 3
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Marge_Simpson",
+            "weight": 6
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Abraham_Simpson_II",
+            "weight": 2
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Lenny_Leonard",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Carl_Carlson",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Maggie_Simpson",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Krusty_the_Clown",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Selma_Bouvier",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Patty_Bouvier",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Barney_Gumble",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Jay_Sherman",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Herman_Hermann",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Clancy_Wiggum",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Luann_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Nelson_Muntz",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Todd_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Maude_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Homer_Simpson",
+            "target": "Moe_Szyslak",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Ralph_Wiggum",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Mindy_Simmons",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Groundskeeper_Willie",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Abraham_Simpson_II",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Selma_Bouvier",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Patty_Bouvier",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Barney_Gumble",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Jay_Sherman",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Charles_Montgomery_Burns",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Herman_Hermann",
+            "weight": 1
+        },
+        {
+            "source": "Marge_Simpson",
+            "target": "Clancy_Wiggum",
+            "weight": 1
+        },
+        {
+            "source": "Ralph_Wiggum",
+            "target": "Mindy_Simmons",
+            "weight": 1
+        },
+        {
+            "source": "Joe_Quimby",
+            "target": "Robert_Terwilliger",
+            "weight": 1
+        },
+        {
+            "source": "Seymour_Skinner",
+            "target": "Waylon_Smithers,_Jr.",
+            "weight": 2
+        },
+        {
+            "source": "Seymour_Skinner",
+            "target": "Milhouse_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Seymour_Skinner",
+            "target": "Doris_Freedman",
+            "weight": 1
+        },
+        {
+            "source": "Seymour_Skinner",
+            "target": "Groundskeeper_Willie",
+            "weight": 2
+        },
+        {
+            "source": "Seymour_Skinner",
+            "target": "Charles_Montgomery_Burns",
+            "weight": 2
+        },
+        {
+            "source": "Seymour_Skinner",
+            "target": "Edna_Krabappel",
+            "weight": 1
+        },
+        {
+            "source": "Seymour_Skinner",
+            "target": "Moe_Szyslak",
+            "weight": 1
+        },
+        {
+            "source": "Waylon_Smithers,_Jr.",
+            "target": "Milhouse_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Waylon_Smithers,_Jr.",
+            "target": "Doris_Freedman",
+            "weight": 1
+        },
+        {
+            "source": "Waylon_Smithers,_Jr.",
+            "target": "Groundskeeper_Willie",
+            "weight": 2
+        },
+        {
+            "source": "Waylon_Smithers,_Jr.",
+            "target": "Charles_Montgomery_Burns",
+            "weight": 2
+        },
+        {
+            "source": "Waylon_Smithers,_Jr.",
+            "target": "Moe_Szyslak",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Doris_Freedman",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Groundskeeper_Willie",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Charles_Montgomery_Burns",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Abraham_Simpson_II",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Luann_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Nelson_Muntz",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Todd_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Maude_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Milhouse_Van_Houten",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Doris_Freedman",
+            "target": "Groundskeeper_Willie",
+            "weight": 1
+        },
+        {
+            "source": "Doris_Freedman",
+            "target": "Charles_Montgomery_Burns",
+            "weight": 1
+        },
+        {
+            "source": "Groundskeeper_Willie",
+            "target": "Charles_Montgomery_Burns",
+            "weight": 2
+        },
+        {
+            "source": "Groundskeeper_Willie",
+            "target": "Moe_Szyslak",
+            "weight": 1
+        },
+        {
+            "source": "Charles_Montgomery_Burns",
+            "target": "Barney_Gumble",
+            "weight": 1
+        },
+        {
+            "source": "Charles_Montgomery_Burns",
+            "target": "Jay_Sherman",
+            "weight": 1
+        },
+        {
+            "source": "Charles_Montgomery_Burns",
+            "target": "Moe_Szyslak",
+            "weight": 1
+        },
+        {
+            "source": "Abraham_Simpson_II",
+            "target": "Luann_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Abraham_Simpson_II",
+            "target": "Nelson_Muntz",
+            "weight": 1
+        },
+        {
+            "source": "Abraham_Simpson_II",
+            "target": "Todd_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Abraham_Simpson_II",
+            "target": "Maude_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Abraham_Simpson_II",
+            "target": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Abraham_Simpson_II",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Abraham_Simpson_II",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Abraham_Simpson_II",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Lenny_Leonard",
+            "target": "Carl_Carlson",
+            "weight": 1
+        },
+        {
+            "source": "Selma_Bouvier",
+            "target": "Patty_Bouvier",
+            "weight": 1
+        },
+        {
+            "source": "Barney_Gumble",
+            "target": "Jay_Sherman",
+            "weight": 1
+        },
+        {
+            "source": "Herman_Hermann",
+            "target": "Clancy_Wiggum",
+            "weight": 1
+        },
+        {
+            "source": "Luann_Van_Houten",
+            "target": "Nelson_Muntz",
+            "weight": 1
+        },
+        {
+            "source": "Luann_Van_Houten",
+            "target": "Todd_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Luann_Van_Houten",
+            "target": "Maude_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Luann_Van_Houten",
+            "target": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Luann_Van_Houten",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Luann_Van_Houten",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Luann_Van_Houten",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Nelson_Muntz",
+            "target": "Todd_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Nelson_Muntz",
+            "target": "Maude_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Nelson_Muntz",
+            "target": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Nelson_Muntz",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Nelson_Muntz",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Nelson_Muntz",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Todd_Flanders",
+            "target": "Maude_Flanders",
+            "weight": 1
+        },
+        {
+            "source": "Todd_Flanders",
+            "target": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Todd_Flanders",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Todd_Flanders",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Todd_Flanders",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Maude_Flanders",
+            "target": "Kirk_Van_Houten",
+            "weight": 1
+        },
+        {
+            "source": "Maude_Flanders",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Maude_Flanders",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Maude_Flanders",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Kirk_Van_Houten",
+            "target": "Martha_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Kirk_Van_Houten",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Kirk_Van_Houten",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Martha_Prince",
+            "target": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "source": "Martha_Prince",
+            "target": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "source": "Jebediah_Springfield",
+            "target": "Martin_Prince",
+            "weight": 1
+        }
+    ]
+}
