@@ -1,7 +1,7 @@
 window.onload = function init()
 {
     console.log('hello 2')
-    var jsnx = require('jsnetworkx');
+    var jsnx = require(['jsnetworkx']);
     console.log('this')
     var G = new jsnx.Graph();
     G.addNode(1, {count: 12});
