@@ -2,7 +2,7 @@ window.onload = function init()
 {
     console.log('hello')
     var jsnx = require('jsnetworkx');
-
+    console.log('this')
     var G = new jsnx.Graph();
     G.addNode(1, {count: 12});
     G.addNode(2, {count: 8});
@@ -19,6 +19,10 @@ window.onload = function init()
         }
       }
     });
+    console.log('is')
 
     console.log(G.nodes())
+
+    console.log('it')
+
 };
