@@ -1,7 +1,3 @@
-
-
-# The Idea
-
 **The Simpsons** first appeared on the television screen in 1989. Today, it is the longest running animates series of all time. 
 
 Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 years, but over the past decade the series seems to been declining in quality. The ratings and number of viewers have both been decreasing steadily over the years.
@@ -38,6 +34,8 @@ episode in the season, and a link between nodes is created if two characters app
 The size of each node is dependant on how many times the character appeared in a synopsis - the more often, the bigger the node. 
 The width of each edge is dependant on how many times two characters appeared together in a synopsis - the more often, the wider the edge. 
 
+See the work [here](https://audurannaj.github.io/the-simpsons/networks.html)
+
 ---
 
 # 3. Wordcloud
@@ -62,6 +60,8 @@ Sentimental Analysis was carried out on the scripts and the synopsis. The main f
 
 
 ## 4.2 Seasons
+
+# 5. Findings
 
 
 ---
