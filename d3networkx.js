@@ -33,4 +33,6 @@ window.onload = function init()
             fill: '#999'
         }
     });
+
+    console.log(G.nodes())
 };
