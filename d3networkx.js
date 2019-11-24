@@ -1,6 +1,6 @@
 window.onload = function init()
 {
-    console.log('hello')
+    console.log('hello 2')
     var jsnx = require('jsnetworkx');
     console.log('this')
     var G = new jsnx.Graph();
