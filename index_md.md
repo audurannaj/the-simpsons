@@ -1,9 +1,6 @@
-
- https://audurannaj.github.io/the-simpsons/
- 
 # The Idea
 
-The Simpsons first appeared on the television screen in 1989. Today, it is the longest running animates series of all time. 
+**The Simpsons** first appeared on the television screen in 1989. Today, it is the longest running animates series of all time. 
 
 Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 years, but over the past decade the series seems to been declining in quality. The ratings and number of viewers have both been decreasing steadily over the years.
 
