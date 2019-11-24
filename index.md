@@ -1,9 +1,14 @@
 
  https://audurannaj.github.io/the-simpsons/
  
-Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 years. 
-The ratings and number of viewers have both been decreasing steadily over the years.
-Some say it's because of new writers, but here the goll is dig into the scripts and the synopsis to see if any patterns can be decteded that could decribe this decline.
+# The Idea
+
+The Simpsons first appeared on the television screen in 1989. Today, it is the longest running animates series of all time. 
+
+Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 years, but over the past decade the series seems to been declining in quality. The ratings and number of viewers have both been decreasing steadily over the years.
+
+
+Some say it's because of new writers, but here the goal is dig into scripts and the synopsis of each episode in order to see if any patterns can be detected that could help us understand what has happened to the series. 
 
 ---
 
