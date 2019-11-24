@@ -1,3 +1,5 @@
+
+
 # The Idea
 
 **The Simpsons** first appeared on the television screen in 1989. Today, it is the longest running animates series of all time. 
@@ -7,14 +9,34 @@ Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 ye
 
 Some say it's because of new writers, but here the goal is dig into scripts and the synopsis of each episode in order to see if any patterns can be detected that could help us understand what has happened to the series. 
 
+Throughout this project, we looked at networks for each season of the series in order to detect changes between the years. Each network is comprised of characters that appear in an episode's **synopsis** in the season and links between them. We also analyzed a script for each episode of The Simpsons for seasons 1 through 26, as well as the actual **synopsis** for each episode in order to see how the essence of the show has changed. 
+
+Below, a summary of the elements that this project is comprised of can be found.
+
 ---
 
 # 1. Data
-Some basic stats that we have done already
+In order to create the networks and analyze text related to the series, a lot of data needed to be collected and created. 
+
+The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. 
+
+| Dataset             | Info                                                                                          | Obtained from       |
+|---------------------|-----------------------------------------------------------------------------------------------|---------------------|
+| **Episode information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia           |
+| **Ratings**             | Each episode's rating                                                                         | IMDB                |
+| **Demographic Ratings** | Each episode's rating for different demographics                                              | IMDB                |
+| **Characters**          | Each character that has appeared in The Simpsons                                              | Simpsons.Fandom.com |
+| **Scripts**             | A dataset comprised of the lines that appear in each episode (Seasons 1-26)                   | Data.World          |
+| **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com |
 
 ---
 # 2. The Network
-Visulization of the network and some info on it
+
+A network was created for each season of The Simpsons. A node in the network represents a character that has appeared in a **synopsis** of an
+episode in the season, and a link between nodes is created if two characters appeared in a synopsis **of the same episode** in the season. 
+
+The size of each node is dependant on how many times the character appeared in a synopsis - the more often, the bigger the node. 
+The width of each edge is dependant on how many times two characters appeared together in a synopsis - the more often, the wider the edge. 
 
 ---
 
