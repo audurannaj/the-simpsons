@@ -4,26 +4,30 @@
 <style>
 
 .link {
-  stroke: #aaa;
+	stroke: #aaa;
 }
 
 .node text {
-stroke:#333;
-cursos:pointer;
+	stroke:#333;
+	cursor:pointer;
 }
 
 .node circle{
-stroke:#fff;
-stroke-width:3px;
-fill:#555;
+	stroke:#fff;
+	stroke-width:3px;
+	fill:#555;
+}
+
+svg{
+	border: 2px solid black;
 }
 
 </style>
 <body>
 <script>
 
-var width = 960,
-    height = 500
+var width = 960;
+var height = 500;
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -62,7 +66,7 @@ d3.json("graphFile.json", function(json) {
       .text(function(d) { return d.name });
 
   force.on("tick", function() {
-    link.attr("x1", function(d) { return d.source.x; })
+  	link.attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
