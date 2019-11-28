@@ -1,0 +1,288 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 9
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 1
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 10
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 5
+        },
+        {
+            "id": "Martin Prince",
+            "weight": 1
+        },
+        {
+            "id": "Marvin Monroe",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Abe",
+            "weight": 1
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 4
+        },
+        {
+            "id": "Herman Hermann",
+            "weight": 1
+        },
+        {
+            "id": "Bleeding Gums Murphy",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Jebediah Springfield",
+            "weight": 1
+        },
+        {
+            "id": "Princess Kashmir",
+            "weight": 1
+        },
+        {
+            "id": "Seymour Skinner",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Sideshow Bob",
+            "weight": 1
+        },
+        {
+            "id": "Lucille Botzcowski",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marvin Monroe",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bleeding Gums Murphy",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Princess Kashmir",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lucille Botzcowski",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Bart Simpson",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 4
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 4
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Herman Hermann",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Bleeding Gums Murphy",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Princess Kashmir",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lucille Botzcowski",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Bleeding Gums Murphy",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Princess Kashmir",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lucille Botzcowski",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Herman Hermann",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Herman Hermann",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Herman Hermann",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bleeding Gums Murphy",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Lucille Botzcowski",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Sideshow Bob",
+            "value": 1
+        }
+    ]
+}
