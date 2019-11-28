@@ -1,0 +1,288 @@
+{
+    "nodes": [
+        {
+            "name": "Homer_Simpson",
+            "weight": 9
+        },
+        {
+            "name": "Charles_Montgomery_Burns",
+            "weight": 1
+        },
+        {
+            "name": "Bart_Simpson",
+            "weight": 10
+        },
+        {
+            "name": "Marge_Simpson",
+            "weight": 5
+        },
+        {
+            "name": "Martin_Prince",
+            "weight": 1
+        },
+        {
+            "name": "Marvin_Monroe",
+            "weight": 1
+        },
+        {
+            "name": "Nelson_Muntz",
+            "weight": 1
+        },
+        {
+            "name": "Abraham_Simpson_II",
+            "weight": 1
+        },
+        {
+            "name": "Lisa_Simpson",
+            "weight": 4
+        },
+        {
+            "name": "Herman_Hermann",
+            "weight": 1
+        },
+        {
+            "name": "Bleeding_Gums_Murphy",
+            "weight": 1
+        },
+        {
+            "name": "Maggie_Simpson",
+            "weight": 1
+        },
+        {
+            "name": "Jebediah_Springfield",
+            "weight": 1
+        },
+        {
+            "name": "Princess_Kashmir",
+            "weight": 1
+        },
+        {
+            "name": "Seymour_Skinner",
+            "weight": 1
+        },
+        {
+            "name": "Krusty_the_Clown",
+            "weight": 1
+        },
+        {
+            "name": "Robert_Terwilliger",
+            "weight": 1
+        },
+        {
+            "name": "Lucille_Botzcowski",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 7,
+            "weight": 1
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "weight": 6
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "weight": 5
+        },
+        {
+            "source": 0,
+            "target": 143,
+            "weight": 1
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "weight": 3
+        },
+        {
+            "source": 0,
+            "target": 149,
+            "weight": 1
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "weight": 1
+        },
+        {
+            "source": 0,
+            "target": 107,
+            "weight": 1
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 0,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 0,
+            "target": 36,
+            "weight": 1
+        },
+        {
+            "source": 7,
+            "target": 2,
+            "weight": 1
+        },
+        {
+            "source": 7,
+            "target": 1,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "weight": 4
+        },
+        {
+            "source": 2,
+            "target": 168,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 145,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "weight": 4
+        },
+        {
+            "source": 2,
+            "target": 88,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 149,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 209,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 107,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 10,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 2,
+            "target": 36,
+            "weight": 1
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "weight": 2
+        },
+        {
+            "source": 1,
+            "target": 149,
+            "weight": 1
+        },
+        {
+            "source": 1,
+            "target": 107,
+            "weight": 1
+        },
+        {
+            "source": 1,
+            "target": 36,
+            "weight": 1
+        },
+        {
+            "source": 145,
+            "target": 5,
+            "weight": 1
+        },
+        {
+            "source": 145,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 145,
+            "target": 88,
+            "weight": 1
+        },
+        {
+            "source": 5,
+            "target": 3,
+            "weight": 1
+        },
+        {
+            "source": 5,
+            "target": 88,
+            "weight": 1
+        },
+        {
+            "source": 3,
+            "target": 88,
+            "weight": 1
+        },
+        {
+            "source": 3,
+            "target": 149,
+            "weight": 1
+        },
+        {
+            "source": 3,
+            "target": 8,
+            "weight": 1
+        },
+        {
+            "source": 3,
+            "target": 31,
+            "weight": 1
+        },
+        {
+            "source": 3,
+            "target": 36,
+            "weight": 1
+        },
+        {
+            "source": 8,
+            "target": 31,
+            "weight": 1
+        }
+    ]
+}
