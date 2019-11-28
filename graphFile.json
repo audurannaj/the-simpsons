@@ -4,24 +4,12 @@
 		{"name":"node2","group":2},
 		{"name":"node3","group":2},
 		{"name":"node4","group":3},
-		{
-            "group":0,
-            "name": "Homer_Simpson",
-            "weight":9
-        },
-        {
-            "group":7,
-            "name": "Charles_Montgomery_Burns",
-            "weight":1
-        }
+		{"name": "Homer_Simpson","group":0},
+        {"name": "Charles_Montgomery_Burns","group":7}
 	],
 	"links":[
 		{"source":2,"target":1,"weight":1},
 		{"source":0,"target":2,"weight":3},
-		{
-            "source":0,
-            "target":7,
-            "weight":1
-        }
+		{"source":0,"target":7,"weight":1}
 	]
 }
