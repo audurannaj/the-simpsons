@@ -1,92 +1,92 @@
 {
     "nodes": [
         {
-            "id": 0,
+            "group": 0,
             "name": "Homer_Simpson",
             "weight": 9
         },
         {
-            "id": 7,
+            "group": 7,
             "name": "Charles_Montgomery_Burns",
             "weight": 1
         },
         {
-            "id": 2,
+            "group": 2,
             "name": "Bart_Simpson",
             "weight": 10
         },
         {
-            "id": 1,
+            "group": 1,
             "name": "Marge_Simpson",
             "weight": 5
         },
         {
-            "id": 168,
+            "group": 168,
             "name": "Martin_Prince",
             "weight": 1
         },
         {
-            "id": 143,
+            "group": 143,
             "name": "Marvin_Monroe",
             "weight": 1
         },
         {
-            "id": 145,
+            "group": 145,
             "name": "Nelson_Muntz",
             "weight": 1
         },
         {
-            "id": 5,
+            "group": 5,
             "name": "Abraham_Simpson_II",
             "weight": 1
         },
         {
-            "id": 3,
+            "group": 3,
             "name": "Lisa_Simpson",
             "weight": 4
         },
         {
-            "id": 88,
+            "group": 88,
             "name": "Herman_Hermann",
             "weight": 1
         },
         {
-            "id": 149,
+            "group": 149,
             "name": "Bleeding_Gums_Murphy",
             "weight": 1
         },
         {
-            "id": 4,
+            "group": 4,
             "name": "Maggie_Simpson",
             "weight": 1
         },
         {
-            "id": 209,
+            "group": 209,
             "name": "Jebediah_Springfield",
             "weight": 1
         },
         {
-            "id": 107,
+            "group": 107,
             "name": "Princess_Kashmir",
             "weight": 1
         },
         {
-            "id": 10,
+            "group": 10,
             "name": "Seymour_Skinner",
             "weight": 1
         },
         {
-            "id": 8,
+            "group": 8,
             "name": "Krusty_the_Clown",
             "weight": 1
         },
         {
-            "id": 31,
+            "group": 31,
             "name": "Robert_Terwilliger",
             "weight": 1
         },
         {
-            "id": 36,
+            "group": 36,
             "name": "Lucille_Botzcowski",
             "weight": 1
         }
