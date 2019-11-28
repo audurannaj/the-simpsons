@@ -4,6 +4,7 @@
 		{"name":"node2","group":2},
 		{"name":"node3","group":2},
 		{"name":"node4","group":3},
+		{"name":"node0","group":0}
 		{"name":"Homer","group":20},
 		{"name":"Burns","group":21}
 		
