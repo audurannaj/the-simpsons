@@ -1,305 +1,287 @@
 {
     "nodes": [
         {
-            "group": 0,
             "name": "Homer_Simpson",
             "weight": 9
         },
         {
-            "group": 7,
             "name": "Charles_Montgomery_Burns",
             "weight": 1
         },
         {
-            "group": 2,
             "name": "Bart_Simpson",
             "weight": 10
         },
         {
-            "group": 1,
             "name": "Marge_Simpson",
             "weight": 5
         },
         {
-            "group": 168,
             "name": "Martin_Prince",
             "weight": 1
         },
         {
-            "group": 143,
             "name": "Marvin_Monroe",
             "weight": 1
         },
         {
-            "group": 145,
             "name": "Nelson_Muntz",
             "weight": 1
         },
         {
-            "group": 5,
             "name": "Abraham_Simpson_II",
             "weight": 1
         },
         {
-            "group": 3,
             "name": "Lisa_Simpson",
             "weight": 4
         },
         {
-            "group": 88,
             "name": "Herman_Hermann",
             "weight": 1
         },
         {
-            "group": 149,
             "name": "Bleeding_Gums_Murphy",
             "weight": 1
         },
         {
-            "group": 4,
             "name": "Maggie_Simpson",
             "weight": 1
         },
         {
-            "group": 209,
             "name": "Jebediah_Springfield",
             "weight": 1
         },
         {
-            "group": 107,
             "name": "Princess_Kashmir",
             "weight": 1
         },
         {
-            "group": 10,
             "name": "Seymour_Skinner",
             "weight": 1
         },
         {
-            "group": 8,
             "name": "Krusty_the_Clown",
             "weight": 1
         },
         {
-            "group": 31,
             "name": "Robert_Terwilliger",
             "weight": 1
         },
         {
-            "group": 36,
             "name": "Lucille_Botzcowski",
             "weight": 1
         }
     ],
     "links": [
         {
-            "source": 0,
-            "target": 7,
+            "source": "Homer_Simpson",
+            "target": "Charles_Montgomery_Burns",
             "weight": 1
         },
         {
-            "source": 0,
-            "target": 2,
+            "source": "Homer_Simpson",
+            "target": "Bart_Simpson",
             "weight": 6
         },
         {
-            "source": 0,
-            "target": 1,
+            "source": "Homer_Simpson",
+            "target": "Marge_Simpson",
             "weight": 5
         },
         {
-            "source": 0,
-            "target": 143,
+            "source": "Homer_Simpson",
+            "target": "Marvin_Monroe",
             "weight": 1
         },
         {
-            "source": 0,
-            "target": 3,
+            "source": "Homer_Simpson",
+            "target": "Lisa_Simpson",
             "weight": 3
         },
         {
-            "source": 0,
-            "target": 149,
+            "source": "Homer_Simpson",
+            "target": "Bleeding_Gums_Murphy",
             "weight": 1
         },
         {
-            "source": 0,
-            "target": 4,
+            "source": "Homer_Simpson",
+            "target": "Maggie_Simpson",
             "weight": 1
         },
         {
-            "source": 0,
-            "target": 107,
+            "source": "Homer_Simpson",
+            "target": "Princess_Kashmir",
             "weight": 1
         },
         {
-            "source": 0,
-            "target": 8,
+            "source": "Homer_Simpson",
+            "target": "Krusty_the_Clown",
             "weight": 1
         },
         {
-            "source": 0,
-            "target": 31,
+            "source": "Homer_Simpson",
+            "target": "Robert_Terwilliger",
             "weight": 1
         },
         {
-            "source": 0,
-            "target": 36,
+            "source": "Homer_Simpson",
+            "target": "Lucille_Botzcowski",
             "weight": 1
         },
         {
-            "source": 7,
-            "target": 2,
+            "source": "Charles_Montgomery_Burns",
+            "target": "Bart_Simpson",
             "weight": 1
         },
         {
-            "source": 7,
-            "target": 1,
+            "source": "Charles_Montgomery_Burns",
+            "target": "Marge_Simpson",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 1,
+            "source": "Bart_Simpson",
+            "target": "Marge_Simpson",
             "weight": 4
         },
         {
-            "source": 2,
-            "target": 168,
+            "source": "Bart_Simpson",
+            "target": "Martin_Prince",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 145,
+            "source": "Bart_Simpson",
+            "target": "Nelson_Muntz",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 5,
+            "source": "Bart_Simpson",
+            "target": "Abraham_Simpson_II",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 3,
+            "source": "Bart_Simpson",
+            "target": "Lisa_Simpson",
             "weight": 4
         },
         {
-            "source": 2,
-            "target": 88,
+            "source": "Bart_Simpson",
+            "target": "Herman_Hermann",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 149,
+            "source": "Bart_Simpson",
+            "target": "Bleeding_Gums_Murphy",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 4,
+            "source": "Bart_Simpson",
+            "target": "Maggie_Simpson",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 209,
+            "source": "Bart_Simpson",
+            "target": "Jebediah_Springfield",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 107,
+            "source": "Bart_Simpson",
+            "target": "Princess_Kashmir",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 10,
+            "source": "Bart_Simpson",
+            "target": "Seymour_Skinner",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 8,
+            "source": "Bart_Simpson",
+            "target": "Krusty_the_Clown",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 31,
+            "source": "Bart_Simpson",
+            "target": "Robert_Terwilliger",
             "weight": 1
         },
         {
-            "source": 2,
-            "target": 36,
+            "source": "Bart_Simpson",
+            "target": "Lucille_Botzcowski",
             "weight": 1
         },
         {
-            "source": 1,
-            "target": 3,
+            "source": "Marge_Simpson",
+            "target": "Lisa_Simpson",
             "weight": 2
         },
         {
-            "source": 1,
-            "target": 149,
+            "source": "Marge_Simpson",
+            "target": "Bleeding_Gums_Murphy",
             "weight": 1
         },
         {
-            "source": 1,
-            "target": 107,
+            "source": "Marge_Simpson",
+            "target": "Princess_Kashmir",
             "weight": 1
         },
         {
-            "source": 1,
-            "target": 36,
+            "source": "Marge_Simpson",
+            "target": "Lucille_Botzcowski",
             "weight": 1
         },
         {
-            "source": 145,
-            "target": 5,
+            "source": "Nelson_Muntz",
+            "target": "Abraham_Simpson_II",
             "weight": 1
         },
         {
-            "source": 145,
-            "target": 3,
+            "source": "Nelson_Muntz",
+            "target": "Lisa_Simpson",
             "weight": 1
         },
         {
-            "source": 145,
-            "target": 88,
+            "source": "Nelson_Muntz",
+            "target": "Herman_Hermann",
             "weight": 1
         },
         {
-            "source": 5,
-            "target": 3,
+            "source": "Abraham_Simpson_II",
+            "target": "Lisa_Simpson",
             "weight": 1
         },
         {
-            "source": 5,
-            "target": 88,
+            "source": "Abraham_Simpson_II",
+            "target": "Herman_Hermann",
             "weight": 1
         },
         {
-            "source": 3,
-            "target": 88,
+            "source": "Lisa_Simpson",
+            "target": "Herman_Hermann",
             "weight": 1
         },
         {
-            "source": 3,
-            "target": 149,
+            "source": "Lisa_Simpson",
+            "target": "Bleeding_Gums_Murphy",
             "weight": 1
         },
         {
-            "source": 3,
-            "target": 8,
+            "source": "Lisa_Simpson",
+            "target": "Krusty_the_Clown",
             "weight": 1
         },
         {
-            "source": 3,
-            "target": 31,
+            "source": "Lisa_Simpson",
+            "target": "Robert_Terwilliger",
             "weight": 1
         },
         {
-            "source": 3,
-            "target": 36,
+            "source": "Lisa_Simpson",
+            "target": "Lucille_Botzcowski",
             "weight": 1
         },
         {
-            "source": 8,
-            "target": 31,
+            "source": "Krusty_the_Clown",
+            "target": "Robert_Terwilliger",
             "weight": 1
         }
     ]
