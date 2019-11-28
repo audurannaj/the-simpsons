@@ -58,7 +58,7 @@ d3.json("season1.json", function(error, graph) {
     .enter().append("g")
     
   var circles = node.append("circle")
-      .attr("r", 5)
+      .attr("r", 20)
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
