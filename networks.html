@@ -62,7 +62,7 @@ d3.json("season1.json", function(error, graph) {
 
   var circles = node.append("circle")
       .attr("r", function(d){
-      	return d.weight*10;
+      	return d.weight*3;
       })
       .call(d3.drag()
           .on("start", dragstarted)
