@@ -27,19 +27,26 @@ text {
 
 svg {
 	border: 2px solid black;
+	margin-top: 2%;
 }
+
 
 </style>
 <h1>Season 1 without style</h1>
 <select>
 	<option>Season 1</option>
 </select>
-<svg width="960" height="600"></svg>
+<br>
+<svg width="960" height="600" class="svg_network"></svg>
+<svg width="480" height="300" class="svg_network"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-var svg = d3.select("svg"),
+var svg = d3.select(".svg_network"),
     width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var svg_graph = d3.select(".svg_graph").width = +svg.attr("width"),
     height = +svg.attr("height");
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
