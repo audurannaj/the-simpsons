@@ -26,6 +26,9 @@ text {
 
 </style>
 <h1>Season 1 without style</h1>
+<select>
+	<option>Season 1</option>
+</select>
 <svg width="960" height="600"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
@@ -35,6 +38,8 @@ var svg = d3.select("svg"),
     height = +svg.attr("height");
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+const circleScale = d3.scaleSqrt().domain(d3.extent(nodes,n => n.degree)).range([3, 15])
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -57,8 +62,10 @@ d3.json("season1.json", function(error, graph) {
     .data(graph.nodes)
     .enter().append("g")
     
+  const circleScale = d3.scaleSqrt().domain(d3.extent(nodes,n => n.weight)).range([3, 15])
+  
   var circles = node.append("circle")
-      .attr("r", 10)
+      .attr("r", d => circleScale(d.weight))
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
