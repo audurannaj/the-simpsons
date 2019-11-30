@@ -52,18 +52,18 @@ d3.json("season1.json", function(error, graph) {
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value*10); });
 
   var node = svg.append("g")
       .attr("class", "nodes")
     .selectAll("g")
     .data(graph.nodes)
     .enter().append("g")
-    
-  const circleScale = d3.scaleSqrt().domain(d3.extent(node,n => n.weight)).range([3, 15])
 
   var circles = node.append("circle")
-      .attr("r", d => circleScale(d.weight))
+      .attr("r", function(d){
+      	return d.weight;
+      })
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
