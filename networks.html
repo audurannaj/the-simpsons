@@ -15,9 +15,9 @@
 }
 
 .nodes circle {
-  stroke: #fff;
+  stroke: black;
   stroke-width: 1.5px;
-  fill-opacity: 0.5;
+  fill-opacity: 0.75;
 }
 
 text {
@@ -81,14 +81,14 @@ d3.json("season1.json", function(error, graph) {
           .on("drag", dragged)
           .on("end", dragended));
 
-  var lables = node.append("text")
+  /*var lables = node.append("text")
       .text(function(d) {
         return d.id;
       })
       .attr('x', 0)
       .attr('y', 6)
       .attr('class', 'node_name')
-      .call(wrap, 20)
+      .call(wrap, 20)*/
 
   node.append("title")
       .text(function(d) { return d.id + " - " + d.weight + " synopsis appearances"; });
