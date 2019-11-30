@@ -25,6 +25,10 @@ text {
   font-size: 10px;
 }
 
+svg {
+	border: 2px solid black;
+}
+
 </style>
 <h1>Season 1 without style</h1>
 <select>
@@ -74,8 +78,9 @@ d3.json("season1.json", function(error, graph) {
       .text(function(d) {
         return d.id;
       })
-      .attr('x', 6)
-      .attr('y', 3);
+      .attr('x', 0)
+      .attr('y', 6)
+      .attr('class', 'node_name')
 
   node.append("title")
       .text(function(d) { return d.id; });
