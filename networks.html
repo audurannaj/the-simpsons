@@ -77,6 +77,10 @@ svg {
 $(window).on("load", function(){
   // Handler when all assets (including images) are loaded
 
+document.getElementById("seasonSelect").onchange = function(e) {
+    season = this[this.selectedIndex].value;
+    console.log(season);
+};
 
 var select_id = document.getElementById("seasonSelect");
 
