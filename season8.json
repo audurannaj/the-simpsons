@@ -1,0 +1,733 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 18
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Julius Hibbert",
+            "weight": 1
+        },
+        {
+            "id": "Hugo Simpson II",
+            "weight": 1
+        },
+        {
+            "id": "Kodos",
+            "weight": 1
+        },
+        {
+            "id": "Hank Scorpio",
+            "weight": 1
+        },
+        {
+            "id": "Drederick Tatum",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 3
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 5
+        },
+        {
+            "id": "Larry Burns",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Luann Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 2
+        },
+        {
+            "id": "Kirk Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Gary Chalmers",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 2
+        },
+        {
+            "id": "Fat Tony",
+            "weight": 1
+        },
+        {
+            "id": "Shary Bobbins",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 3
+        },
+        {
+            "id": "Sideshow Bob",
+            "weight": 1
+        },
+        {
+            "id": "Cecil Terwilliger",
+            "weight": 1
+        },
+        {
+            "id": "Clancy Wiggum",
+            "weight": 2
+        },
+        {
+            "id": "Rex Banner",
+            "weight": 1
+        },
+        {
+            "id": "Seymour Skinner",
+            "weight": 2
+        },
+        {
+            "id": "Edna Krabappel",
+            "weight": 1
+        },
+        {
+            "id": "Carl Carlson",
+            "weight": 1
+        },
+        {
+            "id": "Lenny Leonard",
+            "weight": 1
+        },
+        {
+            "id": "Frank Grimes",
+            "weight": 1
+        },
+        {
+            "id": "Abe",
+            "weight": 1
+        },
+        {
+            "id": "Ralph Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Troy McClure",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 7
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Hugo Simpson II",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kodos",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Hank Scorpio",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Drederick Tatum",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 4
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Larry Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Gary Chalmers",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Fat Tony",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Shary Bobbins",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Clancy Wiggum",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Rex Banner",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Frank Grimes",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Troy McClure",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Hugo Simpson II",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Kodos",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Drederick Tatum",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Moe Szyslak",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Shary Bobbins",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Cecil Terwilliger",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Clancy Wiggum",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Rex Banner",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Seymour Skinner",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Frank Grimes",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Troy McClure",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Hugo Simpson II",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Kodos",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Gary Chalmers",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Shary Bobbins",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Julius Hibbert",
+            "target": "Hugo Simpson II",
+            "value": 1
+        },
+        {
+            "source": "Julius Hibbert",
+            "target": "Kodos",
+            "value": 1
+        },
+        {
+            "source": "Hugo Simpson II",
+            "target": "Kodos",
+            "value": 1
+        },
+        {
+            "source": "Drederick Tatum",
+            "target": "Moe Szyslak",
+            "value": 2
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Moe Szyslak",
+            "value": 2
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Troy McClure",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Larry Burns",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Frank Grimes",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Fat Tony",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Shary Bobbins",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Troy McClure",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Frank Grimes",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Gary Chalmers",
+            "value": 1
+        },
+        {
+            "source": "Shary Bobbins",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Troy McClure",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Sideshow Bob",
+            "target": "Cecil Terwilliger",
+            "value": 1
+        },
+        {
+            "source": "Clancy Wiggum",
+            "target": "Rex Banner",
+            "value": 1
+        },
+        {
+            "source": "Clancy Wiggum",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Clancy Wiggum",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Clancy Wiggum",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Clancy Wiggum",
+            "target": "Troy McClure",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Troy McClure",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Frank Grimes",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Frank Grimes",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Troy McClure",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Troy McClure",
+            "value": 1
+        }
+    ]
+}

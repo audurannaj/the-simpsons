@@ -1,0 +1,277 @@
+{
+    "nodes": [
+        {
+            "id": "Martin Prince",
+            "weight": 3
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Homer Simpson",
+            "weight": 16
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Kodos",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 2
+        },
+        {
+            "id": "Todd Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Captain Lance Murdock",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Lionel Hutz",
+            "weight": 1
+        },
+        {
+            "id": "Artie Ziff",
+            "weight": 1
+        },
+        {
+            "id": "Patty Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Selma Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Seymour Skinner",
+            "weight": 1
+        },
+        {
+            "id": "Herbert Powell",
+            "weight": 1
+        },
+        {
+            "id": "Abe",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Martin Prince",
+            "target": "Bart Simpson",
+            "value": 3
+        },
+        {
+            "source": "Martin Prince",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Martin Prince",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Homer Simpson",
+            "value": 9
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Kodos",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mr. Burns",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Captain Lance Murdock",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lionel Hutz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Artie Ziff",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kodos",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Captain Lance Murdock",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lionel Hutz",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Artie Ziff",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Herbert Powell",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Kodos",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Todd Flanders",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lionel Hutz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Artie Ziff",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Selma Bouvier",
+            "target": "Seymour Skinner",
+            "value": 1
+        }
+    ]
+}

@@ -1,0 +1,379 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 15
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 8
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 2
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 3
+        },
+        {
+            "id": "Cookie Kwan",
+            "weight": 1
+        },
+        {
+            "id": "Rainier Wolfcastle",
+            "weight": 1
+        },
+        {
+            "id": "Ralph Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Miss Springfield",
+            "weight": 1
+        },
+        {
+            "id": "Manjula Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Apu Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 2
+        },
+        {
+            "id": "Kirk Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Duff McShark",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 4
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Cookie Kwan",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Miss Springfield",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Manjula Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Duff McShark",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Miss Springfield",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Manjula Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 4
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Miss Springfield",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Manjula Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Duff McShark",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Krusty the Clown",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Miss Springfield",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Manjula Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Miss Springfield",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Manjula Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Cookie Kwan",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Cookie Kwan",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Miss Springfield",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Manjula Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Miss Springfield",
+            "target": "Manjula Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Miss Springfield",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Manjula Nahasapeemapetilon",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Moe Szyslak",
+            "value": 1
+        }
+    ]
+}

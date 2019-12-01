@@ -1,0 +1,295 @@
+{
+    "nodes": [
+        {
+            "id": "Fat Tony",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 15
+        },
+        {
+            "id": "Homer Simpson",
+            "weight": 18
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 9
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 2
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 8
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 1
+        },
+        {
+            "id": "Sideshow Bob",
+            "weight": 1
+        },
+        {
+            "id": "Mona Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Seymour Skinner",
+            "weight": 2
+        },
+        {
+            "id": "Coach Krupt",
+            "weight": 1
+        },
+        {
+            "id": "Groundskeeper Willie",
+            "weight": 1
+        },
+        {
+            "id": "Rod Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 2
+        },
+        {
+            "id": "Todd Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Timothy Lovejoy, Jr.",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Fat Tony",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Fat Tony",
+            "target": "Homer Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Homer Simpson",
+            "value": 14
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Bart Simpson",
+            "value": 6
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Seymour Skinner",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Rod Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Timothy Lovejoy, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 7
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mona Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Rod Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Seymour Skinner",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Coach Krupt",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Timothy Lovejoy, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Bart Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Coach Krupt",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Rod Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Timothy Lovejoy, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Coach Krupt",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Rod Flanders",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Rod Flanders",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Timothy Lovejoy, Jr.",
+            "value": 1
+        }
+    ]
+}

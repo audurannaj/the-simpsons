@@ -1,0 +1,383 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Seymour Skinner",
+            "weight": 3
+        },
+        {
+            "id": "Apu Nahasapeemapetilon",
+            "weight": 2
+        },
+        {
+            "id": "Barney Gumble",
+            "weight": 1
+        },
+        {
+            "id": "Clancy Wiggum",
+            "weight": 2
+        },
+        {
+            "id": "Sideshow Bob",
+            "weight": 1
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 12
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 5
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Bobo (Dog)",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 4
+        },
+        {
+            "id": "Ruth Powers",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Lionel Hutz",
+            "weight": 1
+        },
+        {
+            "id": "Mindy Simmons",
+            "weight": 1
+        },
+        {
+            "id": "Martin Prince",
+            "weight": 1
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 2
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Waylon Smithers, Jr.",
+            "weight": 1
+        },
+        {
+            "id": "Gary Chalmers",
+            "weight": 1
+        },
+        {
+            "id": "Freddy Quimby",
+            "weight": 1
+        },
+        {
+            "id": "Abe",
+            "weight": 1
+        },
+        {
+            "id": "Jacqueline Bouvier",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Clancy Wiggum",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bobo (Dog)",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ruth Powers",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lionel Hutz",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mindy Simmons",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Gary Chalmers",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Bart Simpson",
+            "value": 2
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Freddy Quimby",
+            "value": 1
+        },
+        {
+            "source": "Apu Nahasapeemapetilon",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Apu Nahasapeemapetilon",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Barney Gumble",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Clancy Wiggum",
+            "target": "Ruth Powers",
+            "value": 1
+        },
+        {
+            "source": "Clancy Wiggum",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Clancy Wiggum",
+            "target": "Lionel Hutz",
+            "value": 1
+        },
+        {
+            "source": "Sideshow Bob",
+            "target": "Bart Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mr. Burns",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mindy Simmons",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Gary Chalmers",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Freddy Quimby",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Bobo (Dog)",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Jacqueline Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Bobo (Dog)",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Gary Chalmers",
+            "value": 1
+        },
+        {
+            "source": "Ruth Powers",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Ruth Powers",
+            "target": "Lionel Hutz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lionel Hutz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Mindy Simmons",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Jacqueline Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Mindy Simmons",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Jacqueline Bouvier",
+            "value": 1
+        }
+    ]
+}

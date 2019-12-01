@@ -1,0 +1,1046 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 12
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 9
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Mona Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 8
+        },
+        {
+            "id": "Patty Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 9
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 3
+        },
+        {
+            "id": "Cletus Spuckler",
+            "weight": 1
+        },
+        {
+            "id": "Selma Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Lenny Leonard",
+            "weight": 1
+        },
+        {
+            "id": "Carl Carlson",
+            "weight": 1
+        },
+        {
+            "id": "Rainier Wolfcastle",
+            "weight": 1
+        },
+        {
+            "id": "Snake Jailbird",
+            "weight": 1
+        },
+        {
+            "id": "Groundskeeper Willie",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Disco Stu",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Barney Gumble",
+            "weight": 1
+        },
+        {
+            "id": "Julius Hibbert",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 2
+        },
+        {
+            "id": "Lindsey Naegle",
+            "weight": 1
+        },
+        {
+            "id": "Luann Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Ralph Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Edna Krabappel",
+            "weight": 1
+        },
+        {
+            "id": "Kirk Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Jimbo Jones",
+            "weight": 1
+        },
+        {
+            "id": "Dolph Starbeam",
+            "weight": 1
+        },
+        {
+            "id": "Kearney Zzyzwicz",
+            "weight": 1
+        },
+        {
+            "id": "Artie Ziff",
+            "weight": 1
+        },
+        {
+            "id": "Gina Vendetti",
+            "weight": 1
+        },
+        {
+            "id": "Poor Violet",
+            "weight": 1
+        },
+        {
+            "id": "The Rich Texan",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mona Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Cletus Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Poor Violet",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "The Rich Texan",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Cletus Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Dolph Starbeam",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Gina Vendetti",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Poor Violet",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "The Rich Texan",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 3
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Cletus Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Dolph Starbeam",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Poor Violet",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "The Rich Texan",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Cletus Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Cletus Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lindsey Naegle",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Dolph Starbeam",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Artie Ziff",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Cletus Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Cletus Spuckler",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Rainier Wolfcastle",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Rainier Wolfcastle",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Rainier Wolfcastle",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Rainier Wolfcastle",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Rainier Wolfcastle",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Rainier Wolfcastle",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Rainier Wolfcastle",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Groundskeeper Willie",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Groundskeeper Willie",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Groundskeeper Willie",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Groundskeeper Willie",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Groundskeeper Willie",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Disco Stu",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Disco Stu",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Disco Stu",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Disco Stu",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Barney Gumble",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Dolph Starbeam",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Dolph Starbeam",
+            "value": 1
+        },
+        {
+            "source": "Ralph Wiggum",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Edna Krabappel",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Edna Krabappel",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Edna Krabappel",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Edna Krabappel",
+            "target": "Dolph Starbeam",
+            "value": 1
+        },
+        {
+            "source": "Edna Krabappel",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Dolph Starbeam",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Dolph Starbeam",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Jimbo Jones",
+            "target": "Dolph Starbeam",
+            "value": 1
+        },
+        {
+            "source": "Jimbo Jones",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Dolph Starbeam",
+            "target": "Kearney Zzyzwicz",
+            "value": 1
+        },
+        {
+            "source": "Poor Violet",
+            "target": "The Rich Texan",
+            "value": 1
+        }
+    ]
+}

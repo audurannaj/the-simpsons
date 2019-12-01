@@ -1,0 +1,181 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 18
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 16
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 2
+        },
+        {
+            "id": "Apu Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Sanjay Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 1
+        },
+        {
+            "id": "Waylon Smithers, Jr.",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 9
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 12
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 12
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Sanjay Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 9
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Bart Simpson",
+            "value": 7
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 11
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Sanjay Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Apu Nahasapeemapetilon",
+            "target": "Sanjay Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        }
+    ]
+}

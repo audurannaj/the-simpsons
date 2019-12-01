@@ -1,0 +1,314 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 16
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 12
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 10
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 2
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 2
+        },
+        {
+            "id": "Luann Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Kirk Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Comic Book Guy",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Donny (The Debarted)",
+            "weight": 1
+        },
+        {
+            "id": "Martin Prince",
+            "weight": 1
+        },
+        {
+            "id": "Lurleen Lumpkin",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Ralph Wiggum",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 11
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 9
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Nelson Muntz",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Comic Book Guy",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Donny (The Debarted)",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lurleen Lumpkin",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Bart Simpson",
+            "value": 8
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Nelson Muntz",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Comic Book Guy",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Donny (The Debarted)",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lurleen Lumpkin",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Donny (The Debarted)",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Nelson Muntz",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Kirk Van Houten",
+            "value": 1
+        }
+    ]
+}

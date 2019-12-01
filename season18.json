@@ -1,0 +1,163 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 16
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 10
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 12
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Martin Prince",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Gil Gunderson",
+            "weight": 1
+        },
+        {
+            "id": "Declan Desmond",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Cletus Spuckler",
+            "weight": 1
+        },
+        {
+            "id": "Kent Brockman",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 9
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Declan Desmond",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kent Brockman",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 7
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Cletus Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Kent Brockman",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 3
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Gil Gunderson",
+            "value": 1
+        },
+        {
+            "source": "Martin Prince",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Declan Desmond",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Cletus Spuckler",
+            "value": 1
+        }
+    ]
+}

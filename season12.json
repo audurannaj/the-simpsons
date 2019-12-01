@@ -1,0 +1,204 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 16
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Fat Tony",
+            "weight": 2
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 2
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 8
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 2
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 2
+        },
+        {
+            "id": "Comic Book Guy",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 3
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 2
+        },
+        {
+            "id": "Ralph Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Maude Flanders",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Fat Tony",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Comic Book Guy",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Fat Tony",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Fat Tony",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Fat Tony",
+            "target": "Bart Simpson",
+            "value": 1
+        },
+        {
+            "source": "Fat Tony",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Fat Tony",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Bart Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Comic Book Guy",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Comic Book Guy",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Ralph Wiggum",
+            "value": 1
+        }
+    ]
+}

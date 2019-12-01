@@ -1,0 +1,239 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 16
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Snake Jailbird",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Dash Dingo",
+            "weight": 1
+        },
+        {
+            "id": "Fat Tony",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Lenny Leonard",
+            "weight": 1
+        },
+        {
+            "id": "Carl Carlson",
+            "weight": 1
+        },
+        {
+            "id": "Kirk Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Barney Gumble",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 4
+        },
+        {
+            "id": "Apu Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Loch Ness Monster",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Dash Dingo",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Fat Tony",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 3
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Dash Dingo",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Carl Carlson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Barney Gumble",
+            "value": 1
+        }
+    ]
+}

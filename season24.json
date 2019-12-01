@@ -1,0 +1,227 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 17
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 12
+        },
+        {
+            "id": "Artie Ziff",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 9
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 9
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 2
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Emily Winthrop",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 2
+        },
+        {
+            "id": "Mary Spuckler",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Lenny Leonard",
+            "weight": 1
+        },
+        {
+            "id": "Carl Carlson",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 8
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Artie Ziff",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 8
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Emily Winthrop",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mary Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Artie Ziff",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 7
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Emily Winthrop",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mr. Burns",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mary Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Artie Ziff",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 3
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Emily Winthrop",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Mary Spuckler",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mr. Burns",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Emily Winthrop",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Carl Carlson",
+            "value": 1
+        }
+    ]
+}

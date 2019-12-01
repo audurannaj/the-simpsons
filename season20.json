@@ -1,0 +1,164 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 9
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 8
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 11
+        },
+        {
+            "id": "Bashir bin Laden",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 1
+        },
+        {
+            "id": "Juliet Hobbes",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Comic Book Guy",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 4
+        },
+        {
+            "id": "Selma Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 7
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bashir bin Laden",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Bart Simpson",
+            "value": 5
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 3
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Bashir bin Laden",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bashir bin Laden",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Juliet Hobbes",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Comic Book Guy",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Comic Book Guy",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        }
+    ]
+}

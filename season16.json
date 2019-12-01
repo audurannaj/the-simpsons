@@ -1,0 +1,494 @@
+{
+    "nodes": [
+        {
+            "id": "Lisa Simpson",
+            "weight": 11
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 12
+        },
+        {
+            "id": "Mrs. Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Edna Krabappel",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 2
+        },
+        {
+            "id": "Homer Simpson",
+            "weight": 16
+        },
+        {
+            "id": "Declan Desmond",
+            "weight": 1
+        },
+        {
+            "id": "Martin Prince",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 2
+        },
+        {
+            "id": "Janey Powell",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 2
+        },
+        {
+            "id": "Abe",
+            "weight": 1
+        },
+        {
+            "id": "Apu Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 3
+        },
+        {
+            "id": "Waylon Smithers, Jr.",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Kirk Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Patty Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Julius Hibbert",
+            "weight": 1
+        },
+        {
+            "id": "Selma Bouvier",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 9
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 6
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mrs. Muntz",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Nelson Muntz",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Homer Simpson",
+            "value": 8
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Declan Desmond",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Janey Powell",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Bart Simpson",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 8
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mrs. Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Homer Simpson",
+            "value": 9
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Declan Desmond",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Janey Powell",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Mrs. Muntz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Homer Simpson",
+            "value": 10
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Mrs. Muntz",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Mrs. Muntz",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Edna Krabappel",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Homer Simpson",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Declan Desmond",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Janey Powell",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Declan Desmond",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Janey Powell",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Declan Desmond",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Declan Desmond",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Declan Desmond",
+            "target": "Janey Powell",
+            "value": 1
+        },
+        {
+            "source": "Martin Prince",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Martin Prince",
+            "target": "Janey Powell",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Janey Powell",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Julius Hibbert",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Apu Nahasapeemapetilon",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Apu Nahasapeemapetilon",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Julius Hibbert",
+            "target": "Selma Bouvier",
+            "value": 1
+        }
+    ]
+}

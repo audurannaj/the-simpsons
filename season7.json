@@ -1,0 +1,577 @@
+{
+    "nodes": [
+        {
+            "id": "Mr. Burns",
+            "weight": 5
+        },
+        {
+            "id": "Homer Simpson",
+            "weight": 15
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 3
+        },
+        {
+            "id": "Waylon Smithers, Jr.",
+            "weight": 1
+        },
+        {
+            "id": "Clancy Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Fallout Boy",
+            "weight": 1
+        },
+        {
+            "id": "Radioactive Man (character)",
+            "weight": 1
+        },
+        {
+            "id": "Rainier Wolfcastle",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 3
+        },
+        {
+            "id": "Maude Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Todd Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Rod Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 4
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 9
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Apu Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Groundskeeper Willie",
+            "weight": 1
+        },
+        {
+            "id": "Lard Lad",
+            "weight": 1
+        },
+        {
+            "id": "Mona Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Sideshow Bob",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Jebediah Springfield",
+            "weight": 1
+        },
+        {
+            "id": "Lionel Hutz",
+            "weight": 1
+        },
+        {
+            "id": "Troy McClure",
+            "weight": 1
+        },
+        {
+            "id": "Selma Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Martin Prince",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Mr. Burns",
+            "target": "Homer Simpson",
+            "value": 4
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Mona Simpson",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Bart Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 8
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Rod Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 4
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lard Lad",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mona Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Bart Simpson",
+            "value": 2
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Rod Flanders",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Lisa Simpson",
+            "value": 2
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Lard Lad",
+            "value": 1
+        },
+        {
+            "source": "Waylon Smithers, Jr.",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Fallout Boy",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Radioactive Man (character)",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Rod Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lard Lad",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lionel Hutz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Fallout Boy",
+            "target": "Radioactive Man (character)",
+            "value": 1
+        },
+        {
+            "source": "Fallout Boy",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Fallout Boy",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Radioactive Man (character)",
+            "target": "Rainier Wolfcastle",
+            "value": 1
+        },
+        {
+            "source": "Radioactive Man (character)",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Rainier Wolfcastle",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Rod Flanders",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Todd Flanders",
+            "target": "Rod Flanders",
+            "value": 1
+        },
+        {
+            "source": "Todd Flanders",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Todd Flanders",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Todd Flanders",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Rod Flanders",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Rod Flanders",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Rod Flanders",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Mona Simpson",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Lard Lad",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Groundskeeper Willie",
+            "target": "Lard Lad",
+            "value": 1
+        },
+        {
+            "source": "Troy McClure",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Martin Prince",
+            "value": 1
+        }
+    ]
+}

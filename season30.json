@@ -1,0 +1,155 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 10
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 3
+        },
+        {
+            "id": "Comic Book Guy",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 10
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Comic Book Guy",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 4
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Nelson Muntz",
+            "value": 1
+        }
+    ]
+}

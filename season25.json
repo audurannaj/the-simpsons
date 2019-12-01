@@ -1,0 +1,227 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 10
+        },
+        {
+            "id": "Isabel Gutierrez",
+            "weight": 1
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 11
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 11
+        },
+        {
+            "id": "Kumiko Albertson",
+            "weight": 1
+        },
+        {
+            "id": "Comic Book Guy",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 2
+        },
+        {
+            "id": "Sideshow Bob",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 3
+        },
+        {
+            "id": "Snake Jailbird",
+            "weight": 2
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 2
+        },
+        {
+            "id": "Lucas Bortner",
+            "weight": 2
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 7
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Snake Jailbird",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lucas Bortner",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Isabel Gutierrez",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Snake Jailbird",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Lucas Bortner",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 8
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mr. Burns",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Snake Jailbird",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lucas Bortner",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Mr. Burns",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Nelson Muntz",
+            "value": 3
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Snake Jailbird",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lucas Bortner",
+            "value": 2
+        },
+        {
+            "source": "Kumiko Albertson",
+            "target": "Comic Book Guy",
+            "value": 1
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Lucas Bortner",
+            "value": 2
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Lucas Bortner",
+            "value": 2
+        }
+    ]
+}

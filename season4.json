@@ -1,0 +1,266 @@
+{
+    "nodes": [
+        {
+            "id": "Lisa Simpson",
+            "weight": 12
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 4
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 2
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 11
+        },
+        {
+            "id": "Llewellyn Sinclair",
+            "weight": 1
+        },
+        {
+            "id": "Homer Simpson",
+            "weight": 15
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 3
+        },
+        {
+            "id": "Barney Gumble",
+            "weight": 1
+        },
+        {
+            "id": "Nick Riviera",
+            "weight": 1
+        },
+        {
+            "id": "Lyle Lanley",
+            "weight": 1
+        },
+        {
+            "id": "Selma Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Ralph Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Roger Meyers, Jr.",
+            "weight": 1
+        },
+        {
+            "id": "Abe",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 8
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Homer Simpson",
+            "value": 8
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mr. Burns",
+            "value": 3
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 6
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Lyle Lanley",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Roger Meyers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 4
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Homer Simpson",
+            "value": 9
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 8
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Roger Meyers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Homer Simpson",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Krusty the Clown",
+            "value": 2
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Llewellyn Sinclair",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Llewellyn Sinclair",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Homer Simpson",
+            "value": 7
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Mr. Burns",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lyle Lanley",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Roger Meyers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Nick Riviera",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lyle Lanley",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Roger Meyers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Lyle Lanley",
+            "value": 1
+        },
+        {
+            "source": "Roger Meyers, Jr.",
+            "target": "Abe",
+            "value": 1
+        }
+    ]
+}

@@ -1,0 +1,357 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 19
+        },
+        {
+            "id": "Barney Gumble",
+            "weight": 1
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 11
+        },
+        {
+            "id": "Joe Quimby",
+            "weight": 1
+        },
+        {
+            "id": "Patty Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 2
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 2
+        },
+        {
+            "id": "Selma Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Apu Nahasapeemapetilon",
+            "weight": 2
+        },
+        {
+            "id": "Snake Jailbird",
+            "weight": 2
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Abe",
+            "weight": 1
+        },
+        {
+            "id": "Jasper Beardly",
+            "weight": 1
+        },
+        {
+            "id": "Ralph Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Seymour Skinner",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 9
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Joe Quimby",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Snake Jailbird",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 5
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Joe Quimby",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Jasper Beardly",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Joe Quimby",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Joe Quimby",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Joe Quimby",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Joe Quimby",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Joe Quimby",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Joe Quimby",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Apu Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Apu Nahasapeemapetilon",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Apu Nahasapeemapetilon",
+            "target": "Jasper Beardly",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Jasper Beardly",
+            "value": 1
+        }
+    ]
+}

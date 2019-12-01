@@ -1,0 +1,165 @@
+{
+    "nodes": [
+        {
+            "id": "Lisa Simpson",
+            "weight": 11
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 8
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 2
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Homer Simpson",
+            "weight": 12
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Melody Juniper",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Edna Krabappel",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Nelson Muntz",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Homer Simpson",
+            "value": 5
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Homer Simpson",
+            "value": 7
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Homer Simpson",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Bart Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Homer Simpson",
+            "value": 7
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Melody Juniper",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Edna Krabappel",
+            "value": 1
+        }
+    ]
+}

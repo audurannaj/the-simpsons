@@ -1,0 +1,308 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 16
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Rabbi Hyman Krustofsky",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 10
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Maxine Lombard",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 5
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 3
+        },
+        {
+            "id": "Jack Lassen",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 4
+        },
+        {
+            "id": "Kodos",
+            "weight": 2
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Lenny Leonard",
+            "weight": 1
+        },
+        {
+            "id": "Carl Carlson",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 2
+        },
+        {
+            "id": "Abe",
+            "weight": 1
+        },
+        {
+            "id": "Annika Van Houten",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 4
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Rabbi Hyman Krustofsky",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 7
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 4
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kodos",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 4
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Rabbi Hyman Krustofsky",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maxine Lombard",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Rabbi Hyman Krustofsky",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Jack Lassen",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Annika Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 2
+        },
+        {
+            "source": "Maxine Lombard",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Moe Szyslak",
+            "value": 3
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Jack Lassen",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Annika Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Annika Van Houten",
+            "value": 1
+        }
+    ]
+}

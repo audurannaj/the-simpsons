@@ -1,0 +1,248 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 9
+        },
+        {
+            "id": "Abe",
+            "weight": 1
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 2
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Lenny Leonard",
+            "weight": 1
+        },
+        {
+            "id": "Carl Carlson",
+            "weight": 1
+        },
+        {
+            "id": "Apu Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Manjula Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Maude Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Rachel Jordan",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        },
+        {
+            "id": "Duff McShark",
+            "weight": 1
+        },
+        {
+            "id": "Ralph Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Barney Gumble",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 4
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Rachel Jordan",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Duff McShark",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Bart Simpson",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Rachel Jordan",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Apu Nahasapeemapetilon",
+            "target": "Manjula Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Rachel Jordan",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Duff McShark",
+            "value": 1
+        }
+    ]
+}

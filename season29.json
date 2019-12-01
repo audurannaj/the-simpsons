@@ -1,0 +1,275 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Joe Quimby",
+            "weight": 2
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 8
+        },
+        {
+            "id": "Jacqueline Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 2
+        },
+        {
+            "id": "Snowball V",
+            "weight": 1
+        },
+        {
+            "id": "Agnes Skinner",
+            "weight": 1
+        },
+        {
+            "id": "Seymour Skinner",
+            "weight": 1
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 3
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Dewey Largo",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Joe Quimby",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 10
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 7
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Jacqueline Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Snowball V",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Dewey Largo",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Joe Quimby",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Joe Quimby",
+            "target": "Lisa Simpson",
+            "value": 1
+        },
+        {
+            "source": "Joe Quimby",
+            "target": "Jacqueline Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Lisa Simpson",
+            "value": 6
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Jacqueline Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Snowball V",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Moe Szyslak",
+            "value": 3
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Jacqueline Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Snowball V",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Moe Szyslak",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Dewey Largo",
+            "value": 1
+        },
+        {
+            "source": "Maggie Simpson",
+            "target": "Snowball V",
+            "value": 1
+        },
+        {
+            "source": "Agnes Skinner",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Moe Szyslak",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Dewey Largo",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        }
+    ]
+}

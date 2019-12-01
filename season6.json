@@ -1,0 +1,997 @@
+{
+    "nodes": [
+        {
+            "id": "Ned Flanders",
+            "weight": 3
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Homer Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Allison Taylor",
+            "weight": 1
+        },
+        {
+            "id": "Mindy Simmons",
+            "weight": 1
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Ralph Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Sideshow Bob",
+            "weight": 1
+        },
+        {
+            "id": "Joe Quimby",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 4
+        },
+        {
+            "id": "Doris Freedman",
+            "weight": 1
+        },
+        {
+            "id": "Seymour Skinner",
+            "weight": 4
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 2
+        },
+        {
+            "id": "Groundskeeper Willie",
+            "weight": 3
+        },
+        {
+            "id": "Waylon Smithers, Jr.",
+            "weight": 2
+        },
+        {
+            "id": "Jessica Lovejoy",
+            "weight": 1
+        },
+        {
+            "id": "Abe",
+            "weight": 2
+        },
+        {
+            "id": "Lenny Leonard",
+            "weight": 1
+        },
+        {
+            "id": "Carl Carlson",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 1
+        },
+        {
+            "id": "Patty Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Selma Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Jay Sherman",
+            "weight": 1
+        },
+        {
+            "id": "Barney Gumble",
+            "weight": 1
+        },
+        {
+            "id": "Edna Krabappel",
+            "weight": 1
+        },
+        {
+            "id": "Bleeding Gums Murphy",
+            "weight": 1
+        },
+        {
+            "id": "Herman Hermann",
+            "weight": 1
+        },
+        {
+            "id": "Clancy Wiggum",
+            "weight": 1
+        },
+        {
+            "id": "Nelson Muntz",
+            "weight": 1
+        },
+        {
+            "id": "Maude Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Luann Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Todd Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Kirk Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Martin Prince",
+            "weight": 1
+        },
+        {
+            "id": "Jebediah Springfield",
+            "weight": 1
+        },
+        {
+            "id": "Martha Prince",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Ned Flanders",
+            "target": "Lisa Simpson",
+            "value": 2
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Bart Simpson",
+            "value": 3
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Homer Simpson",
+            "value": 2
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Ned Flanders",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 10
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Homer Simpson",
+            "value": 6
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Allison Taylor",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Joe Quimby",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Mr. Burns",
+            "value": 3
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Doris Freedman",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Seymour Skinner",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Bleeding Gums Murphy",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Sideshow Bob",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Joe Quimby",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Mr. Burns",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Homer Simpson",
+            "value": 5
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Doris Freedman",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Seymour Skinner",
+            "value": 4
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Jessica Lovejoy",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Bleeding Gums Murphy",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Allison Taylor",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Doris Freedman",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Seymour Skinner",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 6
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Abe",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lenny Leonard",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Jay Sherman",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Herman Hermann",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Mindy Simmons",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Mindy Simmons",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Ralph Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Jay Sherman",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Herman Hermann",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Sideshow Bob",
+            "target": "Joe Quimby",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Doris Freedman",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Seymour Skinner",
+            "value": 2
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Groundskeeper Willie",
+            "value": 2
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Jay Sherman",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Doris Freedman",
+            "target": "Seymour Skinner",
+            "value": 1
+        },
+        {
+            "source": "Doris Freedman",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Doris Freedman",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Doris Freedman",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Groundskeeper Willie",
+            "value": 2
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Edna Krabappel",
+            "value": 1
+        },
+        {
+            "source": "Seymour Skinner",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Groundskeeper Willie",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Waylon Smithers, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Milhouse Van Houten",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Groundskeeper Willie",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Groundskeeper Willie",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Waylon Smithers, Jr.",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Nelson Muntz",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Abe",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Lenny Leonard",
+            "target": "Carl Carlson",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Jay Sherman",
+            "target": "Barney Gumble",
+            "value": 1
+        },
+        {
+            "source": "Herman Hermann",
+            "target": "Clancy Wiggum",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Maude Flanders",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Nelson Muntz",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Luann Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Maude Flanders",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Todd Flanders",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Luann Van Houten",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Todd Flanders",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Todd Flanders",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Todd Flanders",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Todd Flanders",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Martin Prince",
+            "target": "Jebediah Springfield",
+            "value": 1
+        },
+        {
+            "source": "Martin Prince",
+            "target": "Martha Prince",
+            "value": 1
+        },
+        {
+            "source": "Jebediah Springfield",
+            "target": "Martha Prince",
+            "value": 1
+        }
+    ]
+}

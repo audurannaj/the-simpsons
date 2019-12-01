@@ -1,0 +1,221 @@
+{
+    "nodes": [
+        {
+            "id": "Homer Simpson",
+            "weight": 13
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 1
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Martin Prince",
+            "weight": 1
+        },
+        {
+            "id": "Jasper Beardly",
+            "weight": 1
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 5
+        },
+        {
+            "id": "Patty Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 2
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 2
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Mona Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Shauna Chalmers",
+            "weight": 1
+        },
+        {
+            "id": "Jimbo Jones",
+            "weight": 1
+        },
+        {
+            "id": "Annie Dubinsky",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 10
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Jasper Beardly",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 3
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mona Simpson",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Shauna Chalmers",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Martin Prince",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Jasper Beardly",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 4
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Moe Szyslak",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Shauna Chalmers",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Jimbo Jones",
+            "value": 1
+        },
+        {
+            "source": "Martin Prince",
+            "target": "Jasper Beardly",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 3
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Shauna Chalmers",
+            "target": "Jimbo Jones",
+            "value": 1
+        }
+    ]
+}

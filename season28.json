@@ -1,0 +1,265 @@
+{
+    "nodes": [
+        {
+            "id": "Mr. Burns",
+            "weight": 6
+        },
+        {
+            "id": "Homer Simpson",
+            "weight": 18
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 10
+        },
+        {
+            "id": "Lisa Simpson",
+            "weight": 10
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 8
+        },
+        {
+            "id": "Krusty the Clown",
+            "weight": 2
+        },
+        {
+            "id": "Kent Brockman",
+            "weight": 1
+        },
+        {
+            "id": "Kirk Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Milhouse Van Houten",
+            "weight": 1
+        },
+        {
+            "id": "Abe",
+            "weight": 3
+        },
+        {
+            "id": "Timothy Lovejoy, Jr.",
+            "weight": 1
+        },
+        {
+            "id": "Sophie Krustofsky",
+            "weight": 1
+        },
+        {
+            "id": "Maggie Simpson",
+            "weight": 1
+        },
+        {
+            "id": "Waylon Smithers, Jr.",
+            "weight": 2
+        },
+        {
+            "id": "Agnes Skinner",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Mr. Burns",
+            "target": "Homer Simpson",
+            "value": 5
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Marge Simpson",
+            "value": 3
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Lisa Simpson",
+            "value": 3
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Bart Simpson",
+            "value": 2
+        },
+        {
+            "source": "Mr. Burns",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Bart Simpson",
+            "value": 9
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Lisa Simpson",
+            "value": 10
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Marge Simpson",
+            "value": 8
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kent Brockman",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Kirk Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Abe",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Lisa Simpson",
+            "value": 7
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 5
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Kent Brockman",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Agnes Skinner",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 6
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Kent Brockman",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Krusty the Clown",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Kent Brockman",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Waylon Smithers, Jr.",
+            "value": 2
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Abe",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Kent Brockman",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Timothy Lovejoy, Jr.",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Sophie Krustofsky",
+            "value": 1
+        },
+        {
+            "source": "Krusty the Clown",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Kirk Van Houten",
+            "target": "Milhouse Van Houten",
+            "value": 1
+        },
+        {
+            "source": "Timothy Lovejoy, Jr.",
+            "target": "Sophie Krustofsky",
+            "value": 1
+        },
+        {
+            "source": "Timothy Lovejoy, Jr.",
+            "target": "Maggie Simpson",
+            "value": 1
+        },
+        {
+            "source": "Sophie Krustofsky",
+            "target": "Maggie Simpson",
+            "value": 1
+        }
+    ]
+}

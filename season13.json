@@ -1,0 +1,239 @@
+{
+    "nodes": [
+        {
+            "id": "Lisa Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Bart Simpson",
+            "weight": 7
+        },
+        {
+            "id": "Marge Simpson",
+            "weight": 6
+        },
+        {
+            "id": "Homer Simpson",
+            "weight": 14
+        },
+        {
+            "id": "Judge Constance Harm",
+            "weight": 1
+        },
+        {
+            "id": "Moe Szyslak",
+            "weight": 2
+        },
+        {
+            "id": "Snake Jailbird",
+            "weight": 1
+        },
+        {
+            "id": "Gloria Jailbird",
+            "weight": 1
+        },
+        {
+            "id": "Ned Flanders",
+            "weight": 1
+        },
+        {
+            "id": "Patty Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Artie Ziff",
+            "weight": 1
+        },
+        {
+            "id": "Selma Bouvier",
+            "weight": 1
+        },
+        {
+            "id": "Mr. Burns",
+            "weight": 1
+        },
+        {
+            "id": "Apu Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Manjula Nahasapeemapetilon",
+            "weight": 1
+        },
+        {
+            "id": "Eddie",
+            "weight": 1
+        },
+        {
+            "id": "Gil Gunderson",
+            "weight": 1
+        }
+    ],
+    "links": [
+        {
+            "source": "Lisa Simpson",
+            "target": "Bart Simpson",
+            "value": 4
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Marge Simpson",
+            "value": 1
+        },
+        {
+            "source": "Lisa Simpson",
+            "target": "Homer Simpson",
+            "value": 1
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Marge Simpson",
+            "value": 2
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Homer Simpson",
+            "value": 3
+        },
+        {
+            "source": "Bart Simpson",
+            "target": "Judge Constance Harm",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Homer Simpson",
+            "value": 4
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Judge Constance Harm",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Artie Ziff",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Eddie",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Gil Gunderson",
+            "value": 1
+        },
+        {
+            "source": "Marge Simpson",
+            "target": "Moe Szyslak",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Judge Constance Harm",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Moe Szyslak",
+            "value": 2
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Snake Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Gloria Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Ned Flanders",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Patty Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Artie Ziff",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Mr. Burns",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Eddie",
+            "value": 1
+        },
+        {
+            "source": "Homer Simpson",
+            "target": "Gil Gunderson",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Eddie",
+            "value": 1
+        },
+        {
+            "source": "Moe Szyslak",
+            "target": "Gil Gunderson",
+            "value": 1
+        },
+        {
+            "source": "Snake Jailbird",
+            "target": "Gloria Jailbird",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Artie Ziff",
+            "value": 1
+        },
+        {
+            "source": "Patty Bouvier",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Artie Ziff",
+            "target": "Selma Bouvier",
+            "value": 1
+        },
+        {
+            "source": "Apu Nahasapeemapetilon",
+            "target": "Manjula Nahasapeemapetilon",
+            "value": 1
+        },
+        {
+            "source": "Eddie",
+            "target": "Gil Gunderson",
+            "value": 1
+        }
+    ]
+}
