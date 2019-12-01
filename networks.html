@@ -74,6 +74,9 @@ svg {
 <svg width="480" height="300" class="svg_network"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
+$(window).on("load", function(){
+  // Handler when all assets (including images) are loaded
+
 
 var select_id = document.getElementById("seasonSelect");
 
@@ -199,6 +202,8 @@ function wrap(text, width) {
 function type(d) {
   d.value = +d.value;
   return d;
+}
+
 }
 
 </script>
