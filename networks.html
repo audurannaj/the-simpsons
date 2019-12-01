@@ -79,7 +79,109 @@ window.addEventListener("load", function(){
 	season = 'season1.json';
 	document.getElementById("seasonSelect").onchange = function(e) {
 	    season = 'season'+this[this.selectedIndex].value+'.json';
-	    console.log(season);
+	    d3.json(season, function(error, graph) {
+	  if (error) throw error;
+
+	  var link = svg.append("g")
+	      .attr("class", "links")
+	    .selectAll("line")
+	    .data(graph.links)
+	    .enter().append("line")
+	      .attr("stroke-width", function(d) { return Math.sqrt(d.value*10); });
+
+	  var node = svg.append("g")
+	      .attr("class", "nodes")
+	    .selectAll("g")
+	    .data(graph.nodes)
+	    .enter().append("g")
+
+	  var circles = node.append("circle")
+	      .attr("r", function(d){
+	      	return d.weight*3;
+	      })
+	      .call(d3.drag()
+	          .on("start", dragstarted)
+	          .on("drag", dragged)
+	          .on("end", dragended));
+
+	  /*var lables = node.append("text")
+	      .text(function(d) {
+	        return d.id;
+	      })
+	      .attr('x', 0)
+	      .attr('y', 6)
+	      .attr('class', 'node_name')
+	      .call(wrap, 20)*/
+
+	  node.append("title")
+	      .text(function(d) { return d.id + " - " + d.weight + " synopsis appearances"; });
+
+	  simulation
+	      .nodes(graph.nodes)
+	      .on("tick", ticked);
+
+	  simulation.force("link")
+	      .links(graph.links);
+
+	  function ticked() {
+	    link
+	        .attr("x1", function(d) { return d.source.x; })
+	        .attr("y1", function(d) { return d.source.y; })
+	        .attr("x2", function(d) { return d.target.x; })
+	        .attr("y2", function(d) { return d.target.y; });
+
+	    node
+	        .attr("transform", function(d) {
+	          return "translate(" + d.x + "," + d.y + ")";
+	        })
+	  }
+	});
+
+	function dragstarted(d) {
+	  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+	  d.fx = d.x;
+	  d.fy = d.y;
+	}
+
+	function dragged(d) {
+	  d.fx = d3.event.x;
+	  d.fy = d3.event.y;
+	}
+
+	function dragended(d) {
+	  if (!d3.event.active) simulation.alphaTarget(0);
+	  d.fx = null;
+	  d.fy = null;
+	}
+
+	function wrap(text, width) {
+	  text.each(function() {
+	    var text = d3.select(this),
+	        words = text.text().split(/\s+/).reverse(),
+	        word,
+	        line = [],
+	        lineNumber = 0,
+	        lineHeight = 1.1, // ems
+	        y = text.attr("y"),
+	        dy = parseFloat(text.attr("dy")),
+	        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+	    while (word = words.pop()) {
+	      line.push(word);
+	      tspan.text(line.join(" "));
+	      if (tspan.node().getComputedTextLength() > width) {
+	        line.pop();
+	        tspan.text(line.join(" "));
+	        line = [word];
+	        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+	      }
+	    }
+	  });
+	}
+
+	function type(d) {
+	  d.value = +d.value;
+	  return d;
+	}
 	};
 
 	var svg = d3.select(".svg_network"),
