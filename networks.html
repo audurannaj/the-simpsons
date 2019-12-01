@@ -76,18 +76,11 @@ svg {
 <script>
 window.addEventListener("load", function(){
 	    
+	season = 'season1.json';
 	document.getElementById("seasonSelect").onchange = function(e) {
-	    season = this[this.selectedIndex].value;
+	    season = 'season'+this[this.selectedIndex].value+'.json';
 	    console.log(season);
 	};
-
-	var select_id = document.getElementById("seasonSelect");
-
-	strUser = select_id.options[select_id.selectedIndex].value;
-
-	season = 'season'+strUser+'.json';
-
-	console.log(strUser);
 
 	var svg = d3.select(".svg_network"),
 	    width = +svg.attr("width"),
