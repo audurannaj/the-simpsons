@@ -38,7 +38,7 @@ svg {
 </style>
 <h1>Season 1 without style</h1>
 <select id="seasonSelect">
-	<option value=1 selected="selected"> Season 1</option>
+	<option value=1 selected="selected" onchange="console.log('hi');"> Season 1</option>
 	<option value=2> Season 2</option>
 	<option value=3> Season 3</option>
 	<option value=4> Season 4</option>
@@ -73,16 +73,12 @@ svg {
 <svg width="960" height="600" class="svg_network"></svg>
 <svg width="480" height="300" class="svg_network"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="jquery-3.4.1.min.js"></script>
 <script>
 
 var e = document.getElementById("seasonSelect");
 var strUser = e.options[e.selectedIndex].value;
 season = 'season'+strUser+'.json';
 
-$('seasonSelect').on('change', function() {
-  alert( this.value );
-});
 
 var svg = d3.select(".svg_network"),
     width = +svg.attr("width"),
