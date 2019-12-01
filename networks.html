@@ -76,6 +76,20 @@ svg {
 <script>
 window.addEventListener("load", function(){
 	    
+	var svg = d3.select(".svg_network"),
+	    width = +svg.attr("width"),
+	    height = +svg.attr("height");
+
+	var svg_graph = d3.select(".svg_graph").width = +svg.attr("width"),
+	    height = +svg.attr("height");
+
+	var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+	var simulation = d3.forceSimulation()
+	    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+	    .force("charge", d3.forceManyBody().strength(-500))
+	    .force("center", d3.forceCenter(width/2, height/2));
+
 	season = 'season1.json';
 	document.getElementById("seasonSelect").onchange = function(e) {
 	    season = 'season'+this[this.selectedIndex].value+'.json';
