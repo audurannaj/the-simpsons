@@ -81,7 +81,7 @@ window.addEventListener("load", function(){
 	    season = 'season'+this[this.selectedIndex].value+'.json';
 	    d3.json(season, function(error, graph) {
 	  if (error) throw error;
-
+	  d3.select('svg').selectAll('*').remove();
 	  var link = svg.append("g")
 	      .attr("class", "links")
 	    .selectAll("line")
