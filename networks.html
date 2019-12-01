@@ -38,7 +38,7 @@ svg {
 </style>
 <h1>Season 1 without style</h1>
 <select id="seasonSelect">
-	<option value=1 selected="selected" onchange="console.log('hi');"> Season 1</option>
+	<option value=1 selected="selected" onchange="val()"> Season 1</option>
 	<option value=2> Season 2</option>
 	<option value=3> Season 3</option>
 	<option value=4> Season 4</option>
@@ -74,6 +74,11 @@ svg {
 <svg width="480" height="300" class="svg_network"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
+
+function val() {
+    d = document.getElementById("seasonSelect").value;
+    alert(d);
+}
 
 var e = document.getElementById("seasonSelect");
 var strUser = e.options[e.selectedIndex].value;
