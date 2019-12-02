@@ -34,6 +34,9 @@ episode in the season, and a link between nodes is created if two characters app
 The size of each node is dependant on how many times the character appeared in a synopsis - the more often, the bigger the node. 
 The width of each edge is dependant on how many times two characters appeared together in a synopsis - the more often, the wider the edge. 
 
+The networks did not seem to change much from season to season, with the largest nodes being **Homer** and **Bart** more often than not. However,
+when the centrality measures of these networks 
+
 See the work [here](https://audurannaj.github.io/the-simpsons/networks.html)
 
 ---
