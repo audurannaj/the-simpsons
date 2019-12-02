@@ -22,7 +22,15 @@
   cursor: pointer;
 }
 
+.svg_container{
+	display: flex;
+}
 
+.svg_graph{
+	width: 100%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
 
 text {
   font-family: sans-serif;
@@ -43,6 +51,8 @@ this character appears in a synopsis within this season, the larger the node wil
 If another character appears in the synopsis with another character in the same episode, a link will be created between these two nodes in the network. The more often these characters appear together in episodes within the season, the stronger the link will be.</p>
 
 <h3>Hover over the nodes and links to see which character they represent</h3>
+
+<h3>Below, you can find the centrality measures for the network that is displayed each time.</h3>
 
 <h3>Select a season:</h3>
 <select id="seasonSelect">
@@ -98,10 +108,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	.attr('width','100%')
 	.attr('height',height)
 
-	var svg_graph = d3.selectAll('body').append('svg')
-	.attr('class','svg_graph')
-	.attr('width',480)
-	.attr('height',300)
+	var svg_container = d3.selectAll('body').append('div').attr('class','svg_container');
+
+	var svg_graph1 = d3.selectAll('.svg_container').append('svg')
+		.attr('class','svg_graph')
+		.attr('width',480)
+		.attr('height',300)
+	var svg_graph2 = d3.selectAll('.svg_container').append('svg')
+		.attr('class','svg_graph')
+		.attr('width',480)
+		.attr('height',300)
+	var svg_graph3 = d3.selectAll('.svg_container').append('svg')
+		.attr('class','svg_graph')
+		.attr('width',480)
+		.attr('height',300)
 
 	var simulation = d3.forceSimulation()
 	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100).strength(0.1))
@@ -135,7 +155,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		.attr('width',width)
 		.attr('height',height)
 
-		var svg_graph = d3.selectAll('body').append('svg')
+
+		var svg_graph1 = d3.selectAll('body').append('svg')
+		.attr('class','svg_graph')
+		.attr('width',480)
+		.attr('height',300)
+		var svg_graph2 = d3.selectAll('body').append('svg')
+		.attr('class','svg_graph')
+		.attr('width',480)
+		.attr('height',300)
+		var svg_graph3 = d3.selectAll('body').append('svg')
 		.attr('class','svg_graph')
 		.attr('width',480)
 		.attr('height',300)
