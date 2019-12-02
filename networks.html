@@ -36,7 +36,13 @@ svg {
 
 
 </style>
-<h1>Season 1 without style</h1>
+<h1>The Networks</h1>
+<p>Every synopsis of all episodes were analyzed, and networks were created depending on which characters appear in those synopsis. If a character
+appears in a synopsis in an episode for a certain season, that character will get represented in the network as a node. The more often
+this character appears in a synopsis within this season, the larger the node will appear.<br><br>
+If another character appears in the synopsis with another character in the same episode, a link will be created between these two nodes in the network. The more often these characters appear together in episodes within the season, the stronger the link will be.</p>
+
+<h3>Select a season:</h3>
 <select id="seasonSelect">
 	<option value=1> Season 1</option>
 	<option value=2> Season 2</option>
@@ -70,147 +76,33 @@ svg {
 	<option value=30> Season 30</option>
 </select>
 <br>
-<svg width="960" height="600" class="svg_network"></svg>
-<svg width="480" height="300" class="svg_network"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 window.addEventListener("load", function(){
 	    
-	var svg = d3.select(".svg_network"),
-	    width = +svg.attr("width"),
-	    height = +svg.attr("height");
-
-	var svg_graph = d3.select(".svg_graph").width = +svg.attr("width"),
-	    height = +svg.attr("height");
-
-	var color = d3.scaleOrdinal(d3.schemeCategory20);
-
-	var simulation = d3.forceSimulation()
-	    .force("link", d3.forceLink().id(function(d) { return d.id; }))
-	    .force("charge", d3.forceManyBody().strength(-500))
-	    .force("center", d3.forceCenter(width/2, height/2));
-
 	season = 'season1.json';
 	document.getElementById("seasonSelect").onchange = function(e) {
 	    season = 'season'+this[this.selectedIndex].value+'.json';
-	    d3.json(season, function(error, graph) {
-	  if (error) throw error;
-	  d3.select('svg').selectAll('*').remove();
-	  var link = svg.append("g")
-	      .attr("class", "links")
-	    .selectAll("line")
-	    .data(graph.links)
-	    .enter().append("line")
-	      .attr("stroke-width", function(d) { return Math.sqrt(d.value*10); });
-
-	  var node = svg.append("g")
-	      .attr("class", "nodes")
-	    .selectAll("g")
-	    .data(graph.nodes)
-	    .enter().append("g")
-
-	  var circles = node.append("circle")
-	      .attr("r", function(d){
-	      	return d.weight*3;
-	      })
-	      .call(d3.drag()
-	          .on("start", dragstarted)
-	          .on("drag", dragged)
-	          .on("end", dragended));
-
-	  /*var lables = node.append("text")
-	      .text(function(d) {
-	        return d.id;
-	      })
-	      .attr('x', 0)
-	      .attr('y', 6)
-	      .attr('class', 'node_name')
-	      .call(wrap, 20)*/
-
-	  node.append("title")
-	      .text(function(d) { return d.id + " - " + d.weight + " synopsis appearances"; });
-
-	  simulation
-	      .nodes(graph.nodes)
-	      .on("tick", ticked);
-
-	  simulation.force("link")
-	      .links(graph.links);
-
-	  function ticked() {
-	    link
-	        .attr("x1", function(d) { return d.source.x; })
-	        .attr("y1", function(d) { return d.source.y; })
-	        .attr("x2", function(d) { return d.target.x; })
-	        .attr("y2", function(d) { return d.target.y; });
-
-	    node
-	        .attr("transform", function(d) {
-	          return "translate(" + d.x + "," + d.y + ")";
-	        })
-	  }
-	});
-
-	function dragstarted(d) {
-	  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-	  d.fx = d.x;
-	  d.fy = d.y;
+	    
 	}
 
-	function dragged(d) {
-	  d.fx = d3.event.x;
-	  d.fy = d3.event.y;
-	}
+	function update(){
+		console.log('update');
+	}	
 
-	function dragended(d) {
-	  if (!d3.event.active) simulation.alphaTarget(0);
-	  d.fx = null;
-	  d.fy = null;
-	}
+	var svg = d3.selectAll('body').append('svg')
+	.attr('class','svg_network')
+	.attr('width',960)
+	.attr('height',600)
 
-	function wrap(text, width) {
-	  text.each(function() {
-	    var text = d3.select(this),
-	        words = text.text().split(/\s+/).reverse(),
-	        word,
-	        line = [],
-	        lineNumber = 0,
-	        lineHeight = 1.1, // ems
-	        y = text.attr("y"),
-	        dy = parseFloat(text.attr("dy")),
-	        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-	    while (word = words.pop()) {
-	      line.push(word);
-	      tspan.text(line.join(" "));
-	      if (tspan.node().getComputedTextLength() > width) {
-	        line.pop();
-	        tspan.text(line.join(" "));
-	        line = [word];
-	        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-	      }
-	    }
-	  });
-	}
+	var svg_graph = d3.selectAll('body').append('svg')
+	.attr('class','svg_graph')
+	.attr('width',480)
+	.attr('height',300)
 
-	function type(d) {
-	  d.value = +d.value;
-	  return d;
-	}
-	};
-
-	var svg = d3.select(".svg_network"),
-	    width = +svg.attr("width"),
-	    height = +svg.attr("height");
-
-	var svg_graph = d3.select(".svg_graph").width = +svg.attr("width"),
-	    height = +svg.attr("height");
+	d3.select('.seasonSelect').on('click',update);
 
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
-
-	var simulation = d3.forceSimulation()
-	    .force("link", d3.forceLink().id(function(d) { return d.id; }))
-	    .force("charge", d3.forceManyBody().strength(-500))
-	    .force("center", d3.forceCenter(width/2, height/2));
 
 	d3.json(season, function(error, graph) {
 	  if (error) throw error;
