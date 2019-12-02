@@ -78,7 +78,9 @@ If another character appears in the synopsis with another character in the same 
 <br>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
-window.addEventListener("load", function(){
+document.addEventListener("DOMContentLoaded", function(event) {
+    // Your code to run since DOM is loaded and ready
+
 	    
 	width = 960;
 	height = 600;
@@ -103,9 +105,7 @@ window.addEventListener("load", function(){
 
 	d3.select('.seasonSelect').on('click',update);
 
-	function update(){
-		console.log('update');
-	}	
+
 
 	var simulation = d3.forceSimulation()
 	    .force("link", d3.forceLink().id(function(d) { return d.id; }))
