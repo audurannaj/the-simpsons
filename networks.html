@@ -18,7 +18,6 @@
   stroke: black;
   fill: yellow;
   stroke-width: 1.5px;
-  fill-opacity: 0.75;
   cursor: pointer;
 }
 
@@ -104,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	.attr('height',300)
 
 	var simulation = d3.forceSimulation()
-	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(50).strength(0.1))
+	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100).strength(0.1))
 	    .force("charge", d3.forceManyBody().strength(-300).distanceMax(300))
 	    .force("center", d3.forceCenter(width/2, height/2));
 
@@ -113,18 +112,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 	d3.selectAll('select').on('change',function(){
 
-		var simulation = d3.forceSimulation()
-	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(50).strength(0.1))
-	    .force("charge", d3.forceManyBody().strength(-300).distanceMax(300))
-	    .force("center", d3.forceCenter(width/2, height/2));
-
-
-	    season = 'season'+this[this.selectedIndex].value+'.json';
-	    console.log(season);
+		season = 'season'+this[this.selectedIndex].value+'.json';
+		console.log(season);
 
 	    d3.select('.svg_network').remove();
 	    d3.select('.svg_graph').remove();
 
+		var simulation = d3.forceSimulation()
+	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100).strength(0.1))
+	    .force("charge", d3.forceManyBody().strength(-300).distanceMax(300))
+	    .force("center", d3.forceCenter(width/2, height/2));
 
 	    var svg = d3.selectAll('body').append('svg')
 		.attr('class','svg_network')
@@ -172,6 +169,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 			  node.append("title")
 			      .text(function(d) { return d.id + " - " + d.weight + " synopsis appearances"; });
+
+			  link.append("title")
+			      .text(function(d) { return d.source + " and " + d.target + ", " + d.value + "time/s together"; });
+
 
 			  simulation
 			      .nodes(graph.nodes)
