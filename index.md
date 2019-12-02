@@ -35,7 +35,7 @@ The size of each node is dependant on how many times the character appeared in a
 The width of each edge is dependant on how many times two characters appeared together in a synopsis - the more often, the wider the edge. 
 
 The networks did not seem to change much from season to season, with the largest nodes being **Homer** and **Bart** more often than not. However,
-when the centrality measures of these networks 
+when the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. 
 
 See the work [here](https://audurannaj.github.io/the-simpsons/networks.html)
 

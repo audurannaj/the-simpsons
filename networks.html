@@ -80,6 +80,9 @@ If another character appears in the synopsis with another character in the same 
 <script>
 window.addEventListener("load", function(){
 	    
+	width = 960;
+	height = 600;
+	+
 	season = 'season1.json';
 	document.getElementById("seasonSelect").onchange = function(e) {
 	    season = 'season'+this[this.selectedIndex].value+'.json';
@@ -92,8 +95,8 @@ window.addEventListener("load", function(){
 
 	var svg = d3.selectAll('body').append('svg')
 	.attr('class','svg_network')
-	.attr('width',960)
-	.attr('height',600)
+	.attr('width',width)
+	.attr('height',height)
 
 	var svg_graph = d3.selectAll('body').append('svg')
 	.attr('class','svg_graph')
