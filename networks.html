@@ -89,9 +89,7 @@ window.addEventListener("load", function(){
 	    
 	}
 
-	function update(){
-		console.log('update');
-	}	
+	
 
 	var svg = d3.selectAll('body').append('svg')
 	.attr('class','svg_network')
@@ -104,6 +102,10 @@ window.addEventListener("load", function(){
 	.attr('height',300)
 
 	d3.select('.seasonSelect').on('click',update);
+
+	function update(){
+		console.log('update');
+	}	
 
 	var simulation = d3.forceSimulation()
 	    .force("link", d3.forceLink().id(function(d) { return d.id; }))
