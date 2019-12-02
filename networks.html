@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			      .text(function(d) { return d.id + " - " + d.weight + " synopsis appearances"; });
 
 			  link.append("title")
-			      .text(function(d) { return d.source + " and " + d.target + ", " + d.value + "time/s together"; });
+			      .text(function(d) { return d.source + " and " + d.target + ", " + d.value + " time/s together"; });
 
 
 			  simulation
@@ -267,6 +267,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 	  node.append("title")
 	      .text(function(d) { return d.id + " - " + d.weight + " synopsis appearances"; });
+
+	  link.append("title")
+		  .text(function(d) { return d.source + " and " + d.target + ", " + d.value + " time/s together"; });
+
+
 
 	  simulation
 	      .nodes(graph.nodes)
