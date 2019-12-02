@@ -115,6 +115,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	    console.log(season);
 
 	    d3.select('.svg_network').remove();
+	    d3.select('.svg_graph').remove();
+	    
 
 	    var svg = d3.selectAll('body').append('svg')
 		.attr('class','svg_network')
