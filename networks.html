@@ -107,7 +107,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100).strength(0.1))
 	    .force("charge", d3.forceManyBody().strength(-700).distanceMax(200))
 	    .force("center", d3.forceCenter(width/2, height/2))
-	    .force("chargeDistance", d3.chargeDistance(150));
+	    .force('collision', d3.forceCollide().radius(function(d) {
+    		return d.radius
+  		}))
 
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -146,7 +148,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			      .attr("stroke-width", function(d) { return Math.sqrt(d.value*10); });
 
 			  var node = svg.append("g")
-			      .attr("class", "nodes")
+			    .attr("class", "nodes")
+			    .attr('radius', function(d){
+			    	return d.weight;
+			    })
 			    .selectAll("g")
 			    .data(graph.nodes)
 			    .enter().append("g")
