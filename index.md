@@ -39,6 +39,8 @@ when the centrality measures of these networks were analyzed, the importance of 
 and genders. This led to the realization that men's opinion of the series was the reason for the overall rating going down, but women's opinion on the
 series hadn't changed as drastically - one age group even had an upwards slope for the average rating over the years. 
 
+Although there exist more ratings from men then women, men under 18 seem rather displeased with the development of the series over the years, as do other male age groups, while this change isn't as drastic with females.
+
 See the work [here](https://audurannaj.github.io/the-simpsons/networks.html)
 
 ---
