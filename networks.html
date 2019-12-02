@@ -104,8 +104,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	.attr('height',300)
 
 	var simulation = d3.forceSimulation()
-	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(30))
-	    .force("charge", d3.forceManyBody().strength(-100).distanceMax(100))
+	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(50).strength(0.1))
+	    .force("charge", d3.forceManyBody().strength(-300).distanceMax(300))
 	    .force("center", d3.forceCenter(width/2, height/2));
 
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
@@ -114,9 +114,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	d3.selectAll('select').on('change',function(){
 
 		var simulation = d3.forceSimulation()
-	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(120).strength(0.1))
-	    .force("charge", d3.forceManyBody().strength(-600).distanceMax(500))
+	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(50).strength(0.1))
+	    .force("charge", d3.forceManyBody().strength(-300).distanceMax(300))
 	    .force("center", d3.forceCenter(width/2, height/2));
+
 
 	    season = 'season'+this[this.selectedIndex].value+'.json';
 	    console.log(season);
