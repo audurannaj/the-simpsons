@@ -103,7 +103,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	.attr('width',480)
 	.attr('height',300)
 
-	d3.select('.seasonSelect').on('click',update);
+	d3.select('.seasonSelect').on('click',function(){
+		console.log('hi');
+	});
 
 
 
