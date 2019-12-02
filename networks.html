@@ -259,10 +259,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 	function dragstarted(d) {
 	  if (!d3.event.active) simulation.alphaTarget(0.7).restart();
-	  nodes.each(function(d){
 	    d.fx = d.x;
 	    d.fy = d.y;
-	  });
 	}
 
 	function dragged(d) {
