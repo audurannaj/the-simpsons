@@ -98,10 +98,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	height = 600;
 	
 	season = 'season1.json';
-	document.getElementById("seasonSelect").onchange = function(e) {
-	    season = 'season'+this[this.selectedIndex].value+'.json';
-	    
-	}
 
 	var svg = d3.selectAll('body').append('svg')
 	.attr('class','svg_network')
