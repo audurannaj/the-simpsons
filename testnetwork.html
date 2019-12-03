@@ -106,7 +106,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
             .enter()
             .append("line")
             .attr("stroke", "#aaa")
-            .attr("stroke-width", "1px");
+            .attr("stroke-width", function(d) { 
+                return Math.sqrt(d.value*5); 
+            });
 
         var node = container.append("g").attr("class", "nodes")
             .selectAll("g")
