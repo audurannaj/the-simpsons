@@ -42,6 +42,51 @@
 </head>
 <body>
 
+    <h1>The Networks</h1>
+    <p>Every synopsis of all episodes were analyzed, and networks were created depending on which characters appear in those synopsis. If a character
+    appears in a synopsis in an episode for a certain season, that character will get represented in the network as a node. The more often
+    this character appears in a synopsis within this season, the larger the node will appear.<br><br>
+    If another character appears in the synopsis with another character in the same episode, a link will be created between these two nodes in the network. The more often these characters appear together in episodes within the season, the stronger the link will be.</p>
+
+    <h3>Hover over the nodes and links to see which character they represent</h3>
+
+    <h3>Below, you can find the centrality measures for the network that is displayed each time.</h3>
+
+    <h3>Select a season:</h3>
+    <select id="seasonSelect">
+        <option value=1> Season 1</option>
+        <option value=2> Season 2</option>
+        <option value=3> Season 3</option>
+        <option value=4> Season 4</option>
+        <option value=5> Season 5</option>
+        <option value=6> Season 6</option>
+        <option value=7> Season 7</option>
+        <option value=8> Season 8</option>
+        <option value=9> Season 9</option>
+        <option value=10> Season 10</option>
+        <option value=11> Season 11</option>
+        <option value=12> Season 12</option>
+        <option value=13> Season 13</option>
+        <option value=14> Season 14</option>
+        <option value=15> Season 15</option>
+        <option value=16> Season 16</option>
+        <option value=17> Season 17</option>
+        <option value=18> Season 18</option>
+        <option value=19> Season 19</option>
+        <option value=20> Season 20</option>
+        <option value=21> Season 21</option>
+        <option value=22> Season 22</option>
+        <option value=23> Season 23</option>
+        <option value=24> Season 24</option>
+        <option value=25> Season 25</option>
+        <option value=26> Season 26</option>
+        <option value=27> Season 27</option>
+        <option value=28> Season 28</option>
+        <option value=29> Season 29</option>
+        <option value=30> Season 30</option>
+    </select>
+    <br>
+
 </body>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -74,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         var graphLayout = d3.forceSimulation(graph.nodes)
             .force("charge", d3.forceManyBody().strength(-3000))
-            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("center", d3.forceCenter(window.innerWidth/2, height / 2))
             .force("x", d3.forceX(width / 2).strength(1))
             .force("y", d3.forceY(height / 2).strength(1))
             .force("link", d3.forceLink(graph.links).id(function(d) {return d.id; }).distance(50).strength(1))
