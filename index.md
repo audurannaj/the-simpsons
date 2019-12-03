@@ -41,6 +41,11 @@ series hadn't changed as drastically - one age group even had an upwards slope f
 
 Although there exist more ratings from men then women, men under 18 seem rather displeased with the development of the series over the years, as do other male age groups, while this change isn't as drastic with females.
 
+**Limitations**
+
+These networks are created from the synopsis for each episode of a season. These synopsis sometimes create links between characters which do not represent their interaction within the episode, i.e. if there are subplots (A-plot and B-plot) for an episode, those that appear together in the
+A-plot (the main plot of the episode) are linked with those that appear in the B-plot (the subplot of an episode) maybe without them actually interacting together in the episode. 
+
 See the work [here](https://audurannaj.github.io/the-simpsons/networks.html)
 
 ---
