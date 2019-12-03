@@ -1,11 +1,18 @@
+<!DOCTYPE html>
+
 <html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
 <body>
-<h1>Test</h1>
-<svg id='viz'></svg>
+<svg id="viz"></svg>
 </body>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
+document.addEventListener("DOMContentLoaded", function(event) {
+
 var width = 800;
 var height = 600;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
@@ -180,3 +187,6 @@ function dragended(d) {
 }
 
 });
+
+</script>
+</html>
