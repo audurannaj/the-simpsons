@@ -7,7 +7,7 @@
     <style>
     .links line {
       stroke: #999;
-      stroke-opacity: 0.6;
+      stroke-opacity: 0.2;
       cursor: pointer;
     }
 
@@ -52,7 +52,7 @@
         they are connected to, i.e. appeared in the same synopsis together.<br><br>
     <b>Hover over the links</b> to see how often those two characters appeared together in the same synopsis within the season.</p>
 
-    <p>Below, you can find the <b>centrality measures</b> for the network that is displayed each time.</p>
+    <p>Below, you can find the centrality measures for the network that is displayed each time.</p>
 
     <p>Select a season:</p>
     <select id="seasonSelect">
@@ -144,6 +144,22 @@ document.addEventListener("DOMContentLoaded", function(event) {
         .attr('height',height)
         
         var container = svg.append("g");
+
+        //Create the graph svgs
+        var svg_container = d3.selectAll('body').append('div').attr('class','svg_container');
+
+        var svg_graph1 = d3.selectAll('.svg_container').append('svg')
+            .attr('class','svg_graph')
+            .attr('width',480)
+            .attr('height',300)
+        var svg_graph2 = d3.selectAll('.svg_container').append('svg')
+            .attr('class','svg_graph')
+            .attr('width',480)
+            .attr('height',300)
+        var svg_graph3 = d3.selectAll('.svg_container').append('svg')
+            .attr('class','svg_graph')
+            .attr('width',480)
+            .attr('height',300)
 
         svg.call(
             d3.zoom()
