@@ -83,6 +83,12 @@
         <option value=30> Season 30</option>
     </select>
     <br>
+    <p>Select the centrality measure:</p>
+    <select id ="centSelect">
+        <option>Degree Centrality</option>
+        <option>Betweenness Centrality</option>
+        <option>Eigenvector Centrality</option>
+    </select>
 
 </body>
 
@@ -344,9 +350,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 //  Change Network when select is changed -----------------------------------------------------------------
     d3.selectAll('select').on('change',function(){
 
-        d3.select('.svg_network').remove();
-        season = 'season'+this[this.selectedIndex].value+'.json';
+        var width = 800;
+        var height = 600;
 
+        d3.select('.svg_network').remove();
+        d3.select('.svg_bar').remove()
+        season = 'season'+this[this.selectedIndex].value+'.json';
+        centrality = d3.select('.centSelect')[d3.select('.centSelect').selectedIndex].value;
+        console.log(centrality)
         d3.json(season, function(graph) {
 
             var label = {
