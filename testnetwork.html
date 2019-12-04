@@ -280,9 +280,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         // Initialize a bar graph ----------------------------------------------------------------------------
 
-        var margin = {top: 20, right: 20, bottom: 30, left: 40},
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        var margin = {top: 20, right: 20, bottom: 70, left: 40},
+        width = window.innerWidth - margin.left - margin.right,
+        height = 700 - margin.top - margin.bottom;
 
         // set the ranges
         var x = d3.scaleBand()
