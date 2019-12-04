@@ -68,7 +68,10 @@ In order to rate the sentiment of words, a datafile with 10,222 words and their 
 Sentimental Analysis was carried out on the scripts and the synopsis. The main findings are presented in the following chapters.
 
 
+
 ## 4.1 Main Characters
+
+![image](https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png)
 
 
 ## 4.2 Seasons
