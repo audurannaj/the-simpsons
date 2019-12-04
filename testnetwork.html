@@ -94,7 +94,35 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function(event) {
+    // Initialize a bar graph ----------------------------------------------------------------------------
 
+
+    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+    // set the ranges
+    var x = d3.scaleBand()
+              .range([0, width])
+              .padding(0.1);
+    var y = d3.scaleLinear()
+              .range([height, 0]);
+
+     // append the svg object to the body of the page
+    // append a 'group' element to 'svg'
+    // moves the 'group' element to the top left margin
+    var svg_bar = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .attr('class','svg_bar')
+        .append("g")
+        .attr("transform", 
+              "translate(" + margin.left + "," + margin.top + ")");
+
+    var width = 800;
+    var height = 600;
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
+    console.log('append bar svg')
 
 //  Initialize the first season network -------------------------------------------------------------------
     d3.json("season1.json", function(graph) {
@@ -464,35 +492,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     });
 
-    // Initialize a bar graph ----------------------------------------------------------------------------
 
-
-    var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
-
-    // set the ranges
-    var x = d3.scaleBand()
-              .range([0, width])
-              .padding(0.1);
-    var y = d3.scaleLinear()
-              .range([height, 0]);
-
-     // append the svg object to the body of the page
-    // append a 'group' element to 'svg'
-    // moves the 'group' element to the top left margin
-    var svg_bar = d3.select("body").append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .attr('class','svg_bar')
-        .append("g")
-        .attr("transform", 
-              "translate(" + margin.left + "," + margin.top + ")");
-
-    var width = 800;
-    var height = 600;
-    var color = d3.scaleOrdinal(d3.schemeCategory10);
-    console.log('append bar svg')
 });
 
 </script>
