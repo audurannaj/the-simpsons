@@ -280,8 +280,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         // Initialize a bar graph ----------------------------------------------------------------------------
 
-        var margin = {top: 20, right: 20, bottom: 120, left: 40},
-        width = window.innerWidth - 100 - margin.left - margin.right,
+        var margin = {top: 20, right: 40, bottom: 120, left: 40},
+        width = window.innerWidth - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
         // set the ranges
@@ -330,7 +330,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
               .attr("transform", "translate(0," + height + ")")
               .call(d3.axisBottom(x))
               .selectAll('text')
-              .attr("dy", ".35em")
+              .attr("dy", ".55em")
               .attr("transform", "rotate(45)")
               .style("text-anchor", "start");;
 
