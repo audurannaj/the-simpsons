@@ -356,7 +356,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         d3.select('.svg_network').remove();
         d3.select('.svg_bar').remove()
         season = 'season'+this[this.selectedIndex].value+'.json';
-        centrality = d3.select('.centSelect')[d3.select('.centSelect').selectedIndex].value;
+        var e = document.getElementById("centSelect");
+        var centrality = e.options[e.selectedIndex].text;
         console.log(centrality)
         d3.json(season, function(graph) {
 
