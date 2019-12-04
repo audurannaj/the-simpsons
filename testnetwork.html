@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         // Initialize a bar graph ----------------------------------------------------------------------------
 
         var margin = {top: 20, right: 40, bottom: 120, left: 40},
-        width = window.innerWidth - margin.left - margin.right,
+        width = window.innerWidth - 50 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
         // set the ranges
@@ -303,17 +303,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
                   "translate(" + margin.left + "," + margin.top + ")");
 
         // get the data
-        d3.csv("degree_season_1.csv", function(error, data) {
+        d3.csv("degree_1.csv", function(error, data) {
           if (error) throw error;
 
           // format the data
           data.forEach(function(d) {
-            d.sales = +d.degree_centrality;
+            d.sales = +d.value;
           });
 
           // Scale the range of the data in the domains
           x.domain(data.map(function(d) { return d.name; }));
-          y.domain([0, d3.max(data, function(d) { return d.degree_centrality; })]);
+          y.domain([0, d3.max(data, function(d) { return d.value; })]);
 
           // append the rectangles for the bar chart
           svg_bar.selectAll(".bar")
@@ -322,8 +322,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
               .attr("class", "bar")
               .attr("x", function(d) { return x(d.name); })
               .attr("width", x.bandwidth())
-              .attr("y", function(d) { return y(d.degree_centrality); })
-              .attr("height", function(d) { return height - y(d.degree_centrality); });
+              .attr("y", function(d) { return y(d.value); })
+              .attr("height", function(d) { return height - y(d.value); });
 
           // add the x Axis
           svg_bar.append("g")
