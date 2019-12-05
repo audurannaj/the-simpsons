@@ -76,7 +76,9 @@ The average sentiment score of each seasons spoken lines can be seen in figures 
 <img src="https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png" width="700" height="400">
 </p>
 
-<img src="https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png" width="700" height="500">
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png" width="700" height="450">
+</p>
 
 <!---
 ![image](https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png)
