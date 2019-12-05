@@ -576,7 +576,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                       "translate(" + margin.left + "," + margin.top + ")");
 
                     // get the data
-            d3.csv(cent, function(error, data) {
+            d3.csv(cent+".csv", function(error, data) {
               if (error) throw error;
 
               // format the data
