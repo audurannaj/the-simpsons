@@ -17,7 +17,7 @@ In order to create the networks and analyze text related to the series, a lot of
 The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. There is also an option
 to download the datasets that have been cleaned and filtered in ordered to use them in this project. 
 
-| Dataset             | Info                                                                                          | Obtained from       |Size| Download |
+| Dataset             | Info                                                                                          | Originally obtained from       |Size| Download |
 |---------------------|-----------------------------------------------------------------------------------------------|---------------------|----|----------|
 | **Episode information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia       | 2MB  | [Link]() |
 | **Ratings**             | Each episode's rating                                                                         | IMDB            |  3MB  | [Link]() |
@@ -26,9 +26,9 @@ to download the datasets that have been cleaned and filtered in ordered to use t
 | **Scripts**             | A dataset comprised of the lines that appear in each episode (Seasons 1-26)                   | Data.World      |    | [Link]() |
 | **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com|  | *Omitted* |
 
-**Episode Information**
+The **Episode Information** dataset was obtained from Wikipedia with web-scraping in order to have an overview of relevant information for all the episodes of the series. This information would later be used in order to connect most of the other datasets obtained together. The dataset holds information about 662 episodes of The Simpsons, all the way back from December 17 1989 to May 12 2019. 
 
-**Ratings**
+The **Ratings** for each episodes were gotten with the same strategy as the episode information, but now *IMDB's* rating site for The Simpsons was scraped. One rating for each episode was obtained along with the episode's name for all episodes to date. These two datasets (Episode Information and Ratings) were then combined in order to have a larger dataset that held more information. 
 
 **Demographic Ratings**
 
