@@ -28,15 +28,17 @@ The following table explains what datasets were used throughout the project, the
 
 The **Episode Information** dataset was obtained from Wikipedia with web-scraping in order to have an overview of relevant information for all the episodes of the series. This information would later be used in order to connect most of the other datasets obtained together. The dataset holds information about 662 episodes of The Simpsons, all the way back from December 17 1989 to May 12 2019. 
 
-The **Ratings** for each episodes were gotten with the same strategy as the episode information, but now *IMDB's* rating site for The Simpsons was scraped. One rating for each episode was obtained along with the episode's name for all episodes to date. These two datasets (Episode Information and Ratings) were then combined in order to have a larger dataset that held more information. 
+The **Ratings** for each episodes were gotten with the same strategy as the episode information, but now [IMDB's rating site for The Simpsons](https://www.imdb.com/search/title/?series=tt0096697&view=simple&count=250&sort=user_rating,desc&ref_=tt_eps_rhs_sm) was scraped. One rating for each episode was obtained along with the episode's name for all episodes to date. These two datasets (Episode Information and Ratings) were then combined in order to have a larger dataset that held more information. 
 
-**Demographic Ratings**
+The **Demographic Ratings** for each episode were obtained in a similar manner that the **Ratings** dataframe was obtained, by scraping *IMDB*. This time, [each episodes rating site](https://www.imdb.com/title/tt0701122/ratings?ref_=tt_ov_rt) was scraped in order to obtain ratings from different age groups for both genders, namely *Males under 18*, *Males between 18 and 29*, *Males between 30 and 44*, *Males over 45*, *Females under 18*, *Females between 18 and 29*, *Females between 30 and 44*, *Females over 45*. Of course this dataset could have been a part of the **Ratings** dataset, but as the idea of scraping for demographic ratings came as the project had already progressed a bit, these dataframes were kept seperate. 
 
-**Characters**
+The **Characters** dataframe was obtained from [Simpsons.Fandom](https://simpsons.fandom.com/wiki/Category:Characters) Wiki page. All the names of every character that has appeared in the series was scraped along with their relevant Simpsons.Fandom Wiki link, which was used later in order to determine which characters appear in each episode. A total of 556 distinct characters ended up in the dataframe. 
 
-**Script**
+A lot of cleaning had to be done because some characters were not relevant to our analysis. 
 
-**Synopsis**
+A dataset holding the **Script** for each episode was hard to come by. The dataset we used was found on [Data.Word](https://data.world/data-society/the-simpsons-by-the-data/workspace/file?filename=simpsons_script_lines.csv). 
+
+In order to obtain the **Synopsis**, [Simpsons.Fandom](https://simpsons.fandom.com/wiki/List_of_Episodes) was again scraped, but this time each episode's page was scraped in order to obtain the synopsis for each and every episode in *HTML* format. As these files are 662 text files, they will be omitted from the downloadable options above. 
 
 ---
 # 2. The Network
