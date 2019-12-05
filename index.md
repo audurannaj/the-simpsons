@@ -14,19 +14,31 @@ Below, a summary of the elements that this project is comprised of can be found.
 # 1. Data
 In order to create the networks and analyze text related to the series, a lot of data needed to be collected and created. 
 
-The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. 
+The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. There is also an option
+to download the datasets that have been cleaned and filtered in ordered to use them in this project. 
 
-| Dataset             | Info                                                                                          | Obtained from       |
-|---------------------|-----------------------------------------------------------------------------------------------|---------------------|
-| **Episode information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia           |
-| **Ratings**             | Each episode's rating                                                                         | IMDB                |
-| **Demographic Ratings** | Each episode's rating for different demographics                                              | IMDB                |
-| **Characters**          | Each character that has appeared in The Simpsons                                              | Simpsons.Fandom.com |
-| **Scripts**             | A dataset comprised of the lines that appear in each episode (Seasons 1-26)                   | Data.World          |
-| **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com |
+| Dataset             | Info                                                                                          | Obtained from       |Size| Download |
+|---------------------|-----------------------------------------------------------------------------------------------|---------------------|----|----------|
+| **Episode information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia       | 2MB  | [Link]() |
+| **Ratings**             | Each episode's rating                                                                         | IMDB            |  3MB  | [Link]() |
+| **Demographic Ratings** | Each episode's rating for different demographics                                              | IMDB            |    | [Link]() |
+| **Characters**          | Each character that has appeared in The Simpsons                                              | Simpsons.Fandom.com| | [Link]() |
+| **Scripts**             | A dataset comprised of the lines that appear in each episode (Seasons 1-26)                   | Data.World      |    | [Link]() |
+| **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com|  | *Omitted* |
 
+## 1.1 Episode Information
+
+## 1.2 Ratings
+
+## 1.3 Demographic Ratings
+
+## 1.4 Characters
+
+## 1.5 Script
+
+## 1.6 Synopsis
 ---
-# 2. The Network
+# 2. The Networks
 
 A network was created for each season of The Simpsons. A node in the network represents a character that has appeared in a **synopsis** of an
 episode in the season, and a link between nodes is created if two characters appeared in a synopsis **of the same episode** in the season. 
