@@ -30,7 +30,38 @@ The **Episode Information** dataset was obtained from Wikipedia with web-scrapin
 
 The **Ratings** for each episodes were gotten with the same strategy as the episode information, but now [IMDB's rating site for The Simpsons](https://www.imdb.com/search/title/?series=tt0096697&view=simple&count=250&sort=user_rating,desc&ref_=tt_eps_rhs_sm) was scraped. One rating for each episode was obtained along with the episode's name for all episodes to date. These two datasets (Episode Information and Ratings) were then combined in order to have a larger dataset that held more information. 
 
+From this data we could immediately confirm our beliefs about the decline in quality of the series, as can be seen on the graph below.
+
+
+<p align="center">
+<img src="rating_fall.png" width="675" height="405">
+</p>
+
+
 The **Demographic Ratings** for each episode were obtained in a similar manner that the **Ratings** dataframe was obtained, by scraping *IMDB*. This time, [each episodes rating site](https://www.imdb.com/title/tt0701122/ratings?ref_=tt_ov_rt) was scraped in order to obtain ratings from different age groups for both genders, namely *Males under 18*, *Males between 18 and 29*, *Males between 30 and 44*, *Males over 45*, *Females under 18*, *Females between 18 and 29*, *Females between 30 and 44*, *Females over 45*. Of course this dataset could have been a part of the **Ratings** dataset, but as the idea of scraping for demographic ratings came as the project had already progressed a bit, these dataframes were kept seperate. 
+
+When looking at the distribution of ratings for both genders, it can be seen that males usually tend to rate the series higher than females do, and males give more ratings.
+
+<p align="center">
+<img src="dist_ratings_gender.png" width="675" height="405">
+</p>
+
+However, as the series has progressed, female ratings have not drastically declined as much as the male ratings. As male give the series a lot more ratings than females do, one could argue that they influence the decline in the ratings much more than females do. 
+
+<p align="center">
+<img src="male_groups.png" width="675" height="405">
+</p>
+
+<p align="center">
+<img src="female_groups.png" width="675" height="405">
+</p>
+
+It seems that the series has started to appeal less and less to young males and more and more towards older females, according to these graphs. However, as males rating amounts dominate the female ones, the series still sees its ratings go donw. 
+
+<p align="center">
+<img src="gender_amoungs.png" width="675" height="405">
+</p>
+
 
 The **Characters** dataframe was obtained from [Simpsons.Fandom](https://simpsons.fandom.com/wiki/Category:Characters) Wiki page. All the names of every character that has appeared in the series was scraped along with their relevant Simpsons.Fandom Wiki link, which was used later in order to determine which characters appear in each episode. A total of 556 distinct characters ended up in the dataframe. 
 
