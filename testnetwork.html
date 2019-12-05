@@ -309,7 +309,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
           // format the data
           data.forEach(function(d) {
-            d.sales = +d.value;
+            d.value = +d.value;
           });
 
           // Scale the range of the data in the domains
@@ -581,7 +581,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
               // format the data
               data.forEach(function(d) {
-                d.sales = +d.value;
+                d.value = +d.value;
               });
 
               // Scale the range of the data in the domains
@@ -644,6 +644,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 cent = "eigen/eigen_"+season;
         }
 
+        console.log(cent);
+
         // Initialize a bar graph ----------------------------------------------------------------------------
 
         var margin = {top: 20, right: 40, bottom: 120, left: 40},
@@ -674,7 +676,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
           // format the data
           data.forEach(function(d) {
-            d.sales = +d.value;
+            d.value = +d.value;
           });
 
           // Scale the range of the data in the domains
