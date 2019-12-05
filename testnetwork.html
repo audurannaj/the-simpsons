@@ -346,7 +346,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             svg_bar.append("text")             
               .attr("transform",
                     "translate(" + (width_bar/2) + " ," + 
-                                   (height_bar + margin.top + 50) + ")")
+                                   (height_bar + margin.top + 60) + ")")
               .style("text-anchor", "middle")
               .text("Character");
 
@@ -633,6 +633,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
               // add the y Axis
               svg_bar.append("g")
                   .call(d3.axisLeft(y));
+
+                              // text label for the x axis
+            svg_bar.append("text")             
+              .attr("transform",
+                    "translate(" + (width_bar/2) + " ," + 
+                                   (height_bar + margin.top + 60) + ")")
+              .style("text-anchor", "middle")
+              .text("Character");
+
+            // text label for the y axis
+            svg_bar.append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 0 - margin.left)
+              .attr("x",0 - (height_bar / 2))
+              .attr("dy", "1em")
+              .style("text-anchor", "middle")
+              .text(centrality);  
             });
 
             //-------------------------------------------------------------------------------------------------------
@@ -728,6 +745,24 @@ document.addEventListener("DOMContentLoaded", function(event) {
           // add the y Axis
           svg_bar.append("g")
               .call(d3.axisLeft(y));
+
+        // text label for the x axis
+            svg_bar.append("text")             
+              .attr("transform",
+                    "translate(" + (width_bar/2) + " ," + 
+                                   (height_bar + margin.top + 60) + ")")
+              .style("text-anchor", "middle")
+              .text("Character");
+
+            // text label for the y axis
+            svg_bar.append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 0 - margin.left)
+              .attr("x",0 - (height_bar / 2))
+              .attr("dy", "1em")
+              .style("text-anchor", "middle")
+              .text(centrality);  
+            });
         });
 
         //-------------------------------------------------------------------------------------------------------
