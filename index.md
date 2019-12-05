@@ -112,6 +112,9 @@ When looking at the mean and standard deviation of the sentiment scores for the 
 Since the Simpsons family play a major role and **speak on average ... of the total number of words spoken** we will only present the sentiment analysis for those characters. By fitting a regression to their sentiment scores throughout the seasons it can be seen that they all have an **small upwards trend.** **Homer and Bart have a bigger upwards trend** than **Lisa and Marge but they have a higher sentiment score on average.**
 
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57719216/70246375-f2c89480-1777-11ea-8220-4d4df439d90b.png" width="400" height="350">
+</p>
 
 
 
