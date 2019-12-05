@@ -74,7 +74,7 @@ In order to obtain the **Synopsis**, [Simpsons.Fandom](https://simpsons.fandom.c
 An example of a synopsis can be seen below (in HTML format as it was scraped).
 
 <p align="center">
-<img src="synopsis_img.png" width="675" height="405">
+<img src="synopsis_img.PNG" width="675" height="405">
 </p>
 
 The hyperlinks (< a >< / a >) that are in the synopsis denote which characters can be linked to the episode. 
