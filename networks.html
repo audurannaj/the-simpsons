@@ -2,373 +2,808 @@
 
 <html>
 <head>
-	<title></title>
-	<meta charset="utf-8">
+    <title></title>
+    <meta charset="utf-8">
+    <style>
+    .links line {
+      stroke: #999;
+      stroke-opacity: 0.65;
+      cursor: pointer;
+    }
+
+    .nodes circle {
+      stroke: black;
+      fill: yellow;
+      stroke-width: 1.5px;
+      cursor: pointer;
+    }
+
+    text {
+      font-family: sans-serif;
+      font-size: 10px;
+      font-weight: bolder;
+    }
+
+    svg .svg_network {
+        border: 2px solid black;
+        margin-top: 2%;
+    }
+
+    rect .bar{
+        fill: yellow;
+        stroke: black;
+    }
+</style>
 </head>
 <body>
 
-<style>
+    <h1>The Networks</h1>
+    <p>Every synopsis of all episodes were analyzed, and networks were created depending on which characters appear in those synopsis. If a character
+    appears in a synopsis in an episode for a certain season, that character will get represented in the network as a node. The more often
+    this character appears in a synopsis within this season, the larger the node will appear.<br><br>
+    If another character appears in the synopsis with another character in the same episode, a link will be created between these two nodes in the network. The more often these characters appear together in episodes within the season, the stronger the link will be.</p>
+    <p>Layout inspired by <a href="https://bl.ocks.org/mapio/53fed7d84cd1812d6a6639ed7aa83868">Force-based label placement (d3.v5.js)</a>
+    <p><b>Hover over the nodes</b> to see how often that particular character appeared in a synopsis for the season, and to see which characters
+        they are connected to, i.e. appeared in the same synopsis together.<br><br>
+    <b>Hover over the links</b> to see how often those two characters appeared together in the same synopsis within the season.</p>
 
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-  cursor: pointer;
-}
+    <p>Below, you can find the centrality measures for the network that is displayed each time.</p>
 
-.nodes circle {
-  stroke: black;
-  fill: yellow;
-  stroke-width: 1.5px;
-  cursor: pointer;
-}
+    <p>Select a season:</p>
+    <select id="seasonSelect">
+        <option value=1> Season 1</option>
+        <option value=2> Season 2</option>
+        <option value=3> Season 3</option>
+        <option value=4> Season 4</option>
+        <option value=5> Season 5</option>
+        <option value=6> Season 6</option>
+        <option value=7> Season 7</option>
+        <option value=8> Season 8</option>
+        <option value=9> Season 9</option>
+        <option value=10> Season 10</option>
+        <option value=11> Season 11</option>
+        <option value=12> Season 12</option>
+        <option value=13> Season 13</option>
+        <option value=14> Season 14</option>
+        <option value=15> Season 15</option>
+        <option value=16> Season 16</option>
+        <option value=17> Season 17</option>
+        <option value=18> Season 18</option>
+        <option value=19> Season 19</option>
+        <option value=20> Season 20</option>
+        <option value=21> Season 21</option>
+        <option value=22> Season 22</option>
+        <option value=23> Season 23</option>
+        <option value=24> Season 24</option>
+        <option value=25> Season 25</option>
+        <option value=26> Season 26</option>
+        <option value=27> Season 27</option>
+        <option value=28> Season 28</option>
+        <option value=29> Season 29</option>
+        <option value=30> Season 30</option>
+    </select>
+    <br>
+    <p>Select the centrality measure:</p>
+    <select id ="centSelect">
+        <option>Degree Centrality</option>
+        <option>Betweenness Centrality</option>
+        <option>Eigenvector Centrality</option>
+    </select>
 
-.svg_container{
-	display: flex;
-}
+    <p><b>Degree centrality</b>, which is defined as the number of links incident upon a node (i.e., the number of ties that a node has) can indicate which node might be the most important in a network, as it can show the flow through that particular node. Degree centrality shows people with many social connections.</p>
 
-.svg_graph{
-	width: 100%;
-	margin-right: 5px;
-	margin-left: 5px;
-}
+    <p><b>Betweenness centrality</b> quantifies the number of times a node acts as a bridge along the shortest path between two other nodes. This centrality measure also identifies the most influencial characters in each season. Betweenness centrality describes people who connect social circles.</p>
 
-text {
-  font-family: sans-serif;
-  font-size: 10px;
-}
+    <p><b>Eigenvector centrality</b> is high among influential people in the network. It assigns relative scores to all nodes in the network based on the concept that connections to high-scoring nodes contribute more to the score of the node in question than equal connections to low-scoring nodes.</p>
 
-svg {
-	border: 2px solid black;
-	margin-top: 2%;
-}
+</body>
 
-
-</style>
-<h1>The Networks</h1>
-<p>Every synopsis of all episodes were analyzed, and networks were created depending on which characters appear in those synopsis. If a character
-appears in a synopsis in an episode for a certain season, that character will get represented in the network as a node. The more often
-this character appears in a synopsis within this season, the larger the node will appear.<br><br>
-If another character appears in the synopsis with another character in the same episode, a link will be created between these two nodes in the network. The more often these characters appear together in episodes within the season, the stronger the link will be.</p>
-
-<h3>Hover over the nodes and links to see which character they represent</h3>
-
-<h3>Below, you can find the centrality measures for the network that is displayed each time.</h3>
-
-<h3>Select a season:</h3>
-<select id="seasonSelect">
-	<option value=1> Season 1</option>
-	<option value=2> Season 2</option>
-	<option value=3> Season 3</option>
-	<option value=4> Season 4</option>
-	<option value=5> Season 5</option>
-	<option value=6> Season 6</option>
-	<option value=7> Season 7</option>
-	<option value=8> Season 8</option>
-	<option value=9> Season 9</option>
-	<option value=10> Season 10</option>
-	<option value=11> Season 11</option>
-	<option value=12> Season 12</option>
-	<option value=13> Season 13</option>
-	<option value=14> Season 14</option>
-	<option value=15> Season 15</option>
-	<option value=16> Season 16</option>
-	<option value=17> Season 17</option>
-	<option value=18> Season 18</option>
-	<option value=19> Season 19</option>
-	<option value=20> Season 20</option>
-	<option value=21> Season 21</option>
-	<option value=22> Season 22</option>
-	<option value=23> Season 23</option>
-	<option value=24> Season 24</option>
-	<option value=25> Season 25</option>
-	<option value=26> Season 26</option>
-	<option value=27> Season 27</option>
-	<option value=28> Season 28</option>
-	<option value=29> Season 29</option>
-	<option value=30> Season 30</option>
-</select>
-<br>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function(event) {
-    // Your code to run since DOM is loaded and ready
-
-	    
-	width = 960;
-	height = 600;
-	
-	season = 'season1.json';
-
-	var svg = d3.selectAll('body').append('svg')
-	.attr('class','svg_network')
-	.attr('width','100%')
-	.attr('height',height)
-
-	var svg_container = d3.selectAll('body').append('div').attr('class','svg_container');
-
-	var svg_graph1 = d3.selectAll('.svg_container').append('svg')
-		.attr('class','svg_graph')
-		.attr('width',480)
-		.attr('height',300)
-	var svg_graph2 = d3.selectAll('.svg_container').append('svg')
-		.attr('class','svg_graph')
-		.attr('width',480)
-		.attr('height',300)
-	var svg_graph3 = d3.selectAll('.svg_container').append('svg')
-		.attr('class','svg_graph')
-		.attr('width',480)
-		.attr('height',300)
-
-	var simulation = d3.forceSimulation()
-	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100).strength(0.1))
-	    .force("charge", d3.forceManyBody().strength(-700).distanceMax(200))
-	    .force("center", d3.forceCenter(window.innerWidth/2, height/2))
-	    .force('collision', d3.forceCollide().radius(function(d) {
-    		return d.radius
-  		}))
-
-	var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 
-	d3.selectAll('select').on('change',function(){
+//  Initialize the first season network -------------------------------------------------------------------
+    d3.json("season1.json", function(graph) {
 
-		season = 'season'+this[this.selectedIndex].value+'.json';
-		console.log(season);
+        var width = 800;
+        var height = 600;
+        var color = d3.scaleOrdinal(d3.schemeCategory10);
 
-	    d3.select('.svg_network').remove();
-	    d3.select('.svg_graph').remove();
+        var label = {
+            'nodes': [],
+            'links': []
+        };
 
-		var simulation = d3.forceSimulation()
-	    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100).strength(0.1))
-	    .force("charge", d3.forceManyBody().strength(-500).distanceMax(200))
-	    .force("center", d3.forceCenter(window.innerWidth/2, height/2))
-	    .force('collision', d3.forceCollide().radius(function(d) {
-    		return d.radius
-  		}))
+        graph.nodes.forEach(function(d, i) {
+            label.nodes.push({node: d});
+            label.nodes.push({node: d});
+            label.links.push({
+                source: i * 2,
+                target: i * 2 + 1
+            });
+        });
 
-	    var svg = d3.selectAll('body').append('svg')
-		.attr('class','svg_network')
-		.attr('width',width)
-		.attr('height',height)
+        var labelLayout = d3.forceSimulation(label.nodes)
+            .force("charge", d3.forceManyBody().strength(-50))
+            .force("link", d3.forceLink(label.links).distance(0).strength(2));
+
+        var graphLayout = d3.forceSimulation(graph.nodes)
+            .force("charge", d3.forceManyBody().strength(-3000))
+            .force("center", d3.forceCenter(window.innerWidth/2, height / 2))
+            .force("x", d3.forceX(window.innerWidth/2).strength(1))
+            .force("y", d3.forceY(height / 2).strength(1))
+            .force("link", d3.forceLink(graph.links).id(function(d) {return d.id; }).distance(50).strength(1))
+            .on("tick", ticked);
+
+        var adjlist = [];
+
+        graph.links.forEach(function(d) {
+            adjlist[d.source.index + "-" + d.target.index] = true;
+            adjlist[d.target.index + "-" + d.source.index] = true;
+        });
+
+        function neigh(a, b) {
+            return a == b || adjlist[a + "-" + b];
+        }
+
+        var svg = d3.selectAll('body').append('svg')
+        .attr('class','svg_network')
+        .attr('width','100%')
+        .attr('height',height)
+
+        var container = svg.append("g");
+
+        svg.call(
+            d3.zoom()
+                .scaleExtent([.1, 4])
+                .on("zoom", function() { container.attr("transform", d3.event.transform); })
+        );
+
+        var link = container.append("g").attr("class", "links")
+            .selectAll("line")
+            .data(graph.links)
+            .enter()
+            .append("line")
+            .attr("stroke", "#aaa")
+            .attr("stroke-width", function(d) { 
+                return Math.sqrt(d.value*5); 
+            });
+
+        var node = container.append("g").attr("class", "nodes")
+            .selectAll("g")
+            .data(graph.nodes)
+            .enter()
+            .append("circle")
+            .attr("r", function(d){
+                return d.weight*3;
+        });
+
+        node.on("mouseover", focus).on("mouseout", unfocus);
+
+        node.call(
+            d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended)
+        );
+
+        var labelNode = container.append("g").attr("class", "labelNodes")
+            .selectAll("text")
+            .data(label.nodes)
+            .enter()
+            .append("text")
+            .text(function(d, i) { return i % 2 == 0 ? "" : d.node.id; })
+            .style("fill", "#555")
+            .style("font-family", "Arial")
+            .style("font-size", 12)
+            .style("font-weight", "bolder")
+            .style("pointer-events", "none"); // to prevent mouseover/drag capture
+
+        node.on("mouseover", focus).on("mouseout", unfocus);
+
+        function ticked() {
+
+            node.call(updateNode);
+            link.call(updateLink);
+
+            labelLayout.alphaTarget(0.3).restart();
+            labelNode.each(function(d, i) {
+                if(i % 2 == 0) {
+                    d.x = d.node.x;
+                    d.y = d.node.y;
+                } else {
+                    var b = this.getBBox();
+
+                    var diffX = d.x - d.node.x;
+                    var diffY = d.y - d.node.y;
+
+                    var dist = Math.sqrt(diffX * diffX + diffY * diffY);
+
+                    var shiftX = b.width * (diffX - dist) / (dist * 2);
+                    shiftX = Math.max(-b.width, Math.min(0, shiftX));
+                    var shiftY = 16;
+                    this.setAttribute("transform", "translate(" + shiftX + "," + shiftY + ")");
+                }
+            });
+            labelNode.call(updateNode);
+
+        }
+
+        function fixna(x) {
+            if (isFinite(x)) return x;
+            return 0;
+        }
+
+        function focus(d) {
+            var index = d3.select(d3.event.target).datum().index;
+            node.style("opacity", function(o) {
+                return neigh(index, o.index) ? 1 : 0.1;
+            });
+            labelNode.attr("display", function(o) {
+              return neigh(index, o.node.index) ? "block": "none";
+            });
+            link.style("opacity", function(o) {
+                return o.source.index == index || o.target.index == index ? 1 : 0.1;
+            });
+        }
+
+        function unfocus() {
+           labelNode.attr("display", "block");
+           node.style("opacity", 1);
+           link.style("opacity", 1);
+        }
+
+        function updateLink(link) {
+            link.attr("x1", function(d) { return fixna(d.source.x); })
+                .attr("y1", function(d) { return fixna(d.source.y); })
+                .attr("x2", function(d) { return fixna(d.target.x); })
+                .attr("y2", function(d) { return fixna(d.target.y); });
+        }
+
+        function updateNode(node) {
+            node.attr("transform", function(d) {
+                return "translate(" + fixna(d.x) + "," + fixna(d.y) + ")";
+            });
+        }
+
+        function dragstarted(d) {
+            d3.event.sourceEvent.stopPropagation();
+            if (!d3.event.active) graphLayout.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(d) {
+            d.fx = d3.event.x;
+            d.fy = d3.event.y;
+        }
+
+        function dragended(d) {
+            if (!d3.event.active) graphLayout.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+
+        // Initialize a bar graph ----------------------------------------------------------------------------
+
+        var margin = {top: 20, right: 40, bottom: 120, left: 60},
+        width_bar = window.innerWidth - 50 - margin.left - margin.right,
+        height_bar = 500 - margin.top - margin.bottom;
+
+        // set the ranges
+        var x = d3.scaleBand()
+                  .range([0, width_bar])
+                  .padding(0.1);
+        var y = d3.scaleLinear()
+                  .range([height_bar, 0]);
+
+         // append the svg object to the body of the page
+        // append a 'group' element to 'svg'
+        // moves the 'group' element to the top left margin
+        var svg_bar = d3.select("body").append("svg")
+            .attr("width", width_bar + margin.left + margin.right)
+            .attr("height", height_bar + margin.top + margin.bottom)
+            .attr('class','svg_bar')
+            .append("g")
+            .attr("transform", 
+                  "translate(" + margin.left + "," + margin.top + ")");
+
+        // get the data
+        d3.csv("degree_1.csv", function(error, data) {
+          if (error) throw error;
+
+          // format the data
+          data.forEach(function(d) {
+            d.value = +d.value;
+          });
+
+          // Scale the range of the data in the domains
+          x.domain(data.map(function(d) { return d.name; }));
+          y.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+          // append the rectangles for the bar chart
+          svg_bar.selectAll(".bar")
+              .data(data)
+              .enter().append("rect")
+              .attr("class", "bar")
+              .attr("x", function(d) { return x(d.name); })
+              .attr("width", x.bandwidth())
+              .attr("y", function(d) { return y(d.value); })
+              .attr("height", function(d) { return height_bar - y(d.value); })
+              .style("fill", "yellow")
+              .style("stroke","black")
+              .style("stroke-width", 2);
+
+          // add the x Axis
+          svg_bar.append("g")
+              .attr("transform", "translate(0," + height_bar + ")")
+              .call(d3.axisBottom(x))
+              .selectAll('text')
+              .attr("dy", ".55em")
+              .attr("transform", "rotate(45)")
+              .style("text-anchor", "start");;
+
+          // add the y Axis
+          svg_bar.append("g")
+              .call(d3.axisLeft(y));
+
+            // text label for the x axis
+            svg_bar.append("text")             
+              .attr("transform",
+                    "translate(" + (width_bar/2) + " ," + 
+                                   (height_bar + margin.top + 60) + ")")
+              .style("text-anchor", "middle")
+              .text("Character");
+
+            // text label for the y axis
+            svg_bar.append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 0 - margin.left)
+              .attr("x",0 - (height_bar / 2))
+              .attr("dy", "1em")
+              .style("text-anchor", "middle")
+              .text("Degree Centrality");  
+
+            svg_bar.append("text")
+                .attr("x", (width_bar / 2))             
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")  
+                .style("font-size", "12px") 
+                .style("text-decoration", "underline")  
+                .text("Degree Centrality of Characters in Season 1");
+        });
 
 
-		var svg_graph1 = d3.selectAll('body').append('svg')
-		.attr('class','svg_graph')
-		.attr('width',480)
-		.attr('height',300)
-		var svg_graph2 = d3.selectAll('body').append('svg')
-		.attr('class','svg_graph')
-		.attr('width',480)
-		.attr('height',300)
-		var svg_graph3 = d3.selectAll('body').append('svg')
-		.attr('class','svg_graph')
-		.attr('width',480)
-		.attr('height',300)
-
-		d3.json(season, function(error, graph) {
-			  if (error) throw error;
-
-			  var link = svg.append("g")
-			      .attr("class", "links")
-			    .selectAll("line")
-			    .data(graph.links)
-			    .enter().append("line")
-			      .attr("stroke-width", function(d) { return Math.sqrt(d.value*10); });
-
-			  var node = svg.append("g")
-			    .attr("class", "nodes")
-			    .selectAll("g")
-			    .data(graph.nodes)
-			    .enter().append("g");
-
-			  node.attr('radius', function(d){
-			    	return d.weight;
-			    })
-
-			  var circles = node.append("circle")
-			      .attr("r", function(d){
-			      	return d.weight*3;
-			      })
-			      .call(d3.drag()
-			          .on("start", dragstarted)
-			          .on("drag", dragged)
-			          .on("end", dragended));
-
-			  /*var lables = node.append("text")
-			      .text(function(d) {
-			        return d.id;
-			      })
-			      .attr('x', 0)
-			      .attr('y', 6)
-			      .attr('class', 'node_name')
-			      .call(wrap, 20)*/
-
-			  node.append("title")
-			      .text(function(d) { return d.id + " - " + d.weight + " synopsis appearances"; });
-
-			  link.append("title")
-			      .text(function(d) { return d.source + " and " + d.target + ", " + d.value + " time/s together"; });
 
 
-			  simulation
-			      .nodes(graph.nodes)
-			      .on("tick", ticked);
+        //-------------------------------------------------------------------------------------------------------
 
-			  simulation.force("link")
-			      .links(graph.links);
-			  function ticked() {
-				    link
-				        .attr("x1", function(d) { return d.source.x; })
-				        .attr("y1", function(d) { return d.source.y; })
-				        .attr("x2", function(d) { return d.target.x; })
-				        .attr("y2", function(d) { return d.target.y; });
+    });
+    
+//  Change Network when select is changed -----------------------------------------------------------------
+    d3.selectAll('#seasonSelect').on('change',function(){
 
-				    node
-				        .attr("transform", function(d) {
-				          return "translate(" + d.x + "," + d.y + ")";
-				        })
-				  }
-			});
+        var width = 800;
+        var height = 600;
 
-			function dragstarted(d) {
-			  if (!d3.event.active) simulation.alphaTarget(0.7).restart();
-			    d.fx = d.x;
-			    d.fy = d.y;
-			}
+        d3.select('.svg_network').remove();
+        d3.select('.svg_bar').remove()
+        season = 'season'+this[this.selectedIndex].value+'.json';
 
-			function dragged(d) {
-			  d.fx = d3.event.x;
-			  d.fy = d3.event.y;
-			}
+        var e = document.getElementById("centSelect");
+        var centrality = e.options[e.selectedIndex].text;
+        cent = "";
+        switch(centrality){
+            case "Degree Centrality":
+                cent = "degree/degree_"+this[this.selectedIndex].value;
+                break;
+            case "Betweenness Centrality":
+                cent = "betw/betw_"+this[this.selectedIndex].value;
+                break;
+            case "Eigenvector Centrality":
+                cent = "eigen/eigen_"+this[this.selectedIndex].value;
+        }
 
-			function dragended(d) {
-			  if (!d3.event.active) simulation.alphaTarget(0.1);
-			  d.fx = null;
-			  d.fy = null;
-			}
-	});
+        console.log(cent);
+
+        
+        d3.json(season, function(graph) {
+
+            var label = {
+                'nodes': [],
+                'links': []
+            };
+
+            graph.nodes.forEach(function(d, i) {
+                label.nodes.push({node: d});
+                label.nodes.push({node: d});
+                label.links.push({
+                    source: i * 2,
+                    target: i * 2 + 1
+                });
+            });
+
+            var labelLayout = d3.forceSimulation(label.nodes)
+                .force("charge", d3.forceManyBody().strength(-50))
+                .force("link", d3.forceLink(label.links).distance(0).strength(2));
+
+            var graphLayout = d3.forceSimulation(graph.nodes)
+                .force("charge", d3.forceManyBody().strength(-3000))
+                .force("center", d3.forceCenter(window.innerWidth/2, height / 2))
+                .force("x", d3.forceX(window.innerWidth/2).strength(1))
+                .force("y", d3.forceY(height / 2).strength(1))
+                .force("link", d3.forceLink(graph.links).id(function(d) {return d.id; }).distance(50).strength(1))
+                .on("tick", ticked);
+
+            var adjlist = [];
+
+            graph.links.forEach(function(d) {
+                adjlist[d.source.index + "-" + d.target.index] = true;
+                adjlist[d.target.index + "-" + d.source.index] = true;
+            });
+
+            function neigh(a, b) {
+                return a == b || adjlist[a + "-" + b];
+            }
+
+            var svg = d3.selectAll('body').append('svg')
+            .attr('class','svg_network')
+            .attr('width','100%')
+            .attr('height',height)
+            
+            var container = svg.append("g");
+
+            svg.call(
+                d3.zoom()
+                    .scaleExtent([.1, 4])
+                    .on("zoom", function() { container.attr("transform", d3.event.transform); })
+            );
+
+            var link = container.append("g").attr("class", "links")
+                .selectAll("line")
+                .data(graph.links)
+                .enter()
+                .append("line")
+                .attr("stroke", "#aaa")
+                .attr("stroke-width", function(d) { 
+                    return Math.sqrt(d.value*5); 
+                });
+
+            var node = container.append("g").attr("class", "nodes")
+                .selectAll("g")
+                .data(graph.nodes)
+                .enter()
+                .append("circle")
+                .attr("r", function(d){
+                    return d.weight*3;
+            });
+
+            node.on("mouseover", focus).on("mouseout", unfocus);
+
+            node.call(
+                d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended)
+            );
+
+            var labelNode = container.append("g").attr("class", "labelNodes")
+                .selectAll("text")
+                .data(label.nodes)
+                .enter()
+                .append("text")
+                .text(function(d, i) { return i % 2 == 0 ? "" : d.node.id; })
+                .style("fill", "#555")
+                .style("font-family", "Arial")
+                .style("font-size", 12)
+                .style("font-weight", "bolder")
+                .style("pointer-events", "none"); // to prevent mouseover/drag capture
+
+            node.on("mouseover", focus).on("mouseout", unfocus);
+
+            function ticked() {
+
+                node.call(updateNode);
+                link.call(updateLink);
+
+                labelLayout.alphaTarget(0.3).restart();
+                labelNode.each(function(d, i) {
+                    if(i % 2 == 0) {
+                        d.x = d.node.x;
+                        d.y = d.node.y;
+                    } else {
+                        var b = this.getBBox();
+
+                        var diffX = d.x - d.node.x;
+                        var diffY = d.y - d.node.y;
+
+                        var dist = Math.sqrt(diffX * diffX + diffY * diffY);
+
+                        var shiftX = b.width * (diffX - dist) / (dist * 2);
+                        shiftX = Math.max(-b.width, Math.min(0, shiftX));
+                        var shiftY = 16;
+                        this.setAttribute("transform", "translate(" + shiftX + "," + shiftY + ")");
+                    }
+                });
+                labelNode.call(updateNode);
+
+            }
+
+            function fixna(x) {
+                if (isFinite(x)) return x;
+                return 0;
+            }
+
+            function focus(d) {
+                var index = d3.select(d3.event.target).datum().index;
+                node.style("opacity", function(o) {
+                    return neigh(index, o.index) ? 1 : 0.1;
+                });
+                labelNode.attr("display", function(o) {
+                  return neigh(index, o.node.index) ? "block": "none";
+                });
+                link.style("opacity", function(o) {
+                    return o.source.index == index || o.target.index == index ? 1 : 0.1;
+                });
+            }
+
+            function unfocus() {
+               labelNode.attr("display", "block");
+               node.style("opacity", 1);
+               link.style("opacity", 1);
+            }
+
+            function updateLink(link) {
+                link.attr("x1", function(d) { return fixna(d.source.x); })
+                    .attr("y1", function(d) { return fixna(d.source.y); })
+                    .attr("x2", function(d) { return fixna(d.target.x); })
+                    .attr("y2", function(d) { return fixna(d.target.y); });
+            }
+
+            function updateNode(node) {
+                node.attr("transform", function(d) {
+                    return "translate(" + fixna(d.x) + "," + fixna(d.y) + ")";
+                });
+            }
+
+            function dragstarted(d) {
+                d3.event.sourceEvent.stopPropagation();
+                if (!d3.event.active) graphLayout.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(d) {
+                d.fx = d3.event.x;
+                d.fy = d3.event.y;
+            }
+
+            function dragended(d) {
+                if (!d3.event.active) graphLayout.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+
+            // Initialize a bar graph ----------------------------------------------------------------------------
+
+            var margin = {top: 20, right: 40, bottom: 120, left: 60},
+            width_bar = window.innerWidth - 50 - margin.left - margin.right,
+            height_bar = 500 - margin.top - margin.bottom;
+
+            // set the ranges
+            var x = d3.scaleBand()
+                      .range([0, width_bar])
+                      .padding(0.1);
+            var y = d3.scaleLinear()
+                      .range([height_bar, 0]);
+
+             // append the svg object to the body of the page
+            // append a 'group' element to 'svg'
+            // moves the 'group' element to the top left margin
+            var svg_bar = d3.select("body").append("svg")
+                .attr("width", width_bar + margin.left + margin.right)
+                .attr("height", height_bar + margin.top + margin.bottom)
+                .attr('class','svg_bar')
+                .append("g")
+                .attr("transform", 
+                      "translate(" + margin.left + "," + margin.top + ")");
+
+                    // get the data
+            d3.csv(cent+".csv", function(error, data) {
+              if (error) throw error;
+
+              // format the data
+              data.forEach(function(d) {
+                d.value = +d.value;
+              });
+
+              // Scale the range of the data in the domains
+              x.domain(data.map(function(d) { return d.name; }));
+              y.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+              // append the rectangles for the bar chart
+              svg_bar.selectAll(".bar")
+                  .data(data)
+                  .enter().append("rect")
+                  .attr("class", "bar")
+                  .attr("x", function(d) { return x(d.name); })
+                  .attr("width", x.bandwidth())
+                  .attr("y", function(d) { return y(d.value); })
+                  .attr("height", function(d) { return height_bar - y(d.value); })
+                  .style("fill", "yellow")
+                  .style("stroke","black")
+                  .style("stroke-width", 2);
+
+              // add the x Axis
+              svg_bar.append("g")
+                  .attr("transform", "translate(0," + height_bar + ")")
+                  .call(d3.axisBottom(x))
+                  .selectAll('text')
+                  .attr("dy", ".55em")
+                  .attr("transform", "rotate(45)")
+                  .style("text-anchor", "start");;
+
+              // add the y Axis
+              svg_bar.append("g")
+                  .call(d3.axisLeft(y));
+
+                              // text label for the x axis
+            svg_bar.append("text")             
+              .attr("transform",
+                    "translate(" + (width_bar/2) + " ," + 
+                                   (height_bar + margin.top + 60) + ")")
+              .style("text-anchor", "middle")
+              .text("Character");
+
+            // text label for the y axis
+            svg_bar.append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 0 - margin.left)
+              .attr("x",0 - (height_bar / 2))
+              .attr("dy", "1em")
+              .style("text-anchor", "middle")
+              .text(centrality);  
+
+
+              svg_bar.append("text")
+                .attr("x", (width_bar / 2))             
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")  
+                .style("font-size", "12px") 
+                .style("text-decoration", "underline")  
+                .text(centrality+" of Characters in Season "+season);
+            });
+
+            //-------------------------------------------------------------------------------------------------------
 
 
 
-	
+        });
+        
 
-	d3.json(season, function(error, graph) {
-	  if (error) throw error;
+    });
 
-	  var link = svg.append("g")
-	      .attr("class", "links")
-	    .selectAll("line")
-	    .data(graph.links)
-	    .enter().append("line")
-	      .attr("stroke-width", function(d) { return Math.sqrt(d.value*10); });
+    d3.selectAll('#centSelect').on('change',function(){
 
-	  var node = svg.append("g")
-	      .attr("class", "nodes")
-	    .selectAll("g")
-	    .data(graph.nodes)
-	    .enter().append("g");
+        d3.select('.svg_bar').remove()
+        var season_select = document.getElementById("seasonSelect");
+        var season = season_select.options[season_select.selectedIndex].value;
 
-	 node.attr('radius', function(d){
-			    	return d.weight;
-			    });
+        var e = document.getElementById("centSelect");
+        var centrality = e.options[e.selectedIndex].text;
+        cent = "";
+        switch(centrality){
+            case "Degree Centrality":
+                cent = "degree/degree_"+season;
+                break;
+            case "Betweenness Centrality":
+                cent = "betw/betw_"+season;
+                break;
+            case "Eigenvector Centrality":
+                cent = "eigen/eigen_"+season;
+        }
 
-	  var circles = node.append("circle")
-	      .attr("r", function(d){
-	      	return d.weight*3;
-	      })
-	      .call(d3.drag()
-	          .on("start", dragstarted)
-	          .on("drag", dragged)
-	          .on("end", dragended));
+        console.log(cent);
 
-	  /*var lables = node.append("text")
-	      .text(function(d) {
-	        return d.id;
-	      })
-	      .attr('x', 0)
-	      .attr('y', 6)
-	      .attr('class', 'node_name')
-	      .call(wrap, 20)*/
+        // Initialize a bar graph ----------------------------------------------------------------------------
 
-	  node.append("title")
-	      .text(function(d) { return d.id + " - " + d.weight + " synopsis appearances"; });
+        var margin = {top: 20, right: 40, bottom: 120, left: 60},
+        width_bar = window.innerWidth - 50 - margin.left - margin.right,
+        height_bar = 500 - margin.top - margin.bottom;
 
-	  link.append("title")
-		  .text(function(d) { return d.source + " and " + d.target + ", " + d.value + " time/s together"; });
+        // set the ranges
+        var x = d3.scaleBand()
+                  .range([0, width_bar])
+                  .padding(0.1);
+        var y = d3.scaleLinear()
+                  .range([height_bar, 0]);
 
+         // append the svg object to the body of the page
+        // append a 'group' element to 'svg'
+        // moves the 'group' element to the top left margin
+        var svg_bar = d3.select("body").append("svg")
+            .attr("width", width_bar + margin.left + margin.right)
+            .attr("height", height_bar + margin.top + margin.bottom)
+            .attr('class','svg_bar')
+            .append("g")
+            .attr("transform", 
+                  "translate(" + margin.left + "," + margin.top + ")");
 
+                // get the data
+        d3.csv(cent+".csv", function(error, data) {
+          if (error) throw error;
 
-	  simulation
-	      .nodes(graph.nodes)
-	      .on("tick", ticked);
+          // format the data
+          data.forEach(function(d) {
+            d.value = +d.value;
+          });
 
-	  simulation.force("link")
-	      .links(graph.links);
+          // Scale the range of the data in the domains
+          x.domain(data.map(function(d) { return d.name; }));
+          y.domain([0, d3.max(data, function(d) { return d.value; })]);
 
-	  function ticked() {
-	    link
-	        .attr("x1", function(d) { return d.source.x; })
-	        .attr("y1", function(d) { return d.source.y; })
-	        .attr("x2", function(d) { return d.target.x; })
-	        .attr("y2", function(d) { return d.target.y; });
+          // append the rectangles for the bar chart
+          svg_bar.selectAll(".bar")
+              .data(data)
+              .enter().append("rect")
+              .attr("class", "bar")
+              .attr("x", function(d) { return x(d.name); })
+              .attr("width", x.bandwidth())
+              .attr("y", function(d) { return y(d.value); })
+              .attr("height", function(d) { return height_bar - y(d.value); })
+              .style("fill", "yellow")
+              .style("stroke","black")
+              .style("stroke-width", 2);
 
-	    node
-	        .attr("transform", function(d) {
-	          return "translate(" + d.x + "," + d.y + ")";
-	        })
-	  }
-	});
+          // add the x Axis
+          svg_bar.append("g")
+              .attr("transform", "translate(0," + height_bar + ")")
+              .call(d3.axisBottom(x))
+              .selectAll('text')
+              .attr("dy", ".55em")
+              .attr("transform", "rotate(45)")
+              .style("text-anchor", "start");;
 
-	function dragstarted(d) {
-	  if (!d3.event.active) simulation.alphaTarget(0.7).restart();
-	    d.fx = d.x;
-	    d.fy = d.y;
-	}
+          // add the y Axis
+          svg_bar.append("g")
+              .call(d3.axisLeft(y));
 
-	function dragged(d) {
-	  d.fx = d3.event.x;
-	  d.fy = d3.event.y;
-	}
+                                            // text label for the x axis
+            svg_bar.append("text")             
+              .attr("transform",
+                    "translate(" + (width_bar/2) + " ," + 
+                                   (height_bar + margin.top + 60) + ")")
+              .style("text-anchor", "middle")
+              .text("Character");
 
-	function dragended(d) {
-	  if (!d3.event.active) simulation.alphaTarget(0.1);
-	  d.fx = null;
-	  d.fy = null;
-	}
+            // text label for the y axis
+            svg_bar.append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 0 - margin.left)
+              .attr("x",0 - (height_bar / 2))
+              .attr("dy", "1em")
+              .style("text-anchor", "middle")
+              .text(centrality);  
 
-	function wrap(text, width) {
-	  text.each(function() {
-	    var text = d3.select(this),
-	        words = text.text().split(/\s+/).reverse(),
-	        word,
-	        line = [],
-	        lineNumber = 0,
-	        lineHeight = 1.1, // ems
-	        y = text.attr("y"),
-	        dy = parseFloat(text.attr("dy")),
-	        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-	    while (word = words.pop()) {
-	      line.push(word);
-	      tspan.text(line.join(" "));
-	      if (tspan.node().getComputedTextLength() > width) {
-	        line.pop();
-	        tspan.text(line.join(" "));
-	        line = [word];
-	        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-	      }
-	    }
-	  });
-	}
+            svg_bar.append("text")
+                .attr("x", (width_bar / 2))             
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")  
+                .style("font-size", "12px") 
+                .style("text-decoration", "underline")  
+                .text(centrality+" of Characters in Season "+season);
+        });
 
-	function type(d) {
-	  d.value = +d.value;
-	  return d;
-	}
+        //-------------------------------------------------------------------------------------------------------
+
+        
+
+    });
 
 
 
 });
 
 </script>
-</body>
 </html>
