@@ -746,7 +746,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
           svg_bar.append("g")
               .call(d3.axisLeft(y));
 
-        // text label for the x axis
+                                            // text label for the x axis
             svg_bar.append("text")             
               .attr("transform",
                     "translate(" + (width_bar/2) + " ," + 
@@ -762,7 +762,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
               .attr("dy", "1em")
               .style("text-anchor", "middle")
               .text(centrality);  
-            });
         });
 
         //-------------------------------------------------------------------------------------------------------
