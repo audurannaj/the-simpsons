@@ -85,7 +85,7 @@ The **correlation between the ratings and sentiment score is -0.5** which confir
 
 These findings hint that there **increasing happiness of the seasons could be a factor in the declinging ratings**, and indicates that the viewers like dark humor.
 
-Another interesting point is that the number of words spoken are decreasing throughout the seasons. When comparing the 1st and the 26th season it can be seen that the **number of words spoken on average in an episode has decresed about 20\%**.
+Another interesting point is that the number of words spoken are decreasing throughout the seasons. When comparing the 1st and the 26th season it can be seen that the **number of words spoken on average in an episode has decresed about 20%**.
 
 <!---
 ![image](https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png)
@@ -110,7 +110,7 @@ When looking at the mean and standard deviation of the sentiment scores for the 
 <img src="https://user-images.githubusercontent.com/57719216/70243666-50a6ad80-1773-11ea-95b5-7151e22d1c02.png" width="400" height="350">
 </p>
 
-Since the Simpsons family play a major role and **speak 68\% of the total number of words spoken** we will only present the sentiment analysis for those characters. By fitting a regression to their sentiment scores throughout the seasons it can be seen that they all have an **small upwards trend.** **Homer and Bart have a bigger upwards trend** than **Lisa and Marge but they have a higher sentiment score on average.**
+Since the Simpsons family play a major role and **speak 68% of the total number of words spoken** we will only present the sentiment analysis for those characters. By fitting a regression to their sentiment scores throughout the seasons it can be seen that they all have an **small upwards trend.** **Homer and Bart have a bigger upwards trend** than **Lisa and Marge but they have a higher sentiment score on average.**
 
 
 <p align="center">
