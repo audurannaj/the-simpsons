@@ -80,7 +80,7 @@ The **correlation between the ratings and sentiment score is -0.5** which confir
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png" width="450" height="310">
+<img src="https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png" width="450" height="300">
 </p>
 
 These findings hint that there **increasing happiness of the seasons could be a factor in the declinging ratings**, and indicates that the viewers like dark humor.
