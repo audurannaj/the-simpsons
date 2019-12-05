@@ -26,17 +26,17 @@ to download the datasets that have been cleaned and filtered in ordered to use t
 | **Scripts**             | A dataset comprised of the lines that appear in each episode (Seasons 1-26)                   | Data.World      |    | [Link]() |
 | **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com|  | *Omitted* |
 
-## 1.1 Episode Information
+**Episode Information**
 
-## 1.2 Ratings
+**Ratings**
 
-## 1.3 Demographic Ratings
+**Demographic Ratings**
 
-## 1.4 Characters
+**Characters**
 
-## 1.5 Script
+**Script**
 
-## 1.6 Synopsis
+**Synopsis**
 ---
 # 2. The Networks
 
