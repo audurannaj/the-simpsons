@@ -95,12 +95,11 @@ Another interesting point is that the number of words spoken are decreasing thro
 Here the top 20 speaking characters were considered and their sentimental scores. Out of the 20 top speaking characters only 3 are females, **Marge**, **Lisa** and **Edna**, so male characters are more visible in the show. The figure below shows the number of words spoken on average in a season and the standard deviation.
 
 <p align="center">
-<img src="
-![image](https://user-images.githubusercontent.com/57719216/70243866-b98e2580-1773-11ea-9e7e-b89ea84aa796.png" width="400" height="300">
+<img src="https://user-images.githubusercontent.com/57719216/70243866-b98e2580-1773-11ea-9e7e-b89ea84aa796.png" width="400" height="350">
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/57719216/70243666-50a6ad80-1773-11ea-95b5-7151e22d1c02.png" width="400" height="300">
+<img src="https://user-images.githubusercontent.com/57719216/70243666-50a6ad80-1773-11ea-95b5-7151e22d1c02.png" width="400" height="350">
 </p>
 
 
