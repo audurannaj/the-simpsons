@@ -102,18 +102,17 @@ And how does the **number of words spoken develope through the seasons?** The fi
 
 Figure....
 
-When looking at the mean and standard deviation of the sentiment scores for the top 20 character it can be seen that 
+When looking at the mean and standard deviation of the sentiment scores for the top 20 character it can be seen that there is not a big variation in the mean senitment scores. It is interesting to see how **the characters seem to speek almost equally happy words on average.**
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/57719216/70243666-50a6ad80-1773-11ea-95b5-7151e22d1c02.png" width="400" height="350">
 </p>
 
 
-Since the Simpsons family play a major role and speak on average ... of the total number of words spoken we will only present the sentiment analysis for those characters. By fitting a regression to their sentiment scores throughout the seasons it can be seen that they all have an small upwards trend. **Homer** and **Bart** have a bigger upwards trend than **Lisa** and **Marge** but they have a higher sentiment score on average.
+Since the Simpsons family play a major role and **speak on average ... of the total number of words spoken** we will only present the sentiment analysis for those characters. By fitting a regression to their sentiment scores throughout the seasons it can be seen that they all have an **small upwards trend.** **Homer and Bart have a bigger upwards trend** than **Lisa and Marge but they have a higher sentiment score on average.**
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/57719216/70243666-50a6ad80-1773-11ea-95b5-7151e22d1c02.png" width="400" height="350">
-</p>
+
+
 
 
 
