@@ -14,8 +14,8 @@ Below, a summary of the elements that this project is comprised of can be found.
 # 1. Data
 In order to create the networks and analyze text related to the series, a lot of data needed to be collected and created. 
 
-The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. There is also an option
-to download the datasets that have been cleaned and filtered in ordered to use them in this project. 
+The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. 
+
 
 | Dataset             | Info                                                                                          | Originally obtained from       |Size| Download |
 |---------------------|-----------------------------------------------------------------------------------------------|---------------------|----|----------|
@@ -37,8 +37,9 @@ The **Ratings** for each episodes were gotten with the same strategy as the epis
 **Script**
 
 **Synopsis**
+
 ---
-# 2. The Networks
+# 2. The Network
 
 A network was created for each season of The Simpsons. A node in the network represents a character that has appeared in a **synopsis** of an
 episode in the season, and a link between nodes is created if two characters appeared in a synopsis **of the same episode** in the season. 
@@ -80,7 +81,6 @@ In order to rate the sentiment of words, a datafile with 10,222 words and their 
 Sentimental Analysis was carried out on the spoken words from the scripts. Here the main findings will be presented.
 
 
-
 ## 4.1 Developement Through Seasons
 The average sentiment score of each seasons spoken lines can be seen in figures below. Even though the change in sentiment score only ranges from 5.42 to 5.47 it can be seen that there is an **upwards trend over the seasons**. 
 
@@ -89,22 +89,46 @@ Looking at how the sentiment score has developed compared to ratings, it can be 
 The **correlation between the ratings and sentiment score is -0.5** which confirms that there is a negative relationship between the two variables. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png" width="700" height="400">
+<img src="https://user-images.githubusercontent.com/57719216/70244699-379efc00-1775-11ea-9215-34d839feab25.png" width="450" height="270">
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png" width="700" height="450">
+<img src="https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png" width="450" height="300">
 </p>
 
 These findings hint that there **increasing happiness of the seasons could be a factor in the declinging ratings**, and indicates that the viewers like dark humor.
 
-Another interesting point is that the number of words spoken are decreasing throughout the seasons. When comparing the 1st and the 26th season it can be seen that the **number of words spoken on average in an episode has decresed about 20\%**.
+Another interesting point is that the number of words spoken are decreasing throughout the seasons. When comparing the 1st and the 26th season it can be seen that the **number of words spoken on average in an episode has decresed about 20%**.
 
 <!---
 ![image](https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png)
 --->
 
-## 4.2 Characters
+## 4.2 Developement of Characters 
+Here the top 20 speaking characters were considered and their sentimental scores. Out of the 20 top speaking characters only 3 are females, **Marge**, **Lisa** and **Edna**, so male characters are more visible in the show. The figure below shows the number of words spoken on average in a season and the standard deviation. **The Simpsons family play the the main role in the series**, where **Homer** much more speaks than other characters. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57719216/70243866-b98e2580-1773-11ea-9e7e-b89ea84aa796.png" width="400" height="350">
+</p>
+
+And how does the **number of words spoken develope through the seasons?** The figure below shows how the porportion of the total number of words spoken for each season for the top four characters develope. **Homer** and **Bart** are speaking less as the seasons go by while **Marge** and **Lisa** are speaking more.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57719216/70247002-eabd2480-1778-11ea-8baf-cf72bafeaeea.png" width="500" height="500">
+</p>
+
+When looking at the mean and standard deviation of the sentiment scores for the top 20 character it can be seen that there is not a big variation in the mean senitment scores. It is interesting to see how **the characters seem to speek almost equally happy words on average.**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57719216/70243666-50a6ad80-1773-11ea-95b5-7151e22d1c02.png" width="400" height="350">
+</p>
+
+Since the Simpsons family play a major role and **speak 68% of the total number of words spoken** we will only present the sentiment analysis for those characters. By fitting a regression to their sentiment scores throughout the seasons it can be seen that they all have an **small upwards trend.** **Homer and Bart have a bigger upwards trend** than **Lisa and Marge but they have a higher sentiment score on average.**
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57719216/70246375-f2c89480-1777-11ea-8220-4d4df439d90b.png" width="500" height="500">
+</p>
 
 
 # 5. Findings
