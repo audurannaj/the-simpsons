@@ -98,7 +98,7 @@ Here the top 20 speaking characters were considered and their sentimental scores
 <img src="https://user-images.githubusercontent.com/57719216/70243866-b98e2580-1773-11ea-9e7e-b89ea84aa796.png" width="400" height="350">
 </p>
 
-And how does the **number of words spoken develope through the seasons?** The figure below shows how the porportion of the total number of words spoken for each season for the top four characters develope. **Homer** and **Bart** are speaking less while **Marge** and **Lisa** are speaking more.
+And how does the **number of words spoken develope through the seasons?** The figure below shows how the porportion of the total number of words spoken for each season for the top four characters develope. **Homer** and **Bart** are speaking less as the seasons go by while **Marge** and **Lisa** are speaking more.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/57719216/70247002-eabd2480-1778-11ea-8baf-cf72bafeaeea.png" width="500" height="500">
@@ -110,15 +110,12 @@ When looking at the mean and standard deviation of the sentiment scores for the 
 <img src="https://user-images.githubusercontent.com/57719216/70243666-50a6ad80-1773-11ea-95b5-7151e22d1c02.png" width="400" height="350">
 </p>
 
-
-Since the Simpsons family play a major role and **speak on average ... of the total number of words spoken** we will only present the sentiment analysis for those characters. By fitting a regression to their sentiment scores throughout the seasons it can be seen that they all have an **small upwards trend.** **Homer and Bart have a bigger upwards trend** than **Lisa and Marge but they have a higher sentiment score on average.**
+Since the Simpsons family play a major role and **speak 68\% of the total number of words spoken** we will only present the sentiment analysis for those characters. By fitting a regression to their sentiment scores throughout the seasons it can be seen that they all have an **small upwards trend.** **Homer and Bart have a bigger upwards trend** than **Lisa and Marge but they have a higher sentiment score on average.**
 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/57719216/70246375-f2c89480-1777-11ea-8220-4d4df439d90b.png" width="500" height="500">
 </p>
-
-
 
 
 # 5. Findings
