@@ -628,7 +628,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         d3.select('.svg_bar').remove()
         var season_select = document.getElementById("seasonSelect");
-        var season = season_select.options[e.selectedIndex].value;
+        var season = season_select.options[season_select.selectedIndex].value;
 
         var e = document.getElementById("centSelect");
         var centrality = e.options[e.selectedIndex].text;
