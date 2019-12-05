@@ -100,7 +100,9 @@ Here the top 20 speaking characters were considered and their sentimental scores
 
 And how does the **number of words spoken develope through the seasons?** The figure below shows how the porportion of the total number of words spoken for each season for the top four characters develope. **Homer** and **Bart** are speaking less while **Marge** and **Lisa** are speaking more.
 
-Figure....
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57719216/70247002-eabd2480-1778-11ea-8baf-cf72bafeaeea.png" width="500" height="500">
+</p>
 
 When looking at the mean and standard deviation of the sentiment scores for the top 20 character it can be seen that there is not a big variation in the mean senitment scores. It is interesting to see how **the characters seem to speek almost equally happy words on average.**
 
