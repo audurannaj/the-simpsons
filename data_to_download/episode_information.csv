@@ -1,0 +1,663 @@
+no_overall,season,no_in_season,episode_name,airdate,viewers (millions)
+1,1,1,Simpsons Roasting on an Open Fire,"December 17, 1989 (1989-12-17)",26.7
+2,1,2,Bart the Genius,"January 14, 1990 (1990-01-14)",24.5
+3,1,3,Homer's Odyssey,"January 21, 1990 (1990-01-21)",27.5
+4,1,4,There's No Disgrace Like Home,"January 28, 1990 (1990-01-28)",20.2
+5,1,5,Bart the General,"February 4, 1990 (1990-02-04)",27.1
+6,1,6,Moaning Lisa,"February 11, 1990 (1990-02-11)",27.4
+7,1,7,The Call of the Simpsons,"February 18, 1990 (1990-02-18)",27.6
+8,1,8,The Telltale Head,"February 25, 1990 (1990-02-25)",28
+9,1,9,Life on the Fast Lane,"March 18, 1990 (1990-03-18)",33.5
+10,1,10,Homer's Night Out,"March 25, 1990 (1990-03-25)",30.3
+11,1,11,The Crepes of Wrath,"April 15, 1990 (1990-04-15)",31.2
+12,1,12,Krusty Gets Busted,"April 29, 1990 (1990-04-29)",30.4
+13,1,13,Some Enchanted Evening,"May 13, 1990 (1990-05-13)",27.1
+14,2,1,"Bart Gets an ""F""","October 11, 1990 (1990-10-11)",33.6
+15,2,2,Simpson and Delilah,"October 18, 1990 (1990-10-18)",29.9
+16,2,3,Treehouse of Horror,"October 25, 1990 (1990-10-25)",27.4
+17,2,4,Two Cars in Every Garage and Three Eyes on Every Fish,"November 1, 1990 (1990-11-01)",26.1
+18,2,5,Dancin' Homer,"November 8, 1990 (1990-11-08)",26.1
+19,2,6,Dead Putting Society,"November 15, 1990 (1990-11-15)",25.4
+20,2,7,Bart vs. Thanksgiving,"November 22, 1990 (1990-11-22)",25.9
+21,2,8,Bart the Daredevil,"December 6, 1990 (1990-12-06)",26.2
+22,2,9,Itchy & Scratchy & Marge,"December 20, 1990 (1990-12-20)",22.2
+23,2,10,Bart Gets Hit by a Car,"January 10, 1991 (1991-01-10)",24.8
+24,2,11,"One Fish, Two Fish, Blowfish, Blue Fish","January 24, 1991 (1991-01-24)",24.2
+25,2,12,The Way We Was,"January 31, 1991 (1991-01-31)",26.8
+26,2,13,Homer vs. Lisa and the 8th Commandment,"February 7, 1991 (1991-02-07)",26.2
+27,2,14,Principal Charming,"February 14, 1991 (1991-02-14)",23.9
+28,2,15,"Oh Brother, Where Art Thou?","February 21, 1991 (1991-02-21)",26.8
+29,2,16,"Bart's Dog Gets an ""F""","March 7, 1991 (1991-03-07)",23.9
+30,2,17,Old Money,"March 28, 1991 (1991-03-28)",21.2
+31,2,18,Brush with Greatness,"April 11, 1991 (1991-04-11)",20.6
+32,2,19,Lisa's Substitute,"April 25, 1991 (1991-04-25)",17.7
+33,2,20,The War of the Simpsons,"May 2, 1991 (1991-05-02)",19.7
+34,2,21,Three Men and a Comic Book,"May 9, 1991 (1991-05-09)",21
+35,2,22,Blood Feud,"July 11, 1991 (1991-07-11)",17.3
+36,3,1,Stark Raving Dad,"September 19, 1991 (1991-09-19)",22.9
+37,3,2,Mr. Lisa Goes to Washington,"September 26, 1991 (1991-09-26)",20.2
+38,3,3,When Flanders Failed,"October 3, 1991 (1991-10-03)",22.8
+39,3,4,Bart the Murderer,"October 10, 1991 (1991-10-10)",20.8
+40,3,5,Homer Defined,"October 17, 1991 (1991-10-17)",20.6
+41,3,6,"Like Father, Like Clown","October 24, 1991 (1991-10-24)",20.2
+42,3,7,Treehouse of Horror II,"October 31, 1991 (1991-10-31)",20
+43,3,8,Lisa's Pony,"November 7, 1991 (1991-11-07)",23
+44,3,9,Saturdays of Thunder,"November 14, 1991 (1991-11-14)",24.7
+45,3,10,Flaming Moe's,"November 21, 1991 (1991-11-21)",23.9
+46,3,11,Burns Verkaufen der Kraftwerk,"December 5, 1991 (1991-12-05)",21.1
+47,3,12,I Married Marge,"December 26, 1991 (1991-12-26)",21.9
+48,3,13,Radio Bart,"January 9, 1992 (1992-01-09)",24.2
+49,3,14,Lisa the Greek,"January 23, 1992 (1992-01-23)",23.2
+50,3,15,Homer Alone,"February 6, 1992 (1992-02-06)",23.7
+51,3,16,Bart the Lover,"February 13, 1992 (1992-02-13)",20.5
+52,3,17,Homer at the Bat,"February 20, 1992 (1992-02-20)",24.6
+53,3,18,Separate Vocations,"February 27, 1992 (1992-02-27)",23.7
+54,3,19,Dog of Death,"March 12, 1992 (1992-03-12)",23.4
+55,3,20,Colonel Homer,"March 26, 1992 (1992-03-26)",25.5
+56,3,21,Black Widower,"April 9, 1992 (1992-04-09)",17.3
+57,3,22,The Otto Show,"April 23, 1992 (1992-04-23)",17.5
+58,3,23,Bart's Friend Falls in Love,"May 7, 1992 (1992-05-07)",19.5
+59,3,24,"Brother, Can You Spare Two Dimes?","August 27, 1992 (1992-08-27)",17.2
+60,4,1,Kamp Krusty,"September 24, 1992 (1992-09-24)",21.8
+61,4,2,A Streetcar Named Marge,"October 1, 1992 (1992-10-01)",18.3
+62,4,3,Homer the Heretic,"October 8, 1992 (1992-10-08)",19.3
+63,4,4,Lisa the Beauty Queen,"October 15, 1992 (1992-10-15)",19
+64,4,5,Treehouse of Horror III,"October 29, 1992 (1992-10-29)",25.1
+65,4,6,Itchy & Scratchy: The Movie,"November 3, 1992 (1992-11-03)",20.1
+66,4,7,Marge Gets a Job,"November 5, 1992 (1992-11-05)",22.9
+67,4,8,New Kid on the Block,"November 12, 1992 (1992-11-12)",23.1
+68,4,9,Mr. Plow,"November 19, 1992 (1992-11-19)",24
+69,4,10,Lisa's First Word,"December 3, 1992 (1992-12-03)",28.6
+70,4,11,Homer's Triple Bypass,"December 17, 1992 (1992-12-17)",23.6
+71,4,12,Marge vs. the Monorail,"January 14, 1993 (1993-01-14)",23
+72,4,13,Selma's Choice,"January 21, 1993 (1993-01-21)",24.5
+73,4,14,Brother from the Same Planet,"February 4, 1993 (1993-02-04)",23.8
+74,4,15,I Love Lisa,"February 11, 1993 (1993-02-11)",25.2
+75,4,16,Duffless,"February 18, 1993 (1993-02-18)",25.7
+76,4,17,Last Exit to Springfield,"March 11, 1993 (1993-03-11)",22.4
+77,4,18,So It's Come to This: A Simpsons Clip Show,"April 1, 1993 (1993-04-01)",25.5
+78,4,19,The Front,"April 15, 1993 (1993-04-15)",20.1
+79,4,20,Whacking Day,"April 29, 1993 (1993-04-29)",20
+80,4,21,Marge in Chains,"May 6, 1993 (1993-05-06)",17.3
+81,4,22,Krusty Gets Kancelled,"May 13, 1993 (1993-05-13)",19.4
+82,5,1,Homer's Barbershop Quartet,"September 30, 1993 (1993-09-30)",19.9
+83,5,2,Cape Feare,"October 7, 1993 (1993-10-07)",20.0
+84,5,3,Homer Goes to College,"October 14, 1993 (1993-10-14)",18.1
+85,5,4,Rosebud,"October 21, 1993 (1993-10-21)",19.5
+86,5,5,Treehouse of Horror IV,"October 28, 1993 (1993-10-28)",24.0
+87,5,6,Marge on the Lam,"November 4, 1993 (1993-11-04)",21.7
+88,5,7,Bart's Inner Child,"November 11, 1993 (1993-11-11)",18.7
+89,5,8,Boy-Scoutz 'n the Hood,"November 18, 1993 (1993-11-18)",20.1
+90,5,9,The Last Temptation of Homer,"December 9, 1993 (1993-12-09)",20.6
+91,5,10,"$pringfield (or, How I Learned to Stop Worrying and Love Legalized Gambling)","December 16, 1993 (1993-12-16)",17.9
+92,5,11,Homer the Vigilante,"January 6, 1994 (1994-01-06)",20.1
+93,5,12,Bart Gets Famous,"February 3, 1994 (1994-02-03)",20.0
+94,5,13,Homer and Apu,"February 10, 1994 (1994-02-10)",21.8
+95,5,14,Lisa vs. Malibu Stacy,"February 17, 1994 (1994-02-17)",20.5
+96,5,15,Deep Space Homer,"February 24, 1994 (1994-02-24)",18.2
+97,5,16,Homer Loves Flanders,"March 17, 1994 (1994-03-17)",18.0
+98,5,17,Bart Gets an Elephant,"March 31, 1994 (1994-03-31)",17.0
+99,5,18,Burns' Heir,"April 14, 1994 (1994-04-14)",14.7
+100,5,19,Sweet Seymour Skinner's Baadasssss Song,"April 28, 1994 (1994-04-28)",19.7
+101,5,20,The Boy Who Knew Too Much,"May 5, 1994 (1994-05-05)",15.5
+102,5,21,Lady Bouvier's Lover,"May 12, 1994 (1994-05-12)",15.1
+103,5,22,Secrets of a Successful Marriage,"May 19, 1994 (1994-05-19)",15.6
+104,6,1,Bart of Darkness,"September 4, 1994 (1994-09-04)",15.1
+105,6,2,Lisa's Rival,"September 11, 1994 (1994-09-11)",16.7
+106,6,3,Another Simpsons Clip Show,"September 25, 1994 (1994-09-25)",13.5
+107,6,4,Itchy & Scratchy Land,"October 2, 1994 (1994-10-02)",14.8
+108,6,5,Sideshow Bob Roberts,"October 9, 1994 (1994-10-09)",14.4
+109,6,6,Treehouse of Horror V,"October 30, 1994 (1994-10-30)",22.2
+110,6,7,Bart's Girlfriend,"November 6, 1994 (1994-11-06)",15.3
+111,6,8,Lisa on Ice,"November 13, 1994 (1994-11-13)",17.9
+112,6,9,Homer Badman,"November 27, 1994 (1994-11-27)",17.0
+113,6,10,Grampa vs. Sexual Inadequacy,"December 4, 1994 (1994-12-04)",14.1
+114,6,11,Fear of Flying,"December 18, 1994 (1994-12-18)",15.6
+115,6,12,Homer the Great,"January 8, 1995 (1995-01-08)",20.1
+116,6,13,And Maggie Makes Three,"January 22, 1995 (1995-01-22)",17.3
+117,6,14,Bart's Comet,"February 5, 1995 (1995-02-05)",18.7
+118,6,15,Homie the Clown,"February 12, 1995 (1995-02-12)",17.6
+119,6,16,Bart vs. Australia,"February 19, 1995 (1995-02-19)",15.1
+120,6,17,Homer vs. Patty and Selma,"February 26, 1995 (1995-02-26)",18.9
+121,6,18,A Star Is Burns,"March 5, 1995 (1995-03-05)",14.4
+122,6,19,Lisa's Wedding,"March 19, 1995 (1995-03-19)",14.4
+123,6,20,Two Dozen and One Greyhounds,"April 9, 1995 (1995-04-09)",11.6
+124,6,21,The PTA Disbands,"April 16, 1995 (1995-04-16)",11.8
+125,6,22,'Round Springfield,"April 30, 1995 (1995-04-30)",12.6
+126,6,23,The Springfield Connection,"May 7, 1995 (1995-05-07)",12.7
+127,6,24,Lemon of Troy,"May 14, 1995 (1995-05-14)",13.1
+128,6,25,Who Shot Mr. Burns? (Part One),"May 21, 1995 (1995-05-21)",15.0
+129,7,1,Who Shot Mr. Burns? (Part Two),"September 17, 1995 (1995-09-17)",16.0
+130,7,2,Radioactive Man,"September 24, 1995 (1995-09-24)",15.7
+131,7,3,Home Sweet Homediddly-Dum-Doodily,"October 1, 1995 (1995-10-01)",14.5
+132,7,4,Bart Sells His Soul,"October 8, 1995 (1995-10-08)",14.8
+133,7,5,Lisa the Vegetarian,"October 15, 1995 (1995-10-15)",14.6
+134,7,6,Treehouse of Horror VI,"October 29, 1995 (1995-10-29)",19.7
+135,7,7,King-Size Homer,"November 5, 1995 (1995-11-05)",17.0
+136,7,8,Mother Simpson,"November 19, 1995 (1995-11-19)",15.3
+137,7,9,Sideshow Bob's Last Gleaming,"November 26, 1995 (1995-11-26)",14.2
+138,7,10,The Simpsons 138th Episode Spectacular,"December 3, 1995 (1995-12-03)",16.4
+139,7,11,Marge Be Not Proud,"December 17, 1995 (1995-12-17)",16.7
+140,7,12,Team Homer,"January 7, 1996 (1996-01-07)",16.7
+141,7,13,Two Bad Neighbors,"January 14, 1996 (1996-01-14)",16.5
+142,7,14,Scenes from the Class Struggle in Springfield,"February 4, 1996 (1996-02-04)",14.4
+143,7,15,Bart the Fink,"February 11, 1996 (1996-02-11)",15.0
+144,7,16,Lisa the Iconoclast,"February 18, 1996 (1996-02-18)",13.4
+145,7,17,Homer the Smithers,"February 25, 1996 (1996-02-25)",14.1
+146,7,18,The Day the Violence Died,"March 17, 1996 (1996-03-17)",14.4
+147,7,19,A Fish Called Selma,"March 24, 1996 (1996-03-24)",12.9
+148,7,20,Bart on the Road,"March 31, 1996 (1996-03-31)",11.8
+149,7,21,22 Short Films About Springfield,"April 14, 1996 (1996-04-14)",10.5
+150,7,22,"Raging Abe Simpson and His Grumbling Grandson in ""The Curse of the Flying Hellfish""","April 28, 1996 (1996-04-28)",13.0
+151,7,23,Much Apu About Nothing,"May 5, 1996 (1996-05-05)",11.3
+152,7,24,Homerpalooza,"May 19, 1996 (1996-05-19)",12.9
+153,7,25,Summer of 4 Ft. 2,"May 19, 1996 (1996-05-19)",14.7
+154,8,1,Treehouse of Horror VII,"October 27, 1996 (1996-10-27)",18.3
+155,8,2,You Only Move Twice,"November 3, 1996 (1996-11-03)",13.9
+156,8,3,The Homer They Fall,"November 10, 1996 (1996-11-10)",17.0
+157,8,4,"Burns, Baby Burns","November 17, 1996 (1996-11-17)",12.6
+158,8,5,Bart After Dark,"November 24, 1996 (1996-11-24)",14.1
+159,8,6,A Milhouse Divided,"December 1, 1996 (1996-12-01)",12.8
+160,8,7,Lisa's Date with Density,"December 15, 1996 (1996-12-15)",N/A
+161,8,8,Hurricane Neddy,"December 29, 1996 (1996-12-29)",N/A
+162,8,9,El Viaje Misterioso de Nuestro Jomer (The Mysterious Voyage of Homer),"January 5, 1997 (1997-01-05)",14.9
+163,8,10,The Springfield Files,"January 12, 1997 (1997-01-12)",20.9
+164,8,11,The Twisted World of Marge Simpson,"January 19, 1997 (1997-01-19)",14.0
+165,8,12,Mountain of Madness,"February 2, 1997 (1997-02-02)",9.1
+166,8,13,Simpsoncalifragilisticexpiala(Annoyed Grunt)cious,"February 7, 1997 (1997-02-07)",17.7
+167,8,14,The Itchy & Scratchy & Poochie Show,"February 9, 1997 (1997-02-09)",15.5
+168,8,15,Homer's Phobia,"February 16, 1997 (1997-02-16)",15.3
+169,8,16,Brother from Another Series,"February 23, 1997 (1997-02-23)",15.1
+170,8,17,"My Sister, My Sitter","March 2, 1997 (1997-03-02)",15.1
+171,8,18,Homer vs. the Eighteenth Amendment,"March 16, 1997 (1997-03-16)",14.6
+172,8,19,Grade School Confidential,"April 6, 1997 (1997-04-06)",13.3
+173,8,20,The Canine Mutiny,"April 13, 1997 (1997-04-13)",N/A
+174,8,21,The Old Man and the Lisa,"April 20, 1997 (1997-04-20)",14.0
+175,8,22,In Marge We Trust,"April 27, 1997 (1997-04-27)",16.9
+176,8,23,Homer's Enemy,"May 4, 1997 (1997-05-04)",11.8
+177,8,24,The Simpsons Spin-Off Showcase,"May 11, 1997 (1997-05-11)",11.6
+178,8,25,The Secret War of Lisa Simpson,"May 18, 1997 (1997-05-18)",12.7
+179,9,1,The City of New York vs. Homer Simpson,"September 21, 1997 (1997-09-21)",10.5
+180,9,2,The Principal and the Pauper,"September 28, 1997 (1997-09-28)",14.9
+181,9,3,Lisa's Sax,"October 19, 1997 (1997-10-19)",12.9
+182,9,4,Treehouse of Horror VIII,"October 26, 1997 (1997-10-26)",10.9
+183,9,5,The Cartridge Family,"November 2, 1997 (1997-11-02)",10.3
+184,9,6,Bart Star,"November 9, 1997 (1997-11-09)",10.6
+185,9,7,The Two Mrs. Nahasapeemapetilons,"November 16, 1997 (1997-11-16)",19.8
+186,9,8,Lisa the Skeptic,"November 23, 1997 (1997-11-23)",9.3
+187,9,9,Realty Bites,"December 7, 1997 (1997-12-07)",10.6
+188,9,10,Miracle on Evergreen Terrace,"December 21, 1997 (1997-12-21)",9.6
+189,9,11,"All Singing, All Dancing","January 4, 1998 (1998-01-04)",8.9
+190,9,12,Bart Carny,"January 11, 1998 (1998-01-11)",11.7
+191,9,13,The Joy of Sect,"February 8, 1998 (1998-02-08)",9.4
+192,9,14,Das Bus,"February 15, 1998 (1998-02-15)",9.6
+193,9,15,The Last Temptation of Krust,"February 22, 1998 (1998-02-22)",9.5
+194,9,16,Dumbbell Indemnity,"March 1, 1998 (1998-03-01)",10.3
+195,9,17,Lisa the Simpson,"March 8, 1998 (1998-03-08)",10.4
+196,9,18,This Little Wiggy,"March 22, 1998 (1998-03-22)",8.9
+197,9,19,Simpson Tide,"March 29, 1998 (1998-03-29)",9.0
+198,9,20,The Trouble with Trillions,"April 5, 1998 (1998-04-05)",7.4
+199,9,21,Girly Edition,"April 19, 1998 (1998-04-19)",8.5
+200,9,22,Trash of the Titans,"April 26, 1998 (1998-04-26)",10.2
+201,9,23,King of the Hill,"May 3, 1998 (1998-05-03)",9.2
+202,9,24,Lost Our Lisa,"May 10, 1998 (1998-05-10)",7.6
+203,9,25,Natural Born Kissers,"May 17, 1998 (1998-05-17)",8.6
+204,10,1,Lard of the Dance,"August 23, 1998 (1998-08-23)",7
+205,10,2,The Wizard of Evergreen Terrace,"September 20, 1998 (1998-09-20)",7.95
+206,10,3,Bart the Mother,"September 27, 1998 (1998-09-27)",7.35
+207,10,4,Treehouse of Horror IX,"October 25, 1998 (1998-10-25)",8.5
+208,10,5,When You Dish Upon a Star,"November 8, 1998 (1998-11-08)",9
+209,10,6,D'oh-in' in the Wind,"November 15, 1998 (1998-11-15)",8.3
+210,10,7,"Lisa Gets an ""A""","November 22, 1998 (1998-11-22)",8
+211,10,8,"Homer Simpson in: ""Kidney Trouble""","December 6, 1998 (1998-12-06)",7.2
+212,10,9,Mayored to the Mob,"December 20, 1998 (1998-12-20)",8.5
+213,10,10,Viva Ned Flanders,"January 10, 1999 (1999-01-10)",11.5
+214,10,11,Wild Barts Can't Be Broken,"January 17, 1999 (1999-01-17)",8.8
+215,10,12,"Sunday, Cruddy Sunday","January 31, 1999 (1999-01-31)",11.5
+216,10,13,Homer to the Max,"February 7, 1999 (1999-02-07)",8.3
+217,10,14,I'm with Cupid,"February 14, 1999 (1999-02-14)",7.7
+218,10,15,"Marge Simpson in: ""Screaming Yellow Honkers""","February 21, 1999 (1999-02-21)",8.6
+219,10,16,Make Room for Lisa,"February 28, 1999 (1999-02-28)",7.6
+220,10,17,Maximum Homerdrive,"March 28, 1999 (1999-03-28)",15.5
+221,10,18,Simpsons Bible Stories,"April 4, 1999 (1999-04-04)",12.2
+222,10,19,Mom and Pop Art,"April 11, 1999 (1999-04-11)",8.5
+223,10,20,"The Old Man and the ""C"" Student","April 25, 1999 (1999-04-25)",6.9
+224,10,21,Monty Can't Buy Me Love,"May 2, 1999 (1999-05-02)",7.26
+225,10,22,They Saved Lisa's Brain,"May 9, 1999 (1999-05-09)",6.8
+226,10,23,Thirty Minutes over Tokyo,"May 16, 1999 (1999-05-16)",8
+227,11,1,Beyond Blunderdome,"September 26, 1999 (1999-09-26)",8.1
+228,11,2,Brother's Little Helper,"October 3, 1999 (1999-10-03)",7.1
+229,11,3,Guess Who's Coming to Criticize Dinner?,"October 24, 1999 (1999-10-24)",6.7
+230,11,4,Treehouse of Horror X,"October 31, 1999 (1999-10-31)",8.7
+231,11,5,E-I-E-I-(Annoyed Grunt),"November 7, 1999 (1999-11-07)",8.4
+232,11,6,"Hello Gutter, Hello Fadder","November 14, 1999 (1999-11-14)",9.2
+233,11,7,Eight Misbehavin',"November 21, 1999 (1999-11-21)",9.2
+234,11,8,"Take My Wife, Sleaze","November 28, 1999 (1999-11-28)",8.9
+235,11,9,Grift of the Magi,"December 19, 1999 (1999-12-19)",7.76
+236,11,10,Little Big Mom,"January 9, 2000 (2000-01-09)",10
+237,11,11,Faith Off,"January 16, 2000 (2000-01-16)",10.4
+238,11,12,The Mansion Family,"January 23, 2000 (2000-01-23)",11.3
+239,11,13,Saddlesore Galactica,"February 6, 2000 (2000-02-06)",9.6
+240,11,14,"Alone Again, Natura-Diddily","February 13, 2000 (2000-02-13)",10.8
+241,11,15,Missionary: Impossible,"February 20, 2000 (2000-02-20)",9.8
+242,11,16,Pygmoelian,"February 27, 2000 (2000-02-27)",9.4
+243,11,17,Bart to the Future,"March 19, 2000 (2000-03-19)",8.77
+244,11,18,Days of Wine and D'oh'ses,"April 9, 2000 (2000-04-09)",8.3
+245,11,19,Kill the Alligator and Run,"April 30, 2000 (2000-04-30)",7.46
+246,11,20,Last Tap Dance in Springfield,"May 7, 2000 (2000-05-07)",7.3
+247,11,21,"It's a Mad, Mad, Mad, Mad Marge","May 14, 2000 (2000-05-14)",7.5
+248,11,22,Behind the Laughter,"May 21, 2000 (2000-05-21)",8.3
+249,12,1,Treehouse of Horror XI,"November 1, 2000 (2000-11-01)",13.2
+250,12,2,A Tale of Two Springfields,"November 5, 2000 (2000-11-05)",16.2
+251,12,3,Insane Clown Poppy,"November 12, 2000 (2000-11-12)",16.4
+252,12,4,Lisa the Tree Hugger,"November 19, 2000 (2000-11-19)",14.9
+253,12,5,Homer vs. Dignity,"November 26, 2000 (2000-11-26)",15
+254,12,6,The Computer Wore Menace Shoes,"December 3, 2000 (2000-12-03)",15.6
+255,12,7,The Great Money Caper,"December 10, 2000 (2000-12-10)",16.8
+256,12,8,Skinner's Sense of Snow,"December 17, 2000 (2000-12-17)",15.9
+257,12,9,HOMR,"January 7, 2001 (2001-01-07)",18.5
+258,12,10,Pokey Mom,"January 14, 2001 (2001-01-14)",15
+259,12,11,Worst Episode Ever,"February 4, 2001 (2001-02-04)",18.5
+260,12,12,Tennis the Menace,"February 11, 2001 (2001-02-11)",14
+261,12,13,Day of the Jackanapes,"February 18, 2001 (2001-02-18)",15.4
+262,12,14,New Kids on the Blecch,"February 25, 2001 (2001-02-25)",18.1
+263,12,15,"Hungry, Hungry Homer","March 4, 2001 (2001-03-04)",17.6
+264,12,16,Bye Bye Nerdie,"March 11, 2001 (2001-03-11)",16.1
+265,12,17,Simpson Safari,"April 1, 2001 (2001-04-01)",13.3
+266,12,18,Trilogy of Error,"April 29, 2001 (2001-04-29)",14.4
+267,12,19,I'm Goin' to Praiseland,"May 6, 2001 (2001-05-06)",13.1
+268,12,20,Children of a Lesser Clod,"May 13, 2001 (2001-05-13)",13.8
+269,12,21,Simpsons Tall Tales,"May 20, 2001 (2001-05-20)",13.4
+270,13,1,Treehouse of Horror XII,"November 6, 2001 (2001-11-06)",13
+271,13,2,The Parent Rap,"November 11, 2001 (2001-11-11)",14.9
+272,13,3,Homer the Moe,"November 18, 2001 (2001-11-18)",14.4
+273,13,4,A Hunka Hunka Burns in Love,"December 2, 2001 (2001-12-02)",13.4
+274,13,5,The Blunder Years,"December 9, 2001 (2001-12-09)",12.9
+275,13,6,She of Little Faith,"December 16, 2001 (2001-12-16)",13.2
+276,13,7,Brawl in the Family,"January 6, 2002 (2002-01-06)",11.8
+277,13,8,Sweets and Sour Marge,"January 20, 2002 (2002-01-20)",12.3
+278,13,9,Jaws Wired Shut,"January 27, 2002 (2002-01-27)",14.2
+279,13,10,Half-Decent Proposal,"February 10, 2002 (2002-02-10)",13.2
+280,13,11,The Bart Wants What It Wants,"February 17, 2002 (2002-02-17)",11.2
+281,13,12,The Lastest Gun in the West,"February 24, 2002 (2002-02-24)",13.2
+282,13,13,The Old Man and the Key,"March 10, 2002 (2002-03-10)",14.5
+283,13,14,Tales from the Public Domain,"March 17, 2002 (2002-03-17)",11.7
+284,13,15,Blame It on Lisa,"March 31, 2002 (2002-03-31)",11.1
+285,13,16,Weekend at Burnsie's,"April 7, 2002 (2002-04-07)",12.5
+286,13,17,Gump Roast,"April 21, 2002 (2002-04-21)",12.3
+287,13,18,I Am Furious (Yellow),"April 28, 2002 (2002-04-28)",12.4
+288,13,19,The Sweetest Apu,"May 5, 2002 (2002-05-05)",11.8
+289,13,20,Little Girl in the Big Ten,"May 12, 2002 (2002-05-12)",11.2
+290,13,21,The Frying Game,"May 19, 2002 (2002-05-19)",10.8
+291,13,22,Poppa's Got a Brand New Badge,"May 22, 2002 (2002-05-22)",8.2
+292,14,1,Treehouse of Horror XIII,"November 3, 2002 (2002-11-03)",16.7
+293,14,2,How I Spent My Strummer Vacation,"November 10, 2002 (2002-11-10)",12.5
+294,14,3,Bart vs. Lisa vs. the Third Grade,"November 17, 2002 (2002-11-17)",13.3
+295,14,4,Large Marge,"November 24, 2002 (2002-11-24)",17.4
+296,14,5,Helter Shelter,"December 1, 2002 (2002-12-01)",15.1
+297,14,6,The Great Louse Detective,"December 15, 2002 (2002-12-15)",15.5
+298,14,7,Special Edna,"January 5, 2003 (2003-01-05)",15.0
+299,14,8,The Dad Who Knew Too Little,"January 12, 2003 (2003-01-12)",12.8
+300,14,9,The Strong Arms of the Ma,"February 2, 2003 (2003-02-02)",15.4
+301,14,10,Pray Anything,"February 9, 2003 (2003-02-09)",13.4
+302,14,11,Barting Over,"February 16, 2003 (2003-02-16)",21.3
+303,14,12,I'm Spelling as Fast as I Can,"February 16, 2003 (2003-02-16)",22.1
+304,14,13,A Star Is Born Again,"March 2, 2003 (2003-03-02)",14.4
+305,14,14,Mr. Spritz Goes to Washington,"March 9, 2003 (2003-03-09)",14.4
+306,14,15,C.E.D'oh,"March 16, 2003 (2003-03-16)",13.0
+307,14,16,'Scuse Me While I Miss the Sky,"March 30, 2003 (2003-03-30)",12.6
+308,14,17,Three Gays of the Condo,"April 13, 2003 (2003-04-13)",12.02
+309,14,18,"Dude, Where's My Ranch?","April 27, 2003 (2003-04-27)",11.71
+310,14,19,Old Yeller-Belly,"May 4, 2003 (2003-05-04)",11.59
+311,14,20,"Brake My Wife, Please","May 11, 2003 (2003-05-11)",10.56
+312,14,21,The Bart of War,"May 18, 2003 (2003-05-18)",12.10
+313,14,22,Moe Baby Blues,"May 18, 2003 (2003-05-18)",13.44
+314,15,1,Treehouse of Horror XIV,"November 2, 2003 (2003-11-02)",16.22
+315,15,2,My Mother the Carjacker,"November 9, 2003 (2003-11-09)",12.4
+316,15,3,The President Wore Pearls,"November 16, 2003 (2003-11-16)",12.7
+317,15,4,The Regina Monologues,"November 23, 2003 (2003-11-23)",12.2
+318,15,5,The Fat and the Furriest,"November 30, 2003 (2003-11-30)",11.7
+319,15,6,Today I Am a Clown,"December 7, 2003 (2003-12-07)",10.5
+320,15,7,'Tis the Fifteenth Season,"December 14, 2003 (2003-12-14)",11.3
+321,15,8,"Marge vs. Singles, Seniors, Childless Couples and Teens and Gays","January 4, 2004 (2004-01-04)",12.0
+322,15,9,"I, (Annoyed Grunt)-bot","January 11, 2004 (2004-01-11)",16.3
+323,15,10,Diatribe of a Mad Housewife,"January 25, 2004 (2004-01-25)",10.6
+324,15,11,Margical History Tour,"February 8, 2004 (2004-02-08)",8.9
+325,15,12,Milhouse Doesn't Live Here Anymore,"February 15, 2004 (2004-02-15)",9.4
+326,15,13,Smart & Smarter,"February 22, 2004 (2004-02-22)",12.6
+327,15,14,The Ziff Who Came to Dinner,"March 14, 2004 (2004-03-14)",10.7
+328,15,15,Co-Dependents' Day,"March 21, 2004 (2004-03-21)",11.2
+329,15,16,The Wandering Juvie,"March 28, 2004 (2004-03-28)",10.5
+330,15,17,My Big Fat Geek Wedding,"April 18, 2004 (2004-04-18)",9.2
+331,15,18,Catch 'Em If You Can,"April 25, 2004 (2004-04-25)",9.3
+332,15,19,Simple Simpson,"May 2, 2004 (2004-05-02)",9.5
+333,15,20,The Way We Weren't,"May 9, 2004 (2004-05-09)",6.6
+334,15,21,Bart-Mangled Banner,"May 16, 2004 (2004-05-16)",8.7
+335,15,22,Fraudcast News,"May 23, 2004 (2004-05-23)",9.2
+336,16,1,Treehouse of Horror XV,"November 7, 2004 (2004-11-07)",11.29
+337,16,2,All's Fair in Oven War,"November 14, 2004 (2004-11-14)",11.64
+338,16,3,Sleeping with the Enemy,"November 21, 2004 (2004-11-21)",9.95
+339,16,4,She Used to Be My Girl,"December 5, 2004 (2004-12-05)",10.81
+340,16,5,Fat Man and Little Boy,"December 12, 2004 (2004-12-12)",10.31
+341,16,6,Midnight Rx,"January 16, 2005 (2005-01-16)",8.11
+342,16,7,Mommie Beerest,"January 30, 2005 (2005-01-30)",9.97
+343,16,8,Homer and Ned's Hail Mary Pass,"February 6, 2005 (2005-02-06)",23.07
+344,16,9,Pranksta Rap,"February 13, 2005 (2005-02-13)",8.01
+345,16,10,There's Something About Marrying,"February 20, 2005 (2005-02-20)",10.39
+346,16,11,On a Clear Day I Can't See My Sister,"March 6, 2005 (2005-03-06)",10.39
+347,16,12,Goo Goo Gai Pan,"March 13, 2005 (2005-03-13)",10.28
+348,16,13,Mobile Homer,"March 20, 2005 (2005-03-20)",8.49
+349,16,14,The Seven-Beer Snitch,"April 3, 2005 (2005-04-03)",7.48
+350,16,15,Future-Drama,"April 17, 2005 (2005-04-17)",8.31
+351,16,16,Don't Fear the Roofer,"May 1, 2005 (2005-05-01)",11.92
+352,16,17,The Heartbroke Kid,"May 1, 2005 (2005-05-01)",10.79
+353,16,18,A Star Is Torn,"May 8, 2005 (2005-05-08)",8.72
+354,16,19,"Thank God, It's Doomsday","May 8, 2005 (2005-05-08)",10.05
+355,16,20,Home Away from Homer,"May 15, 2005 (2005-05-15)",8.17
+356,16,21,"The Father, the Son, and the Holy Guest Star","May 15, 2005 (2005-05-15)",9.69
+357,17,1,The Bonfire of the Manatees,"September 11, 2005 (2005-09-11)",11.10
+358,17,2,The Girl Who Slept Too Little,"September 18, 2005 (2005-09-18)",9.79
+359,17,3,Milhouse of Sand and Fog,"September 25, 2005 (2005-09-25)",10.19
+360,17,4,Treehouse of Horror XVI,"November 6, 2005 (2005-11-06)",11.63
+361,17,5,Marge's Son Poisoning,"November 13, 2005 (2005-11-13)",11.4
+362,17,6,See Homer Run,"November 20, 2005 (2005-11-20)",10.3
+363,17,7,The Last of the Red Hat Mamas,"November 27, 2005 (2005-11-27)",11.46
+364,17,8,The Italian Bob,"December 11, 2005 (2005-12-11)",10.39
+365,17,9,Simpsons Christmas Stories,"December 18, 2005 (2005-12-18)",9.8
+366,17,10,Homer's Paternity Coot,"January 8, 2006 (2006-01-08)",10.1
+367,17,11,We're on the Road to D'ohwhere,"January 29, 2006 (2006-01-29)",9.04
+368,17,12,My Fair Laddy,"February 26, 2006 (2006-02-26)",9.51
+369,17,13,The Seemingly Never-Ending Story,"March 12, 2006 (2006-03-12)",9.72
+370,17,14,Bart Has Two Mommies,"March 19, 2006 (2006-03-19)",8.75
+371,17,15,"Homer Simpson, This Is Your Wife","March 26, 2006 (2006-03-26)",10.09
+372,17,16,Million Dollar Abie,"April 2, 2006 (2006-04-02)",7.83
+373,17,17,"Kiss Kiss, Bang Bangalore","April 9, 2006 (2006-04-09)",8.20
+374,17,18,The Wettest Stories Ever Told,"April 23, 2006 (2006-04-23)",7.04
+375,17,19,Girls Just Want to Have Sums,"April 30, 2006 (2006-04-30)",8.7
+376,17,20,Regarding Margie,"May 7, 2006 (2006-05-07)",8.50
+377,17,21,The Monkey Suit,"May 14, 2006 (2006-05-14)",8.3
+378,17,22,Marge and Homer Turn a Couple Play,"May 21, 2006 (2006-05-21)",8.23
+379,18,1,"The Mook, the Chef, the Wife and Her Homer","September 10, 2006 (2006-09-10)",11.50
+380,18,2,Jazzy and the Pussycats,"September 17, 2006 (2006-09-17)",8.94
+381,18,3,"Please Homer, Don't Hammer 'Em","September 24, 2006 (2006-09-24)",9.72
+382,18,4,Treehouse of Horror XVII,"November 5, 2006 (2006-11-05)",10.43
+383,18,5,G.I. (Annoyed Grunt),"November 12, 2006 (2006-11-12)",11.43
+384,18,6,Moe'N'a Lisa,"November 19, 2006 (2006-11-19)",9.31
+385,18,7,Ice Cream of Margie (with the Light Blue Hair),"November 26, 2006 (2006-11-26)",10.90
+386,18,8,The Haw-Hawed Couple,"December 10, 2006 (2006-12-10)",8.29
+387,18,9,"Kill Gil, Volumes I & II","December 17, 2006 (2006-12-17)",8.96
+388,18,10,The Wife Aquatic,"January 7, 2007 (2007-01-07)",13.90
+389,18,11,Revenge Is a Dish Best Served Three Times,"January 28, 2007 (2007-01-28)",8.09
+390,18,12,Little Big Girl,"February 11, 2007 (2007-02-11)",8.27
+391,18,13,Springfield Up,"February 18, 2007 (2007-02-18)",8.80
+392,18,14,Yokel Chords,"March 4, 2007 (2007-03-04)",9.09
+393,18,15,Rome-Old and Juli-Eh,"March 11, 2007 (2007-03-11)",8.98
+394,18,16,Homerazzi,"March 25, 2007 (2007-03-25)",6.91
+395,18,17,Marge Gamer,"April 22, 2007 (2007-04-22)",6.40
+396,18,18,The Boys of Bummer,"April 29, 2007 (2007-04-29)",7.57
+397,18,19,Crook and Ladder,"May 6, 2007 (2007-05-06)",7.72
+398,18,20,Stop! Or My Dog Will Shoot,"May 13, 2007 (2007-05-13)",6.48
+399,18,21,24 Minutes,"May 20, 2007 (2007-05-20)",9.80
+400,18,22,You Kent Always Say What You Want,"May 20, 2007 (2007-05-20)",9.80
+401,19,1,He Loves to Fly and He D'ohs,"September 23, 2007 (2007-09-23)",9.7
+402,19,2,The Homer of Seville,"September 30, 2007 (2007-09-30)",8.4
+403,19,3,Midnight Towboy,"October 7, 2007 (2007-10-07)",7.7
+404,19,4,I Don't Wanna Know Why the Caged Bird Sings,"October 14, 2007 (2007-10-14)",8.8
+405,19,5,Treehouse of Horror XVIII,"November 4, 2007 (2007-11-04)",11.7
+406,19,6,Little Orphan Millie,"November 11, 2007 (2007-11-11)",10.57
+407,19,7,Husbands and Knives,"November 18, 2007 (2007-11-18)",10.5
+408,19,8,Funeral for a Fiend,"November 25, 2007 (2007-11-25)",9.0
+409,19,9,Eternal Moonshine of the Simpson Mind,"December 16, 2007 (2007-12-16)",10.15
+410,19,10,E Pluribus Wiggum,"January 6, 2008 (2008-01-06)",8.2
+411,19,11,That '90s Show,"January 27, 2008 (2008-01-27)",7.6
+412,19,12,"Love, Springfieldian Style","February 17, 2008 (2008-02-17)",7.81
+413,19,13,The Debarted,"March 2, 2008 (2008-03-02)",8.18
+414,19,14,"Dial ""N"" for Nerder","March 9, 2008 (2008-03-09)",7.3
+415,19,15,Smoke on the Daughter,"March 30, 2008 (2008-03-30)",7.10
+416,19,16,Papa Don't Leech,"April 13, 2008 (2008-04-13)",6.9
+417,19,17,Apocalypse Cow,"April 27, 2008 (2008-04-27)",7.69
+418,19,18,Any Given Sundance,"May 4, 2008 (2008-05-04)",6.18
+419,19,19,Mona Leaves-a,"May 11, 2008 (2008-05-11)",6.02
+420,19,20,All About Lisa,"May 18, 2008 (2008-05-18)",6.11
+421,20,1,"Sex, Pies and Idiot Scrapes","September 28, 2008 (2008-09-28)",9.3
+422,20,2,Lost Verizon,"October 5, 2008 (2008-10-05)",7.43
+423,20,3,"Double, Double, Boy in Trouble","October 19, 2008 (2008-10-19)",8.09
+424,20,4,Treehouse of Horror XIX,"November 2, 2008 (2008-11-02)",12.48
+425,20,5,Dangerous Curves,"November 9, 2008 (2008-11-09)",8.16
+426,20,6,Homer and Lisa Exchange Cross Words,"November 16, 2008 (2008-11-16)",8.52
+427,20,7,MyPods and Boomsticks,"November 30, 2008 (2008-11-30)",7.80
+428,20,8,The Burns and the Bees,"December 7, 2008 (2008-12-07)",6.19
+429,20,9,Lisa the Drama Queen,"January 25, 2009 (2009-01-25)",5.75
+430,20,10,"Take My Life, Please","February 15, 2009 (2009-02-15)",6.82
+431,20,11,How the Test Was Won,"March 1, 2009 (2009-03-01)",6.52
+432,20,12,"No Loan Again, Naturally","March 8, 2009 (2009-03-08)",5.99
+433,20,13,Gone Maggie Gone,"March 15, 2009 (2009-03-15)",5.99
+434,20,14,In the Name of the Grandfather,"March 22, 2009 (2009-03-22)[a]",6.15
+435,20,15,Wedding for Disaster,"March 29, 2009 (2009-03-29)",6.58
+436,20,16,Eeny Teeny Maya Moe,"April 5, 2009 (2009-04-05)",6.50
+437,20,17,"The Good, the Sad and the Drugly","April 19, 2009 (2009-04-19)",6.50
+438,20,18,Father Knows Worst,"April 26, 2009 (2009-04-26)",5.94
+439,20,19,"Waverly Hills, 9-0-2-1-D'oh","May 3, 2009 (2009-05-03)",6.75
+440,20,20,Four Great Women and a Manicure,"May 10, 2009 (2009-05-10)",5.16
+441,20,21,Coming to Homerica,"May 17, 2009 (2009-05-17)",5.86
+442,21,1,Homer the Whopper,"September 27, 2009 (2009-09-27)",8.31
+443,21,2,Bart Gets a 'Z',"October 4, 2009 (2009-10-04)",9.32
+444,21,3,The Great Wife Hope,"October 11, 2009 (2009-10-11)",7.5
+445,21,4,Treehouse of Horror XX,"October 18, 2009 (2009-10-18)",8.59
+446,21,5,The Devil Wears Nada,"November 15, 2009 (2009-11-15)",9.04
+447,21,6,Pranks and Greens,"November 22, 2009 (2009-11-22)",7.03
+448,21,7,Rednecks and Broomsticks,"November 29, 2009 (2009-11-29)",9.02
+449,21,8,"O Brother, Where Bart Thou?","December 13, 2009 (2009-12-13)",7.11
+450,21,9,Thursdays with Abie,"January 3, 2010 (2010-01-03)",8.65
+451,21,10,Once Upon a Time in Springfield,"January 10, 2010 (2010-01-10)",14.62
+452,21,11,Million Dollar Maybe,"January 31, 2010 (2010-01-31)",5.11
+453,21,12,Boy Meets Curl,"February 14, 2010 (2010-02-14)",5.87
+454,21,13,The Color Yellow,"February 21, 2010 (2010-02-21)",6.08
+455,21,14,Postcards from the Wedge,"March 14, 2010 (2010-03-14)",5.23
+456,21,15,Stealing First Base,"March 21, 2010 (2010-03-21)",5.69
+457,21,16,The Greatest Story Ever D'ohed,"March 28, 2010 (2010-03-28)",5.69
+458,21,17,American History X-cellent,"April 11, 2010 (2010-04-11)",5.65
+459,21,18,Chief of Hearts,"April 18, 2010 (2010-04-18)",5.93
+460,21,19,The Squirt and the Whale,"April 25, 2010 (2010-04-25)",5.94
+461,21,20,To Surveil with Love,"May 2, 2010 (2010-05-02)",6.06
+462,21,21,Moe Letter Blues,"May 9, 2010 (2010-05-09)",5.66
+463,21,22,The Bob Next Door,"May 16, 2010 (2010-05-16)",6.26
+464,21,23,Judge Me Tender,"May 23, 2010 (2010-05-23)",5.74
+465,22,1,Elementary School Musical,"September 26, 2010 (2010-09-26)",7.75
+466,22,2,Loan-a Lisa,"October 3, 2010 (2010-10-03)",8.59
+467,22,3,MoneyBart,"October 10, 2010 (2010-10-10)",6.72
+468,22,4,Treehouse of Horror XXI,"November 7, 2010 (2010-11-07)",8.19
+469,22,5,"Lisa Simpson, This Isn't Your Life","November 14, 2010 (2010-11-14)",8.97
+470,22,6,The Fool Monty,"November 21, 2010 (2010-11-21)",6.58
+471,22,7,How Munched is That Birdie in the Window?,"November 28, 2010 (2010-11-28)",9.38
+472,22,8,The Fight Before Christmas,"December 5, 2010 (2010-12-05)",9.54
+473,22,9,Donnie Fatso,"December 12, 2010 (2010-12-12)",7.18
+474,22,10,Moms I'd Like to Forget,"January 9, 2011 (2011-01-09)",12.6
+475,22,11,Flaming Moe,"January 16, 2011 (2011-01-16)",6.47
+476,22,12,Homer the Father,"January 23, 2011 (2011-01-23)",6.50
+477,22,13,The Blue and the Gray,"February 13, 2011 (2011-02-13)",5.61
+478,22,14,Angry Dad: The Movie,"February 20, 2011 (2011-02-20)",6.35
+479,22,15,The Scorpion's Tale,"March 6, 2011 (2011-03-06)",6.20
+480,22,16,A Midsummer's Nice Dream,"March 13, 2011 (2011-03-13)",5.44
+481,22,17,Love Is a Many Strangled Thing,"March 27, 2011 (2011-03-27)",6.14
+482,22,18,The Great Simpsina,"April 10, 2011 (2011-04-10)",4.99
+483,22,19,The Real Housewives of Fat Tony,"May 1, 2011 (2011-05-01)",6.10
+484,22,20,Homer Scissorhands,"May 8, 2011 (2011-05-08)",5.48
+485,22,21,500 Keys,"May 15, 2011 (2011-05-15)",6.00
+486,22,22,The Ned-Liest Catch,"May 22, 2011 (2011-05-22)",5.25
+487,23,1,The Falcon and the D'ohman,"September 25, 2011 (2011-09-25)",8.08
+488,23,2,Bart Stops to Smell the Roosevelts,"October 2, 2011 (2011-10-02)",6.19
+489,23,3,Treehouse of Horror XXII,"October 30, 2011 (2011-10-30)",8.10
+490,23,4,Replaceable You,"November 6, 2011 (2011-11-06)",7.97
+491,23,5,The Food Wife,"November 13, 2011 (2011-11-13)",7.50
+492,23,6,The Book Job,"November 20, 2011 (2011-11-20)",5.77
+493,23,7,The Man in the Blue Flannel Pants,"November 27, 2011 (2011-11-27)",5.61
+494,23,8,The Ten-Per-Cent Solution,"December 4, 2011 (2011-12-04)",9.01
+495,23,9,Holidays of Future Passed,"December 11, 2011 (2011-12-11)",6.43
+496,23,10,"Politically Inept, with Homer Simpson","January 8, 2012 (2012-01-08)",5.07
+497,23,11,The D'oh-cial Network,"January 15, 2012 (2012-01-15)",11.48
+498,23,12,Moe Goes from Rags to Riches,"January 29, 2012 (2012-01-29)",5.12
+499,23,13,The Daughter Also Rises,"February 12, 2012 (2012-02-12)",4.26
+500,23,14,At Long Last Leave,"February 19, 2012 (2012-02-19)",5.77
+501,23,15,Exit Through the Kwik-E-Mart,"March 4, 2012 (2012-03-04)",5.09
+502,23,16,How I Wet Your Mother,"March 11, 2012 (2012-03-11)",4.97
+503,23,17,"Them, Robot","March 18, 2012 (2012-03-18)",5.25
+504,23,18,Beware My Cheating Bart,"April 15, 2012 (2012-04-15)",4.86
+505,23,19,A Totally Fun Thing That Bart Will Never Do Again,"April 29, 2012 (2012-04-29)",5.00
+506,23,20,The Spy Who Learned Me,"May 6, 2012 (2012-05-06)",4.84
+507,23,21,Ned 'n' Edna's Blend Agenda,"May 13, 2012 (2012-05-13)",4.07
+508,23,22,Lisa Goes Gaga,"May 20, 2012 (2012-05-20)",4.82
+509,24,1,Moonshine River,"September 30, 2012 (2012-09-30)",8.08
+510,24,2,Treehouse of Horror XXIII,"October 7, 2012 (2012-10-07)",6.57
+511,24,3,Adventures in Baby-Getting,"November 4, 2012 (2012-11-04)",5.65
+512,24,4,Gone Abie Gone,"November 11, 2012 (2012-11-11)",6.86
+513,24,5,Penny-Wiseguys,"November 18, 2012 (2012-11-18)",5.06
+514,24,6,A Tree Grows in Springfield,"November 25, 2012 (2012-11-25)",7.46
+515,24,7,The Day the Earth Stood Cool,"December 9, 2012 (2012-12-09)",7.44
+516,24,8,To Cur with Love,"December 16, 2012 (2012-12-16)",3.77
+517,24,9,Homer Goes to Prep School,"January 6, 2013 (2013-01-06)",8.97
+518,24,10,A Test Before Trying,"January 13, 2013 (2013-01-13)",5.04
+519,24,11,The Changing of the Guardian,"January 27, 2013 (2013-01-27)",5.23
+520,24,12,Love Is a Many-Splintered Thing,"February 10, 2013 (2013-02-10)",4.19
+521,24,13,Hardly Kirk-ing,"February 17, 2013 (2013-02-17)",4.57
+522,24,14,Gorgeous Grampa,"March 3, 2013 (2013-03-03)",4.66
+523,24,15,"Black Eyed, Please","March 10, 2013 (2013-03-10)",4.85
+524,24,16,Dark Knight Court,"March 17, 2013 (2013-03-17)",4.89
+525,24,17,What Animated Women Want,"April 14, 2013 (2013-04-14)",4.11
+526,24,18,Pulpit Friction,"April 28, 2013 (2013-04-28)",4.54
+527,24,19,Whiskey Business,"May 5, 2013 (2013-05-05)",4.43
+528,24,20,The Fabulous Faker Boy,"May 12, 2013 (2013-05-12)",4.16
+529,24,21,The Saga of Carl,"May 19, 2013 (2013-05-19)",4.01
+530,24,22,Dangers on a Train,"May 19, 2013 (2013-05-19)",4.52
+531,25,1,Homerland,"September 29, 2013 (2013-09-29)",6.37
+532,25,2,Treehouse of Horror XXIV,"October 6, 2013 (2013-10-06)",6.42
+533,25,3,Four Regrettings and a Funeral,"November 3, 2013 (2013-11-03)",5.43
+534,25,4,YOLO,"November 10, 2013 (2013-11-10)",4.20
+535,25,5,Labor Pains,"November 17, 2013 (2013-11-17)",4.08
+536,25,6,The Kid Is All Right,"November 24, 2013 (2013-11-24)",6.78
+537,25,7,Yellow Subterfuge,"December 8, 2013 (2013-12-08)",6.85
+538,25,8,White Christmas Blues,"December 15, 2013 (2013-12-15)",8.48
+539,25,9,Steal This Episode,"January 5, 2014 (2014-01-05)",12.04
+540,25,10,Married to the Blob,"January 12, 2014 (2014-01-12)",4.83
+541,25,11,Specs and the City,"January 26, 2014 (2014-01-26)",3.87
+542,25,12,Diggs,"March 9, 2014 (2014-03-09)",2.69
+543,25,13,The Man Who Grew Too Much,"March 9, 2014 (2014-03-09)",3.75
+544,25,14,The Winter of His Content,"March 16, 2014 (2014-03-16)",4.02
+545,25,15,The War of Art,"March 23, 2014 (2014-03-23)",3.98
+546,25,16,You Don't Have to Live Like a Referee,"March 30, 2014 (2014-03-30)",3.91
+547,25,17,Luca$,"April 6, 2014 (2014-04-06)",4.30
+548,25,18,Days of Future Future,"April 13, 2014 (2014-04-13)",3.64
+549,25,19,What to Expect When Bart's Expecting,"April 27, 2014 (2014-04-27)",3.45
+550,25,20,Brick Like Me,"May 4, 2014 (2014-05-04)",4.39
+551,25,21,Pay Pal,"May 11, 2014 (2014-05-11)",3.66
+552,25,22,The Yellow Badge of Cowardge,"May 18, 2014 (2014-05-18)",3.28
+553,26,1,Clown in the Dumps,"September 28, 2014 (2014-09-28)",8.53
+554,26,2,The Wreck of the Relationship,"October 5, 2014 (2014-10-05)",4.27
+555,26,3,Super Franchise Me,"October 12, 2014 (2014-10-12)",7.33
+556,26,4,Treehouse of Horror XXV,"October 19, 2014 (2014-10-19)",7.76
+557,26,5,Opposites A-Frack,"November 2, 2014 (2014-11-02)",4.22
+558,26,6,Simpsorama,"November 9, 2014 (2014-11-09)",6.70
+559,26,7,Blazed and Confused,"November 16, 2014 (2014-11-16)",6.70
+560,26,8,Covercraft,"November 23, 2014 (2014-11-23)",3.45
+561,26,9,I Won't Be Home for Christmas,"December 7, 2014 (2014-12-07)",6.52
+562,26,10,The Man Who Came to Be Dinner,"January 4, 2015 (2015-01-04)",10.62
+563,26,11,Bart's New Friend,"January 11, 2015 (2015-01-11)",4.28
+564,26,12,The Musk Who Fell to Earth,"January 25, 2015 (2015-01-25)",3.29
+565,26,13,Walking Big & Tall,"February 8, 2015 (2015-02-08)",2.78
+566,26,14,My Fare Lady,"February 15, 2015 (2015-02-15)",2.67
+567,26,15,The Princess Guide,"March 1, 2015 (2015-03-01)",3.93
+568,26,16,Sky Police,"March 8, 2015 (2015-03-08)",3.79
+569,26,17,Waiting for Duffman,"March 15, 2015 (2015-03-15)",3.59
+570,26,18,Peeping Mom,"April 19, 2015 (2015-04-19)",3.23
+571,26,19,The Kids Are All Fight,"April 26, 2015 (2015-04-26)",3.33
+572,26,20,Let's Go Fly a Coot,"May 3, 2015 (2015-05-03)",3.12
+573,26,21,Bull-E,"May 10, 2015 (2015-05-10)",2.77
+574,26,22,Mathlete's Feat,"May 17, 2015 (2015-05-17)",2.82
+575,27,1,Every Man's Dream,"September 27, 2015 (2015-09-27)",3.28
+576,27,2,Cue Detective,"October 4, 2015 (2015-10-04)",6.02
+577,27,3,Puffless,"October 11, 2015 (2015-10-11)",3.31
+578,27,4,Halloween of Horror,"October 18, 2015 (2015-10-18)",3.69
+579,27,5,Treehouse of Horror XXVI,"October 25, 2015 (2015-10-25)",6.75
+580,27,6,Friend with Benefit,"November 8, 2015 (2015-11-08)",3.48
+581,27,7,Lisa with an 'S',"November 22, 2015 (2015-11-22)",5.64
+582,27,8,Paths of Glory,"December 6, 2015 (2015-12-06)",5.53
+583,27,9,Barthood,"December 13, 2015 (2015-12-13)",5.97
+584,27,10,The Girl Code,"January 3, 2016 (2016-01-03)",4.41
+585,27,11,Teenage Mutant Milk-Caused Hurdles,"January 10, 2016 (2016-01-10)",8.33
+586,27,12,Much Apu About Something,"January 17, 2016 (2016-01-17)",3.95
+587,27,13,Love Is in the N2-O2-Ar-CO2-Ne-He-CH4,"February 14, 2016 (2016-02-14)",2.89
+588,27,14,Gal of Constant Sorrow,"February 21, 2016 (2016-02-21)",3.10
+589,27,15,Lisa the Veterinarian,"March 6, 2016 (2016-03-06)",3.09
+590,27,16,The Marge-ian Chronicles,"March 13, 2016 (2016-03-13)",3.07
+591,27,17,The Burns Cage,"April 3, 2016 (2016-04-03)",2.32
+592,27,18,How Lisa Got Her Marge Back,"April 10, 2016 (2016-04-10)",2.55
+593,27,19,Fland Canyon,"April 24, 2016 (2016-04-24)",2.77
+594,27,20,To Courier with Love,"May 8, 2016 (2016-05-08)",2.52
+595,27,21,Simprovised,"May 15, 2016 (2016-05-15)",2.80
+596,27,22,Orange Is the New Yellow,"May 22, 2016 (2016-05-22)",2.54
+597,28,1,Monty Burns' Fleeing Circus,"September 25, 2016 (2016-09-25)",3.36
+598,28,2,Friends and Family,"October 2, 2016 (2016-10-02)",6.00
+599,28,3,The Town,"October 9, 2016 (2016-10-09)",3.22
+600,28,4,Treehouse of Horror XXVII,"October 16, 2016 (2016-10-16)",7.44
+601,28,5,Trust but Clarify,"October 23, 2016 (2016-10-23)",3.36
+602,28,6,There Will Be Buds,"November 6, 2016 (2016-11-06)",3.14
+603,28,7,Havana Wild Weekend,"November 13, 2016 (2016-11-13)",7.13
+604,28,8,Dad Behavior,"November 20, 2016 (2016-11-20)",2.88
+605,28,9,The Last Traction Hero,"December 4, 2016 (2016-12-04)",5.77
+606,28,10,The Nightmare After Krustmas,"December 11, 2016 (2016-12-11)",5.60
+607,28,11,Pork and Burns,"January 8, 2017 (2017-01-08)",8.19
+610,28,14,Fatzcarraldo,"February 12, 2017 (2017-02-12)",2.40
+608,28,12,The Great Phatsby,"January 15, 2017 (2017-01-15)",6.9
+609,28,13,The Great Phatsby,"January 15, 2017 (2017-01-15)",6.9
+611,28,15,The Cad and the Hat,"February 19, 2017 (2017-02-19)",2.44
+612,28,16,Kamp Krustier,"March 5, 2017 (2017-03-05)",2.56
+613,28,17,22 for 30,"March 12, 2017 (2017-03-12)",2.61
+614,28,18,A Father's Watch,"March 19, 2017 (2017-03-19)",2.40
+615,28,19,The Caper Chase,"April 2, 2017 (2017-04-02)",2.13
+616,28,20,Looking for Mr. Goodbart,"April 30, 2017 (2017-04-30)",2.30
+617,28,21,Moho House,"May 7, 2017 (2017-05-07)",2.34
+618,28,22,Dogtown,"May 21, 2017 (2017-05-21)",2.15
+619,29,1,The Serfsons,"October 1, 2017 (2017-10-01)",3.26
+620,29,2,Springfield Splendor,"October 8, 2017 (2017-10-08)",5.25
+621,29,3,Whistler's Father,"October 15, 2017 (2017-10-15)",2.91
+622,29,4,Treehouse of Horror XXVIII,"October 22, 2017 (2017-10-22)",3.66
+623,29,5,Grampy Can Ya Hear Me,"November 5, 2017 (2017-11-05)",2.86
+624,29,6,The Old Blue Mayor She Ain't What She Used to Be,"November 12, 2017 (2017-11-12)",4.75
+625,29,7,Singin' in the Lane,"November 19, 2017 (2017-11-19)",2.67
+626,29,8,Mr. Lisa's Opus,"December 3, 2017 (2017-12-03)",4.28
+627,29,9,Gone Boy,"December 10, 2017 (2017-12-10)",6.06
+628,29,10,Haw-Haw Land,"January 7, 2018 (2018-01-07)",6.95
+629,29,11,Frink Gets Testy,"January 14, 2018 (2018-01-14)",8.04
+630,29,12,Homer Is Where the Art Isn't,"March 18, 2018 (2018-03-18)",2.10
+631,29,13,3 Scenes Plus a Tag from a Marriage,"March 25, 2018 (2018-03-25)",2.15
+632,29,14,Fears of a Clown,"April 1, 2018 (2018-04-01)",2.06
+633,29,15,No Good Read Goes Unpunished,"April 8, 2018 (2018-04-08)",2.15
+634,29,16,King Leer,"April 15, 2018 (2018-04-15)",2.26
+635,29,17,Lisa Gets the Blues,"April 22, 2018 (2018-04-22)",2.19
+636,29,18,Forgive and Regret,"April 29, 2018 (2018-04-29)",2.47
+637,29,19,Left Behind,"May 6, 2018 (2018-05-06)",2.15
+638,29,20,Throw Grampa from the Dane,"May 13, 2018 (2018-05-13)",2.14
+639,29,21,Flanders' Ladder,"May 20, 2018 (2018-05-20)",2.10
+640,30,1,Bart's Not Dead,"September 30, 2018 (2018-09-30)",3.24
+641,30,2,Heartbreak Hotel,"October 7, 2018 (2018-10-07)",4.60
+642,30,3,My Way or the Highway to Heaven,"October 14, 2018 (2018-10-14)",2.52
+643,30,4,Treehouse of Horror XXIX,"October 21, 2018 (2018-10-21)",2.95
+644,30,5,Baby You Can't Drive My Car,"November 4, 2018 (2018-11-04)",5.08
+645,30,6,From Russia Without Love,"November 11, 2018 (2018-11-11)",2.35
+646,30,7,Werking Mom,"November 18, 2018 (2018-11-18)",4.34
+647,30,8,Krusty the Clown,"November 25, 2018 (2018-11-25)",2.11
+648,30,9,Daddicus Finch,"December 2, 2018 (2018-12-02)",4.33
+649,30,10,'Tis the 30th Season,"December 9, 2018 (2018-12-09)",7.53
+650,30,11,Mad About the Toy,"January 6, 2019 (2019-01-06)",2.33
+651,30,12,The Girl on the Bus,"January 13, 2019 (2019-01-13)",8.20
+652,30,13,I'm Dancing as Fat as I Can,"February 10, 2019 (2019-02-10)",1.75
+653,30,14,The Clown Stays in the Picture,"February 17, 2019 (2019-02-17)",2.75
+654,30,15,101 Mitigations,"March 3, 2019 (2019-03-03)",2.25
+655,30,16,I Want You (She's So Heavy),"March 10, 2019 (2019-03-10)",2.21
+656,30,17,E My Sports,"March 17, 2019 (2019-03-17)",2.08
+657,30,18,Bart vs. Itchy & Scratchy,"March 24, 2019 (2019-03-24)",1.99
+658,30,19,Girl's in the Band,"March 31, 2019 (2019-03-31)",2.07
+659,30,20,I'm Just a Girl Who Can't Say D'oh,"April 7, 2019 (2019-04-07)",1.61
+660,30,21,D'oh Canada,"April 28, 2019 (2019-04-28)",1.93
+661,30,22,Woo-Hoo Dunnit?,"May 5, 2019 (2019-05-05)",1.79
+662,30,23,Crystal Blue-Haired Persuasion,"May 12, 2019 (2019-05-12)",1.50
