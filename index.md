@@ -113,7 +113,7 @@ Since the Simpsons family play a major role and **speak on average ... of the to
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/57719216/70246375-f2c89480-1777-11ea-8220-4d4df439d90b.png" width="400" height="350">
+<img src="https://user-images.githubusercontent.com/57719216/70246375-f2c89480-1777-11ea-8220-4d4df439d90b.png" width="500" height="500">
 </p>
 
 
