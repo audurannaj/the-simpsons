@@ -365,7 +365,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 .attr("text-anchor", "middle")  
                 .style("font-size", "12px") 
                 .style("text-decoration", "underline")  
-                .text("Degree Centrality of Characters for Season 1");
+                .text("Degree Centrality of Characters in Season 1");
         });
 
 
@@ -658,6 +658,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
               .attr("dy", "1em")
               .style("text-anchor", "middle")
               .text(centrality);  
+
+
+              svg_bar.append("text")
+                .attr("x", (width_bar / 2))             
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")  
+                .style("font-size", "12px") 
+                .style("text-decoration", "underline")  
+                .text(centrality+" of Characters in Season "+season);
             });
 
             //-------------------------------------------------------------------------------------------------------
@@ -770,6 +779,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
               .attr("dy", "1em")
               .style("text-anchor", "middle")
               .text(centrality);  
+
+            svg_bar.append("text")
+                .attr("x", (width_bar / 2))             
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")  
+                .style("font-size", "12px") 
+                .style("text-decoration", "underline")  
+                .text(centrality+" of Characters in Season "+season);
         });
 
         //-------------------------------------------------------------------------------------------------------
