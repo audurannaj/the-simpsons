@@ -71,7 +71,12 @@ A dataset holding the **Script** for each episode was hard to come by. The datas
 
 In order to obtain the **Synopsis**, [Simpsons.Fandom](https://simpsons.fandom.com/wiki/List_of_Episodes) was again scraped, but this time each episode's page was scraped in order to obtain the synopsis for each and every episode in *HTML* format. As these files are 662 text files, they will be omitted from the downloadable options above. 
 
-The hyperlinks `<a></a>` that are in the synopsis denote which characters wikipedia page is in the episode and that is how a character will be to the episode. 
+An example of a synopsis which was scraped can be seen below: 
+
+`<p>Thanks to a radio talk show host, <a class="mw-redirect" href="/wiki/Mayor_Quimby" title="Mayor Quimby">Mayor Quimby</a> is pressured into releasing <a class="mw-redirect" href="/wiki/Sideshow_Bob" title="Sideshow Bob">Sideshow Bob</a> from prison. Once out, Bob promptly runs against the mayor and wins. <a class="mw-redirect" href="/wiki/Bart" title="Bart">Bart</a> and <a class="mw-redirect" href="/wiki/Lisa" title="Lisa">Lisa</a> set out to prove Mayor Bob did not legally win.
+</p>`
+
+The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wikipedia page is in the episode and that is how a character will be to the episode. 
 
 
 ---
