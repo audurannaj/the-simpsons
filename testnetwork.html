@@ -356,9 +356,24 @@ document.addEventListener("DOMContentLoaded", function(event) {
         d3.select('.svg_network').remove();
         d3.select('.svg_bar').remove()
         season = 'season'+this[this.selectedIndex].value+'.json';
+
         var e = document.getElementById("centSelect");
         var centrality = e.options[e.selectedIndex].text;
-        console.log(centrality)
+        cent = "";
+        switch(centrality){
+            case "Degree Centrality":
+                cent = "degree_"+this[this.selectedIndex].value;
+                break;
+            case "Betweenness Centrality":
+                cent = "betw_"+this[this.selectedIndex].value;
+                break;
+            case "Eigenvector Centrality":
+                cent = "eigen_"+this[this.selectedIndex].value;
+        }
+
+        console.log(cent);
+
+        
         d3.json(season, function(graph) {
 
             var label = {
