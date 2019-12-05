@@ -70,7 +70,7 @@ Sentimental Analysis was carried out on the scripts and the synopsis. The main f
 
 
 ## 4.1 Seasons
-The average sentiment score of each seasons spoken lines can be seen in figures xx and xx. Even though the change in sentiment score only ranges from 5.42 to 5.47 it can be seen that there is an upwards trend over the seasons. Looking at how the sentiment score has developed compared to ratings, it can be seen that over the first 9 seasons the ratings are going up while the sentiment score has a downwards trend. This then changes from season 10-15 where the ratings start to drop significanly while the sentiment score grows. Then through seasons 16-26 the sentiment score is pretty steady while the ratings have a small downwards trend. The correlation between the ratings and sentiment score is -0.5 which confirms that there is a negative relationship between the two variables.
+The average sentiment score of each seasons spoken lines can be seen in figures below. Even though the change in sentiment score only ranges from 5.42 to 5.47 it can be seen that there is an **upwards trend over the seasons**. Looking at how the sentiment score has developed compared to ratings, it can be seen that over the first 9 seasons the ratings are going up while the sentiment score has a downwards trend. This then changes from season 10-15 where the ratings start to drop significanly while the sentiment score grows. Then through seasons 16-26 the sentiment score is pretty steady while the ratings have a small downwards trend. The **correlation between the ratings and sentiment score is -0.5** which confirms that there is a negative relationship between the two variables. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png" width="700" height="400">
@@ -79,6 +79,8 @@ The average sentiment score of each seasons spoken lines can be seen in figures 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png" width="700" height="450">
 </p>
+
+These findings hint that there **increasing happiness of the seasons could be a factor in the declinging ratings**, and indicates that the viewers like dark humor.
 
 <!---
 ![image](https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png)
