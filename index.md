@@ -76,7 +76,7 @@ Looking at how the sentiment score has developed compared to ratings, it can be 
 The **correlation between the ratings and sentiment score is -0.5** which confirms that there is a negative relationship between the two variables. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png" width="500" height="300">
+<img src="https://user-images.githubusercontent.com/57719216/70244699-379efc00-1775-11ea-9215-34d839feab25.png" width="500" height="300">
 </p>
 
 <p align="center">
@@ -92,11 +92,13 @@ Another interesting point is that the number of words spoken are decreasing thro
 --->
 
 ## 4.2 Developement of Characters 
-Here the top 20 speaking characters were considered and their sentimental scores. Out of the 20 top speaking characters only 3 are females, **Marge**, **Lisa** and **Edna**, so male characters are more visible in the show. The figure below shows the number of words spoken on average in a season and the standard deviation.
+Here the top 20 speaking characters were considered and their sentimental scores. Out of the 20 top speaking characters only 3 are females, **Marge**, **Lisa** and **Edna**, so male characters are more visible in the show. The figure below shows the number of words spoken on average in a season and the standard deviation. The Simpsons family play the the main role in the series, where **Homer** much more speaks than other characters. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/57719216/70243866-b98e2580-1773-11ea-9e7e-b89ea84aa796.png" width="400" height="350">
 </p>
+
+And how does the number of words spoken develope through the seasons? The figure below shows how the porportion of the total number of words spoken for each season for the top four characters develope.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/57719216/70243666-50a6ad80-1773-11ea-95b5-7151e22d1c02.png" width="400" height="350">
