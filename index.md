@@ -14,31 +14,19 @@ Below, a summary of the elements that this project is comprised of can be found.
 # 1. Data
 In order to create the networks and analyze text related to the series, a lot of data needed to be collected and created. 
 
-The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. There is also an option
-to download the datasets that have been cleaned and filtered in ordered to use them in this project. 
+The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. 
 
-| Dataset             | Info                                                                                          | Obtained from       |Size| Download |
-|---------------------|-----------------------------------------------------------------------------------------------|---------------------|----|----------|
-| **Episode information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia       | 2MB  | [Link]() |
-| **Ratings**             | Each episode's rating                                                                         | IMDB            |  3MB  | [Link]() |
-| **Demographic Ratings** | Each episode's rating for different demographics                                              | IMDB            |    | [Link]() |
-| **Characters**          | Each character that has appeared in The Simpsons                                              | Simpsons.Fandom.com| | [Link]() |
-| **Scripts**             | A dataset comprised of the lines that appear in each episode (Seasons 1-26)                   | Data.World      |    | [Link]() |
-| **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com|  | *Omitted* |
+| Dataset             | Info                                                                                          | Obtained from       |
+|---------------------|-----------------------------------------------------------------------------------------------|---------------------|
+| **Episode information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia           |
+| **Ratings**             | Each episode's rating                                                                         | IMDB                |
+| **Demographic Ratings** | Each episode's rating for different demographics                                              | IMDB                |
+| **Characters**          | Each character that has appeared in The Simpsons                                              | Simpsons.Fandom.com |
+| **Scripts**             | A dataset comprised of the lines that appear in each episode (Seasons 1-26)                   | Data.World          |
+| **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com |
 
-**Episode Information**
-
-**Ratings**
-
-**Demographic Ratings**
-
-**Characters**
-
-**Script**
-
-**Synopsis**
 ---
-# 2. The Networks
+# 2. The Network
 
 A network was created for each season of The Simpsons. A node in the network represents a character that has appeared in a **synopsis** of an
 episode in the season, and a link between nodes is created if two characters appeared in a synopsis **of the same episode** in the season. 
@@ -80,7 +68,6 @@ In order to rate the sentiment of words, a datafile with 10,222 words and their 
 Sentimental Analysis was carried out on the spoken words from the scripts. Here the main findings will be presented.
 
 
-
 ## 4.1 Developement Through Seasons
 The average sentiment score of each seasons spoken lines can be seen in figures below. Even though the change in sentiment score only ranges from 5.42 to 5.47 it can be seen that there is an **upwards trend over the seasons**. 
 
@@ -104,7 +91,18 @@ Another interesting point is that the number of words spoken are decreasing thro
 ![image](https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png)
 --->
 
-## 4.2 Characters
+## 4.2 Developement of Characters 
+Here the top 20 speaking characters were considered and their sentimental scores. Out of the 20 top speaking characters only 3 are females, **Marge**, **Lisa** and **Edna**, so male characters are more visible in the show. The figure below shows the number of words spoken on average in a season and the standard deviation.
+
+<p align="center">
+<img src="
+![image](https://user-images.githubusercontent.com/57719216/70243866-b98e2580-1773-11ea-9e7e-b89ea84aa796.png)" width="400" height="300">
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57719216/70243666-50a6ad80-1773-11ea-95b5-7151e22d1c02.png" width="400" height="300">
+</p>
+
 
 
 # 5. Findings
