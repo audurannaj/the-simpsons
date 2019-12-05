@@ -343,15 +343,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
               .call(d3.axisLeft(y));
 
             // text label for the x axis
-            svg.append("text")             
+            svg_bar.append("text")             
               .attr("transform",
                     "translate(" + (width_bar/2) + " ," + 
                                    (height_bar + margin.top + 20) + ")")
               .style("text-anchor", "middle")
-              .text("Date");
+              .text("Character");
 
             // text label for the y axis
-            svg.append("text")
+            svg_bar.append("text")
               .attr("transform", "rotate(-90)")
               .attr("y", 0 - margin.left)
               .attr("x",0 - (height_bar / 2))
