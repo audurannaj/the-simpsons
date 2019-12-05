@@ -67,7 +67,7 @@ The **Characters** dataframe was obtained from [Simpsons.Fandom](https://simpson
 
 A lot of cleaning had to be done because some characters were not relevant to our analysis. 
 
-A dataset holding the **Script** for each episode was hard to come by. The dataset we used was found on [Data.Word](https://data.world/data-society/the-simpsons-by-the-data/workspace/file?filename=simpsons_script_lines.csv). 
+A dataset holding the **Script** for each episode was hard to come by. The dataset that was used was found on [Data.Word](https://data.world/data-society/the-simpsons-by-the-data/workspace/file?filename=simpsons_script_lines.csv). 
 
 In order to obtain the **Synopsis**, [Simpsons.Fandom](https://simpsons.fandom.com/wiki/List_of_Episodes) was again scraped, but this time each episode's page was scraped in order to obtain the synopsis for each and every episode in *HTML* format. As these files are 662 text files, they will be omitted from the downloadable options above. 
 
@@ -82,18 +82,13 @@ The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wiki
 ---
 # 2. The Networks
 
-A network was created for each season of The Simpsons. A node in the network represents a character that has appeared in a **synopsis** of an
-episode in the season, and a link between nodes is created if two characters appeared in a synopsis **of the same episode** in the season. 
+A network was created for each season of The Simpsons. A node in the network represents a character that has appeared in a **synopsis** of an episode in the season, and a link between nodes is created if two characters appeared in a synopsis **of the same episode** in the season. 
 
-The size of each node is dependant on how many times the character appeared in a synopsis - the more often, the bigger the node. 
-The width of each edge is dependant on how many times two characters appeared together in a synopsis - the more often, the wider the edge. 
+The size of each node is dependant on **how many times the character appeared in a synopsis** - the more often, the bigger the node and if the character is a main character in an episode within the season, the node gets a *weight boost*. 
 
-The networks did not seem to change much from season to season, with the largest nodes being **Homer** and **Bart** more often than not. However,
-when the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. This led to more analysis on the ratings and how the ratings were being divided between age groups
-and genders. This led to the realization that men's opinion of the series was the reason for the overall rating going down, but women's opinion on the
-series hadn't changed as drastically - one age group even had an upwards slope for the average rating over the years. 
+The width of each edge is dependant on **how many times two characters appeared together in a synopsis** - the more often, the wider the edge. 
 
-Although there exist more ratings from men then women, men under 18 seem rather displeased with the development of the series over the years, as do other male age groups, while this change isn't as drastic with females.
+The networks did not seem to change much from season to season, with the largest nodes being **Homer** and **Bart** more often than not. However, when the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. 
 
 **Limitations**
 
