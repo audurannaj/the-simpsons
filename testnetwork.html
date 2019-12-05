@@ -358,6 +358,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
               .attr("dy", "1em")
               .style("text-anchor", "middle")
               .text("Degree Centrality");  
+
+            svg.append("text")
+                .attr("x", (width_bar / 2))             
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")  
+                .style("font-size", "16px") 
+                .style("text-decoration", "underline")  
+                .text("Degree Centrality of Characters for Season 1");
         });
 
 
