@@ -59,7 +59,7 @@ However, as the series has progressed, female ratings have not drastically decli
 It seems that the series has started to appeal less and less to young males and more and more towards older females, according to these graphs. However, as males rating amounts dominate the female ones, the series still sees its ratings go donw. 
 
 <p align="center">
-<img src="gender_amoungs.png" width="675" height="405">
+<img src="gender_amounts.png" width="675" height="405">
 </p>
 
 
