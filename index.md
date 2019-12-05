@@ -69,7 +69,10 @@ Sentimental Analysis was carried out on the scripts and the synopsis. The main f
 
 
 
-## 4.1 Main Characters
+## 4.1 Seasons
+The average sentiment score of each seasons spoken lines can be seen in figures xx and xx. Even though the change in sentiment score only ranges from 5.42 to 5.47 it can be seen that there is an upwards trend over the seasons. Looking at how the sentiment score has developed compared to ratings, it can be seen that over the first 9 seasons the ratings are going up while the sentiment score has a downwards trend. This then changes from season 10-15 where the ratings start to drop significanly while the sentiment score grows. Then through seasons 16-26 the sentiment score is pretty steady while the ratings have a small downwards trend. The correlation between the ratings and sentiment score is -0.5 which confirms that there is a negative relationship between the two variables.
+
+![image](https://user-images.githubusercontent.com/57719216/70217389-5f746c80-1741-11ea-8d2f-0201b2f4ec31.png)
 
 ![image](https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png)
 
