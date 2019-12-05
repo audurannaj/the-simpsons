@@ -76,11 +76,11 @@ Looking at how the sentiment score has developed compared to ratings, it can be 
 The **correlation between the ratings and sentiment score is -0.5** which confirms that there is a negative relationship between the two variables. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png" width="700" height="400">
+<img src="https://user-images.githubusercontent.com/57719216/70218670-b3805080-1743-11ea-8a30-d07d249adefb.png" width="500" height="300">
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png" width="700" height="450">
+<img src="https://user-images.githubusercontent.com/57719216/70147218-191d0000-16a4-11ea-8e45-f3a687d7a3d7.png" width="500" height="350">
 </p>
 
 These findings hint that there **increasing happiness of the seasons could be a factor in the declinging ratings**, and indicates that the viewers like dark humor.
@@ -96,7 +96,7 @@ Here the top 20 speaking characters were considered and their sentimental scores
 
 <p align="center">
 <img src="
-![image](https://user-images.githubusercontent.com/57719216/70243866-b98e2580-1773-11ea-9e7e-b89ea84aa796.png)" width="400" height="300">
+![image](https://user-images.githubusercontent.com/57719216/70243866-b98e2580-1773-11ea-9e7e-b89ea84aa796.png" width="400" height="300">
 </p>
 
 <p align="center">
