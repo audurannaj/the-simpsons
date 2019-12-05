@@ -551,6 +551,32 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 d.fy = null;
             }
 
+            // Initialize a bar graph ----------------------------------------------------------------------------
+
+            var margin = {top: 20, right: 40, bottom: 120, left: 40},
+            width = window.innerWidth - 50 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+
+            // set the ranges
+            var x = d3.scaleBand()
+                      .range([0, width])
+                      .padding(0.1);
+            var y = d3.scaleLinear()
+                      .range([height, 0]);
+
+             // append the svg object to the body of the page
+            // append a 'group' element to 'svg'
+            // moves the 'group' element to the top left margin
+            var svg_bar = d3.select("body").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .attr('class','svg_bar')
+                .append("g")
+                .attr("transform", 
+                      "translate(" + margin.left + "," + margin.top + ")");
+
+
+
         });
         
 
