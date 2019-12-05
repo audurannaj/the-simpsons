@@ -94,7 +94,7 @@ These findings hint that there **increasing happiness of the seasons could be a 
 
 
 # 5. Findings
-It can be seen that by looking into the synopsis and the scripts there some changes throughout the seasons that could explain why the ratings and the number of viewers have been declining. Beforehand the content of the show is expected to be the main reason for the decline in the shows popularity. The main findings are:
+It can be seen that by looking into the synopsis and the scripts there are some changes throughout the seasons that could explain why the ratings and the number of viewers have been declining. The main findings are:
 
 - When looking at the **sentiment scores of spoken words** in the seasons it can be seen that it has a **small upwards trend**. It also has a correlation of -0.48 to the ratings, which tells us that while the sentiment score has been going up the rating have been going down. 
 - The number of **words spoken on average per episode in a season has been falling** almost since the start. The average number of words spoken in an episode in season 1 was 1527 vs. 1289 in season 26. 
@@ -102,7 +102,7 @@ It can be seen that by looking into the synopsis and the scripts there some chan
 - **Merge** and **Lisa** have a higher sentiment score on average than **Homer** and **Bart**.
 - The Network of each individual season showed some interesting findings. **Merge** and **Lisa** are gaining a more important role in the series according to all centrality measures, while the importance of **Homer** and **Bart** is declining. 
 
-The results of the demographic analysis were that **men are vast majority of the raters** and the main age group that is giving the series ratings is people from 30-44 for both genders. When looking at the ratings in respect to gender it can be seen that the **fall in the ratings is not as big for the female audience as the male audience**. 
+The results of the demographic analysis were that **men are the vast majority of the raters** and the main age group that is giving the series ratings is people from 30-44 for both genders. When looking at the ratings in respect to gender it can be seen that the **fall in the ratings is not as big for the female audience as the male audience**. 
 
 This could suggest that the viewers respond better to more sad episodes, where many words are spoken and where **Bart** and **Homer** play a big role. When linking thoses results to the fact that the ratings for women audience have not fallen as much as for the male audience, this hints that women have different prefrences than men in regards to the tv-show.
 
