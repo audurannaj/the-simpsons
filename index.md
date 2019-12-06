@@ -7,6 +7,8 @@ Some say it's because of new writers, but here the goal is dig into scripts and 
 
 Throughout this project, we looked at networks for each season of the series in order to detect changes between the years. Each network is comprised of characters that appear in an episode's **synopsis** in the season and links between them. We also analyzed a script for each episode of The Simpsons for seasons 1 through 26, as well as the actual **synopsis** for each episode in order to see how the essence of the show has changed. 
 
+**An explainer notebook detailing all the procedings that went on during this project and more detailed data analysis can be found [here](link_to_notebook).**
+
 Below, a summary of the elements that this project is comprised of can be found.
 
 ---
