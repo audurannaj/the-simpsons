@@ -26,7 +26,7 @@ The following table explains what datasets were used throughout the project, the
 | **Demographic Ratings** | Each episode's rating for different demographics                                              | IMDB            |  77KB  | [Download](data_to_download/demographic_ratings.csv) |
 | **Characters**          | Each character that has appeared in The Simpsons                                              | Simpsons.Fandom.com| 21KB | [Download](data_to_download/characters.csv) |
 | **Scripts**             | A dataset comprised of the lines that appear in each episode (Seasons 1-26)                   | Data.World      |  36MB  | [Download](data_to_download/script_extended.csv) |
-| **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com| 339KB | [Download (Zipped files)](data_to_download/syns.RAR)* |
+| **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com| 339KB | [Download (Zipped)](data_to_download/syns.zip) |
 
 The **Episode Information** dataset was obtained from Wikipedia with web-scraping in order to have an overview of relevant information for all the episodes of the series. This information would later be used in order to connect most of the other datasets obtained together. The dataset holds information about 662 episodes of The Simpsons, all the way back from December 17 1989 to May 12 2019. 
 
