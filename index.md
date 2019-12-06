@@ -85,7 +85,6 @@ The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wiki
 ***IMPORTANT NOTE:***
 
 > The reader is encouraged to visit a special site dedicated to the networks that were created as a part of this project and play around with them. This website can be found [***here***](https://audurannaj.github.io/the-simpsons/networks.html). 
-
 There the reader can also see the centrality measures for each and every character for each and every season!
 
 
