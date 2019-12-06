@@ -88,7 +88,41 @@ The size of each node is dependant on **how many times the character appeared in
 
 The width of each edge is dependant on **how many times two characters appeared together in a synopsis** - the more often, the wider the edge. 
 
-The networks did not seem to change much from season to season, with the largest nodes being **Homer** and **Bart** more often than not. However, when the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. 
+When visualizing the networks, there were no apparent changes to them through the seasons except for, of course, new characters (nodes) and some different edges introduced. The largest nodes almost always seemed to be **Homer** and **Bart**, with the *center of gravity* of the node, i.e. where the strongest links are, being around The Simpson family.
+
+<p align="center">
+<img src="three_best.png" width="675" height="405">
+</p>
+
+<p align="center">
+<img src="three_worst.png" width="675" height="405">
+</p>
+
+However, when the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. Three centrality measures were calculated for every node of every season, and the regression of those measures were visualized (see below). 
+
+<p align="center">
+<img src="degree_measure.png" width="675" height="405">
+</p>
+
+<p align="center">
+<img src="betweenness_measure.png" width="675" height="405">
+</p>
+
+<p align="center">
+<img src="eigen_measure.png" width="675" height="405">
+</p>
+
+In all of these measures, the two female family members' influence in regards to these centrality measure is growing while the men's influence is either declining or staying even (**Maggie Simpson** is exluded in these graphs because she does not appear in many synopsis and is really not a relevant character in the series).
+
+This is also the case when visualizing the change in the size of each family member's node size over the seasons, with **Marge** and **Lisa** growing in size while **Homer** and **Bart** do not show as much growth but do stay quite large. 
+
+<p align="center">
+<img src="change_in_node_size.png" width="675" height="405">
+</p>
+
+The growth of the appearances and influence of the female family members of The Simpson family could explain why ratings have been going down, i.e. why men seem to be distancing themselves from the series. As has been discussed, men's ratings have declined and as they are the majority of the votes that have been given over the past years, their opinion is the reason behind the decline in popularity of the show. 
+
+The series seems to have lost its appeal it had to men and started appealing more to women, according to the demographic ratings. This could be the cause of more episodes featuring **Marge** and **Lisa**, with **Homer** and **Bart** taking a small step back in their dominance over the series. 
 
 **Limitations**
 
