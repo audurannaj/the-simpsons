@@ -153,7 +153,7 @@ This is also the case when visualizing the change in the size of each family mem
 
 The growth of the appearances and influence of the female family members of The Simpson family could explain why ratings have been going down, i.e. why men seem to be distancing themselves from the series. As has been discussed, men's ratings have declined and as they are the majority of the votes that have been given over the past years, their opinion is the reason behind the decline in popularity of the show. 
 
-The series seems to have lost its appeal it had to men and started appealing more to women, according to the demographic ratings. This could be the cause of more episodes featuring **Marge** and **Lisa**, with **Homer** and **Bart** taking a small step back in their dominance over the series. 
+The series seems to have lost its appeal it had to men and started appealing more to women, according to the demographic ratings. This could be the cause of more episodes featuring **Marge** and **Lisa**, with **Homer** and **Bart** taking a small step back in their dominance over the series. The analysis that was carried out on the networks created does seem to tell a story of these female characters gaining more and more influence in the series, with the two previously dominant male characters having to share the spotlight. 
 
 **Limitations**
 
