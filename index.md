@@ -67,34 +67,28 @@ The **Characters** dataframe was obtained from [Simpsons.Fandom](https://simpson
 
 A lot of cleaning had to be done because some characters were not relevant to our analysis. 
 
-A dataset holding the **Script** for each episode was hard to come by. The dataset we used was found on [Data.Word](https://data.world/data-society/the-simpsons-by-the-data/workspace/file?filename=simpsons_script_lines.csv). 
+A dataset holding the **Script** for each episode was hard to come by. The dataset that was used was found on [Data.Word](https://data.world/data-society/the-simpsons-by-the-data/workspace/file?filename=simpsons_script_lines.csv). 
 
 In order to obtain the **Synopsis**, [Simpsons.Fandom](https://simpsons.fandom.com/wiki/List_of_Episodes) was again scraped, but this time each episode's page was scraped in order to obtain the synopsis for each and every episode in *HTML* format. As these files are 662 text files, they will be omitted from the downloadable options above. 
 
-An example of a synopsis can be seen below (in HTML format as it was scraped).
+An example of a synopsis which was scraped can be seen below: 
 
-<p align="center">
-<img src="synopsis_img.png" width="675" height="405">
-</p>
+`<p>Thanks to a radio talk show host, <a class="mw-redirect" href="/wiki/Mayor_Quimby" title="Mayor Quimby">Mayor Quimby</a> is pressured into releasing <a class="mw-redirect" href="/wiki/Sideshow_Bob" title="Sideshow Bob">Sideshow Bob</a> from prison. Once out, Bob promptly runs against the mayor and wins. <a class="mw-redirect" href="/wiki/Bart" title="Bart">Bart</a> and <a class="mw-redirect" href="/wiki/Lisa" title="Lisa">Lisa</a> set out to prove Mayor Bob did not legally win.
+</p>`
 
-The hyperlinks (< a >< / a >) that are in the synopsis denote which characters can be linked to the episode. 
+The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wikipedia page is in the episode and that is how a character will be to the episode. 
 
 
 ---
 # 2. The Networks
 
-A network was created for each season of The Simpsons. A node in the network represents a character that has appeared in a **synopsis** of an
-episode in the season, and a link between nodes is created if two characters appeared in a synopsis **of the same episode** in the season. 
+A network was created for each season of The Simpsons. A node in the network represents a character that has appeared in a **synopsis** of an episode in the season, and a link between nodes is created if two characters appeared in a synopsis **of the same episode** in the season. 
 
-The size of each node is dependant on how many times the character appeared in a synopsis - the more often, the bigger the node. 
-The width of each edge is dependant on how many times two characters appeared together in a synopsis - the more often, the wider the edge. 
+The size of each node is dependant on **how many times the character appeared in a synopsis** - the more often, the bigger the node and if the character is a main character in an episode within the season, the node gets a *weight boost*. 
 
-The networks did not seem to change much from season to season, with the largest nodes being **Homer** and **Bart** more often than not. However,
-when the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. This led to more analysis on the ratings and how the ratings were being divided between age groups
-and genders. This led to the realization that men's opinion of the series was the reason for the overall rating going down, but women's opinion on the
-series hadn't changed as drastically - one age group even had an upwards slope for the average rating over the years. 
+The width of each edge is dependant on **how many times two characters appeared together in a synopsis** - the more often, the wider the edge. 
 
-Although there exist more ratings from men then women, men under 18 seem rather displeased with the development of the series over the years, as do other male age groups, while this change isn't as drastic with females.
+The networks did not seem to change much from season to season, with the largest nodes being **Homer** and **Bart** more often than not. However, when the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. 
 
 **Limitations**
 
@@ -176,15 +170,15 @@ Since the Simpsons family play a major role and **speak 68% of the total number 
 # 5. Findings
 It can be seen that by looking into the synopsis and the scripts there are some changes throughout the seasons that could explain why the ratings and the number of viewers have been declining. The main findings are:
 
-- When looking at the **sentiment scores of spoken words** in the seasons it can be seen that it has a **small upwards trend**. It also has a correlation of -0.48 to the ratings, which tells us that while the sentiment score has been going up the rating have been going down. 
+- When looking at the **sentiment scores of spoken words** in the seasons it can be seen that it has a **small upwards trend**. It also has a correlation of -0.48 to the ratings, which tells us that while the sentiment score has been going up the ratings have been going down. 
 - The number of **words spoken on average per episode in a season has been falling** almost since the start. The average number of words spoken in an episode in season 1 was 1527 vs. 1289 in season 26. 
 - When looking at the sentiment scores of each character it can be seen that the members of **the Simpsons family are getting slightly happier** in regards to spoken words. Five of the top 20 speaking characters have a noticable high upwards trend: **Milhouse Can Houten**, **Nelson Muntz**, **Lenny Leonard**, **Carl Carlsson** and **Julius Hibbert**.
 - **Merge** and **Lisa** have a higher sentiment score on average than **Homer** and **Bart**.
 - **Merge** and **Lisa** are gaining a more important role in the series according to all centrality measures of the network, while the importance of **Homer** and **Bart** is declining. 
 
-The results of the demographic analysis were that **men are the vast majority of the raters** and the main age group that is giving the series ratings is people from 30-44 for both genders. When looking at the ratings in respect to gender it can be seen that the **fall in the ratings is not as big for the female audience as the male audience**. 
+The results of the demographic analysis were that **men are the vast majority of the raters** and the main age group that is rating the series is people from 30-44 for both genders. When looking at the ratings in respect to gender it can be seen that the **fall in the ratings is not as big for the female audience as the male audience**. 
 
-This could suggest that the viewers respond better to more sad episodes, where many words are spoken and where **Bart** and **Homer** play a big role. When linking thoses results to the fact that the ratings for women audience have not fallen as much as for the male audience, this hints that women have different prefrences than men in regards to the tv-show.
+From the findings it could be suggested that the viewers respond better to more sad episodes, where many words are spoken and where **Bart** and **Homer** play a big role. When linking thoses results to the fact that the ratings for women audience have not fallen as much as for the male audience, this hints that women have different prefrences than men in regards to the tv-show.
 
 Even though the findings suggests some factors that could affect the ratings of the Simpsons, **these factors are not likely explain all the decines in ratings**. Even though the spoken words and the synopsis tell alot about the content of the show, the environment, circumstances, how things are said also affect how people relate to the characters and the show.
 
