@@ -26,7 +26,7 @@ The following table explains what datasets were used throughout the project, the
 | **Demographic Ratings** | Each episode's rating for different demographics                                              | IMDB            |  77KB  | [Download](data_to_download/demographic_ratings.csv) |
 | **Characters**          | Each character that has appeared in The Simpsons                                              | Simpsons.Fandom.com| 21KB | [Download](data_to_download/characters.csv) |
 | **Scripts**             | A dataset comprised of the lines that appear in each episode (Seasons 1-26)                   | Data.World      |  36MB  | [Download](data_to_download/script_extended.csv) |
-| **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com| 339KB | *Omitted* |
+| **Synopsis**            | Each episode's synopsis                                                                       | Simpsons.Fandom.com| 339KB | [Download (Zipped files)](data_to_download/syns.RAR)* |
 
 The **Episode Information** dataset was obtained from Wikipedia with web-scraping in order to have an overview of relevant information for all the episodes of the series. This information would later be used in order to connect most of the other datasets obtained together. The dataset holds information about 662 episodes of The Simpsons, all the way back from December 17 1989 to May 12 2019. 
 
@@ -71,7 +71,7 @@ A lot of cleaning had to be done because some characters were not relevant to ou
 
 A dataset holding the **Script** for each episode was hard to come by. The dataset that was used was found on [Data.Word](https://data.world/data-society/the-simpsons-by-the-data/workspace/file?filename=simpsons_script_lines.csv). 
 
-In order to obtain the **Synopsis**, [Simpsons.Fandom](https://simpsons.fandom.com/wiki/List_of_Episodes) was again scraped, but this time each episode's page was scraped in order to obtain the synopsis for each and every episode in *HTML* format. As these files are 662 text files, they will be omitted from the downloadable options above. 
+In order to obtain the **Synopsis**, [Simpsons.Fandom](https://simpsons.fandom.com/wiki/List_of_Episodes) was again scraped, but this time each episode's page was scraped in order to obtain the synopsis for each and every episode in *HTML* format.
 
 An example of a synopsis which was scraped can be seen below: 
 
