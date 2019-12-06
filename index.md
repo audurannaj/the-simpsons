@@ -82,9 +82,11 @@ The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wiki
 ---
 # 2. The Networks
 
-## IMPORTANT NOTE: 
+***IMPORTANT NOTE:***
 
-> The reader is encouraged to visit a special site dedicated to the networks that were created as a part of this project and play around with them. This website can be found **[here](https://audurannaj.github.io/the-simpsons/networks.html)**. There the reader can also see the centrality measures for each and every character for each and every season!
+> The reader is encouraged to visit a special site dedicated to the networks that were created as a part of this project and play around with them. This website can be found [***here***](https://audurannaj.github.io/the-simpsons/networks.html). 
+
+There the reader can also see the centrality measures for each and every character for each and every season!
 
 
 A network was created for each season of The Simpsons. A node in the network represents a character that has appeared in a **synopsis** of an episode in the season, and a link between nodes is created if two characters appeared in a synopsis **of the same episode** in the season. 
