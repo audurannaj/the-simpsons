@@ -142,7 +142,7 @@ In all of these measures, the two female family members' influence in regards to
 This is also the case when visualizing the change in the size of each family member's node size over the seasons, with **Marge** and **Lisa** growing in size while **Homer** and **Bart** do not show as much growth but do stay quite large. 
 
 <p align="center">
-<img src="change_in_node_size.png" width="675" height="405">
+<img src="change_in_node_size.png" width="675" height="1215">
 </p>
 
 The growth of the appearances and influence of the female family members of The Simpson family could explain why ratings have been going down, i.e. why men seem to be distancing themselves from the series. As has been discussed, men's ratings have declined and as they are the majority of the votes that have been given over the past years, their opinion is the reason behind the decline in popularity of the show. 
