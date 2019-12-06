@@ -119,16 +119,22 @@ When visualizing the networks, there were no dramatic changes to them through th
 
 When the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. Three centrality measures were calculated for every node of every season, and the regression of those measures were visualized (see below). 
 
-<p align="center">
-<img src="degree_measure.png" width="675" height="405">
-</p>
+**Degree Centrality for each family member over the 30 seasons**
 
 <p align="center">
-<img src="betweenness_measure.png" width="675" height="405">
+<img src="degree_measure.png" width="675" height="1215">
 </p>
 
+**Betweenness Centrality for each family member over the 30 seasons**
+
 <p align="center">
-<img src="eigen_measure.png" width="675" height="405">
+<img src="betweenness_measure.png" width="675" height="1215">
+</p>
+
+**Eigenvector Centrality for each family member over the 30 seasons**
+
+<p align="center">
+<img src="eigen_measure.png" width="675" height="1215">
 </p>
 
 In all of these measures, the two female family members' influence in regards to these centrality measure is growing while the men's influence is either declining or staying even (**Maggie Simpson** is exluded in these graphs because she does not appear in many synopsis and is really not a relevant character in the series).
