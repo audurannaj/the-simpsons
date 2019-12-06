@@ -88,7 +88,7 @@ The size of each node is dependant on **how many times the character appeared in
 
 The width of each edge is dependant on **how many times two characters appeared together in a synopsis** - the more often, the wider the edge. 
 
-When visualizing the networks, there were no apparent changes to them through the seasons except for, of course, new characters (nodes) and some different edges introduced. The largest nodes almost always seemed to be **Homer** and **Bart**, with the *center of gravity* of the node, i.e. where the strongest links are, being around The Simpson family.
+When visualizing the networks, there were no dramatic changes to them through the seasons except for, of course, new characters (nodes) and some different edges introduced. The largest nodes almost always seemed to be **Homer** and **Bart**, with the *center of gravity* of the node, i.e. where the strongest links are, being around The Simpson family. However, when visualizing the three best rated seasons vs. the three worst rated seasons, there seemed to be an apparent contrast in the number of nodes and links in the networks that are the highest rated compared to those that are the lowest rated networks.
 
 <p align="center">
 <img src="three_best.png" width="675" height="405">
