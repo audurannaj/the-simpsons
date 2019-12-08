@@ -166,11 +166,40 @@ See the work [here](https://audurannaj.github.io/the-simpsons/networks.html)
 
 ---
 
-# 3. Wordcloud
-General about the wordcloud and then we can make some chapters for different representations
+# 3. Show's Topics
+
+***IMPORTANT NOTE:***
+
+> The reader is encouraged to visit a special page dedicated to show every WordCloud created and confront them. This page can be found [***here***](https://audurannaj.github.io/the-simpsons/wordclouds.html). Note that scripts WordClouds are available just until season 26, because of the availability in the dataset
+
+To understand the evolution of the show it is important to take a look at the distinghuishing topics treated in every season and wether these topics are appreciated or not by the viewers.
+
+To do that **TF-IDF** score has been used: it combines how many times a word appears in a document (Term Frequency) and how that word is typical of that document, so the number of documents that have that word in it (Inverse Document Frequency). The result is a score for every word in each document, indicating how that word is important in distinguishing that document from the others. This information has then been used to produce **WordClouds** (images containing words that have a size proportional to their score) and barplots.
+
+Confronting a lot of wordclouds was prohibitive and messy, because of the huge number of words and also how different these words are. To make this manageable while keeping it relevant, seven distinct seasons have been analyzed (but each one contributes to the score computation):
+
+* **Top 2 seasons in the first 9**. This because these are considered the best seasons in the show's history. The ones with the best ranking will be used to be as accurate as possible in the analysis
+* **Worst 2 seasons after the 17th**. This because the rating decay gets slower after the 17th season. It still remains bad compared to the first seasons, but it's not improving. These seasons can give an insight on the cause.
+* **Seasons 11, 12, 13**. What is that brought the show from such a high rating to a pretty low one? These seasons, which are in the middle of the rating decay, were analyzed: the choice has fallen on these because it happens that season 12 improves the rating of the previous season, just to fall down again with the 13th. This has then to be a focal point for the analysis.
+
+Some preliminary observations are:
+* It was not easy to see patterns either in the WordClouds or in the barplots: research on the words was required in order to delve deeper into the topics. To learn more about that see the explainer notebook linked at the top of this page
+* The show in general does evolve following the real world, following the main topics and the common view on them.
+
+## 3.1 Synopsis Topics
+
+The first analysis was on the synopsis extracted. The first observation is that it was not easy to see patterns either in the WordClouds or in the barplots: research on the words was required in order to delve deeper into the topics.
 
 
-## 3.1 Main Characters 
+**Example of how the environment in central in the lastest seasons**
+<p align="center">
+<img src="WordClouds/Season_Synopsis_WordClouds/season26.png"> 
+</p>
+
+
+## 3.2 Scripts Topics
+
+## 3.3 Main Characters 
 Dropdownlist to choose which character to look at
 
 ---
