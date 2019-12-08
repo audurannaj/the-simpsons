@@ -199,7 +199,7 @@ There is also the need to confront this with the audience graphs. Both male adul
 In the figure below it can be seen how **political**, **environmental** and **feminists** topics are combined and distinghuish in particular in season 26: the event is that nigerian princess (her name is Kemi) is given a big role, coming to Springfield to close a deal for uranium with Mr. Burns.
 
 <p align="center">
-	<img src="/WordClouds/Season_Synopsis_WordClouds/season26.png" width=432 height=288>
+	<img src="/WordClouds/Season_Synopsis_WordClouds/season26.png"/>
 </p>
 
 
@@ -218,7 +218,7 @@ Overall the analysis of the scripts pretty much confirmed and expanded what was 
 Again the WordCloud example is about season 26: it still shows environmental issues (**fracking** is a technique to expoit resources hidden in the terrain that can be dangerous if not done porperly and a deep study of the land), but also depicts how the show adapts to the current times, by bringin in the innovator **Elon Musk**. 
 
 <p align="center">
-	<img src="WordClouds/Season_Script_WordClouds/season26.png" width=432 height=288/>
+	<img src="WordClouds/Season_Script_WordClouds/season26.png"/>
 </p>
 
 
@@ -244,7 +244,7 @@ Overall it can be said the data has no real evidence to say Homer's behaviours c
 In the below figures there is a demonstration on how central Homer still is in season 11 (even though it is a declining season): we can identify a lot of episodes just by looking at his top words: **Mel Gibson**, **tomacco**, **burglar** and so on.
 
 <p align="center">
-	<img src="WordClouds/Character_Script_WordClouds/Homer Simpson/season11.png"/> <img src="WordClouds/season11_barplot_homer.png" height=288/>
+	<img src="WordClouds/Character_Script_WordClouds/Homer Simpson/season11.png"/> <img src="WordClouds/season11_barplot_homer.png" height="288"/>
 </p>
 
 </details>
@@ -300,7 +300,7 @@ There are big themes that can be linked with Lisa: environment, arts, knowledge.
 Season 12 is a bit of atypical season, inverting the negative trend, but having Lisa covering big roles. In the figure a lot of words connected to the main themes typical of Lisa can be seen: **chimps** (animals that the family has to save), **subliminal** (a subliminal message by Bart and Lisa feels she has to discover the meaning: that is her curiosity), **linguo** (a grammar robot she has built with her knowledge and study).
 
 <p align="center">
-	<img src="WordClouds/season12_barplot_lisa.png" height=288/>
+	<img src="WordClouds/season12_barplot_lisa.png" height="288"/>
 </p>
 
 </details>
