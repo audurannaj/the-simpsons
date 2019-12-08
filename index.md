@@ -243,7 +243,7 @@ Overall it can be said the data has no real evidence to say Homer's behaviours c
 In the below figures there is a demonstration on how central Homer still is in season 11 (even though it is a declining season): we can identify a lot of episodes just by looking at his top words: **Mel Gibson**, **tomacco**, **burglar** and so on.
 
 <p align="center">
-	<img src="WordClouds/Character_Script_WordClouds/Homer Simpson/season11.png"/> <img src="WordClouds/season11_barplot_homer.png"/>
+	<img src="WordClouds/Character_Script_WordClouds/Homer Simpson/season11.png"/> <img src="WordClouds/season11_barplot_homer.png" height="288"/>
 </p>
 
 </details>
