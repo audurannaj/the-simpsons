@@ -283,7 +283,8 @@ The growth is depicted in the WordClouds of seasons 13 and 24. In the first one 
 </details>
 
 
-<details> <summary>Lisa Simpson</summary>
+<details>
+	<summary>Lisa Simpson</summary>
 Looks like Lisa's character is more constantly into the main action than his mother, but there is definetly a rise of her role in the lastest seasons. Her interests remain pretty much the same during the seasons, same as her character, but from season to season there is one that stands out.
 
 In season 11, which is a very declining one she has big roles and her character is expanded even more: this complies with the rise of female and a bit of decline of male characters, which seems connected with the declining of the show. It is a big unexpected, though, that she has big roles in season 12, where the rating was going a bit up again.
