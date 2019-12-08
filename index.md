@@ -178,9 +178,9 @@ To do that **TF-IDF** score has been used: it combines how many times a word app
 
 Confronting a lot of wordclouds was prohibitive and messy, because of the huge number of words and also how different these words are. To make this manageable while keeping it relevant, seven distinct seasons have been analyzed (but each one contributes to the score computation):
 
-* **Top 2 seasons in the first 9**. This because these are considered the best seasons in the show's history. The ones with the best ranking will be used to be as accurate as possible in the analysis
+* **Top 2 seasons in the first 9**. This because these are considered the best seasons in the show's history. The ones with the best ranking will be used to be as accurate as possible in the analysis. The resulting seasons are the 5th and the 7th respectively.
 * **Worst 2 seasons after the 17th**. This because the rating decay gets slower after the 17th season. It still remains bad compared to the first seasons, but it's not improving. These seasons can give an insight on the cause.
-* **Seasons 11, 12, 13**. What is that brought the show from such a high rating to a pretty low one? These seasons, which are in the middle of the rating decay, were analyzed: the choice has fallen on these because it happens that season 12 improves the rating of the previous season, just to fall down again with the 13th. This has then to be a focal point for the analysis.
+* **Seasons 11, 12, 13**. What is that brought the show from such a high rating to a pretty low one? These seasons, which are in the middle of the rating decay, were analyzed: the choice has fallen on these because it happens that season 12 improves the rating of the previous season, just to fall down again with the 13th. This has then to be a focal point for the analysis. The resulting seasons are the 26th and the 24th respectively.
 
 Some preliminary observations are:
 * It was not easy to see patterns either in the WordClouds or in the barplots: research on the words was required in order to delve deeper into the topics. To learn more about that see the explainer notebook linked at the top of this page
@@ -188,19 +188,122 @@ Some preliminary observations are:
 
 ## 3.1 Synopsis Topics
 
-The first analysis was on the synopsis extracted. The first observation is that it was not easy to see patterns either in the WordClouds or in the barplots: research on the words was required in order to delve deeper into the topics.
+The first analysis was on the synopsis extracted. A lot of themes and considerations emerged here: the further analysis done on the scripts confirms and expands the findings.
 
+There are a lot of **political** and **ethical** topics, but they seem to be more and more frequent later on in the show: this may arise the suspicion that the show went from representing a parody of a typical american family to educate people on the current relevant hot topics. This might have beeen seen by fans as a forced introduction into the show, changing its nature and so lowering its value. Another possible explanation is just that the few political topics in the first seasons were presented in a different and in a way that better suited the interest of the audience.
 
-**Example of how the environment in central in the lastest seasons**
+One of the biggest topics is **environment**: it is always present, but after season 10 it presents with more insistence. Looks like the viewers are not liking a lot these issues, probably because they feel like it's a distant problem: vice-versa immigration seems to affect them in a more direct way and it is more interesting to them. This, though, is in contrast with season 5 that exposes the safeguard of animals problem: maybe animated beings have more value to people than plants, or maybe that season was simply very appreciated that this topic didn't affect it too much.
+
+There is also the need to confront this with the audience graphs. Both male adults and teens ratings did decrease a lot during the years. This happens for the female audience as well, but more aged women (45+) do give higher scores to some of the lastest seasons. This is probably because of the introduction of more appealing topics for them: an example is explained in the next observation. Still the number of these viewers is not enough to stop the drop of the rating.
+
+In the figure below it can be seen how **political**, **environmental** and **feminists** topics are combined and distinghuish in particular in season 26: the event is that nigerian princess (her name is Kemi) is given a big role, coming to Springfield to close a deal for uranium with Mr. Burns.
+
 <p align="center">
-<img src="WordClouds/Season_Synopsis_WordClouds/season26.png"> 
+	<img src="WordClouds/Season_Synopsis_WordClouds/season26.png" width=432 height=288>
 </p>
 
 
 ## 3.2 Scripts Topics
 
+By analyzing all the Simpsons scripts, the previous observations on the synopsis have been confirmed and new topics have been found.
+
+The **environment** really is a very discussed topic in the Simpsons' show (which was expected given the nature of Lisa's character). Still, looks like it is handled differently by the "declining" season from the first ones. It seems too pervasive and that could have annoyed the audience.
+
+The **military** is a new topic found and it seems to be a well perceived and important argument to the audience, even if not very common and present in few episodes: this can be understood by looking at how much americans feel the importance of having a respected army. Along with this Granpa Abe seems to gain a more relevance as the seasons go on, to the point of having some episodes focused on him. This, on the contrary wrt the military topic, has not brought a lot of interest in the show, because it is more pervasive in more negative seasons: it is present more and more in the lastest ones and the audience may perceive having the focus this much on an old character and flashbacks as boring or not too interesting.
+
+**Political** themes seem to be not as evident as in the synopsis analysis, but some **ethic** is put into environmental topics, perceived in different ways depending on how they were presented: looks like the presentations in the first part of the show were more enjoyable for the public. Also a **religious** topic is exposed, but it is likely not really appreciated as it appears in one of the worst seasons.
+
+Overall the analysis of the scripts pretty much confirmed and expanded what was inferred in the synopsis analysis, strenghtening the observations on the environment topic, adding the military, and confirming the presence of musical and artistic themes in well perceived seasons.
+
+Again the WordCloud example is about season 26: it still shows environmental issues (**fracking** is a technique to expoit resources hidden in the terrain that can be dangerous if not done porperly and a deep study of the land), but also depicts how the show adapts to the current times, by bringin in the innovator **Elon Musk**. 
+
+<p align="center">
+	<img src="WordClouds/Season_Script_WordClouds/season26.png" width=432 height=288>
+</p>
+
+
 ## 3.3 Main Characters 
-Dropdownlist to choose which character to look at
+
+Another big point in the text analysis is to compute the TF-IDF on the characters, to see how they changed during the seasons. To be compliant with the above analysis only season 5, 7, 11, 12, 13, 24, 26 have been analyzed.
+
+To do this with all the characters would be again messy and prohibitive, so the most speaking characters have been chosen: as expected, these characters are by far the Simpson family and thus their evolution has been studied.
+
+The characters of the family have not changed their personalities a lot during the seasons, but the two female characters got more space during the years.
+
+Now each character is presented independently. To show each one's analysis click on "Details".
+
+### 3.3.1 Homer Simpson
+
+<details> <summary>Details</summary>
+The first thing that was notices is that a lot of Homer's top-scoring words match the main themes of the respective season. This is logical also thinking that Homer is one of the main characters and the most speaking one and thus contributes a lot to the finding of the themes in the previous iterations of the analysis. Thus his themes pretty much change along with the show's ones.
+
+There is no real comparison one could do in this case of the different language Homes uses. It is then how important or frivolus the topics he talks about are. Among the seasons the words he uses are mostly pretty short, which usually reflects on the words to be common and easy, while long and elaborate words are more complex. This usage suites Homer's character since he is supposed to be simple-minded.
+
+Overall it can be said the data has no real evidence to say Homer's behaviours changed a lot during time. Still, judging by the matches with the most relevant themes emerged from the TF-IDF scripts analysis it can be seen how his role gets a bit less central as the seasons go on, so he cannot be too much responsible for the decline of the show.
+
+In the below figures there is a demonstration on how central Homer still is in season 11 (even though it is a declining season): we can identify a lot of episodes just by looking at his top words: **Mel Gibson**, **tomacco**, **burglar** and so on.
+
+<p align="center">
+	<img src="WordClouds/Character_Script_WordClouds/Homer Simpson/season11.png"/> <img src="WordClouds/season11_barplot_homer.png" height=288/>
+</p>
+
+</details>
+
+
+### 3.3.2 Marge Simpson
+
+<details> <summary>Details</summary>
+
+It can be stated that Marge stands out a bit from her mother role after the first seasons, being envolved more with the action, but at the end she doesn't seem too central in distinguishing topics of the seasons. Still her character and characterization seems stronger in the last seasons, even though she has always been a strong woman.
+
+From the analysis looks like her role as a mother also becomes more central in the action and more dynamic, not just remaining in the house, but even acting in first person to protect her children.
+
+This importance growth seem to not have been perceived well by the audience: the raise of Marge happens during the worst seasons. It seems like the public preferred Marge to stay more in a classical mother role.
+
+The following figures show how she passed from just "meaningless" words to identify the context like **ya** and **blah** and a very stereotypical word for women like **necklace** to more important meanings, like **guardians**, **educational** and **parenting**, not just doing the mother but putting in discussion her role.
+
+<p align="center">
+	<img src="WordClouds/Character_Script_WordClouds/Marge Simpson/season5.png"/> <img src="WordClouds/Character_Script_WordClouds/Marge Simpson/season24.png"/>
+</p>
+
+</details>
+
+
+### 3.3.3 Bart Simpson
+
+<details> <summary>Details</summary>
+
+While with Marge it cannot be seen a big involvement into action, with Bart, with big themes at first and still a lot of important appearences during the decline, it can be stated that there's a lot of action going on, he always putting himself into troubles or putting other people into trouble as well.
+
+For what concerns the character Bart is still a boy and so he is staying true to his rebel character, even though in the declining seasons there has been some personal growth in him (for example he is generous in season 13). The biggest growing is evident in season 24, where he has interest into girls. Since the ratings have been going down it might be that the first natural Bart character was the most liked by the public.
+
+Also it is interesting to notice how until this point the male family members have still a predominant role wrt to Marge.
+
+The growth is depicted in the WordClouds of seasons 13 and 24. In the first one we have Bart still following an idol of him, **Buck McCoy**, an actor interpreting a **cowboy**, and **tabooger** and **stanford**, the first referring to a prank and the second word referring to a way of mocking Lisa. In the second one instead, we can see his interest into **girlfriends** (and more specifically one named **Zenhya**).
+
+<p align="center">
+	<img src="WordClouds/Character_Script_WordClouds/Bart Simpson/season13.png"/> <img src="WordClouds/Character_Script_WordClouds/Bart Simpson/season24.png"/>
+</p>
+
+</details>
+
+
+### 3.3.4 Lisa Simpson
+
+<details> <summary>Details</summary>
+Looks like Lisa's character is more constantly into the main action than his mother, but there is definetly a rise of her role in the lastest seasons. Her interests remain pretty much the same during the seasons, same as her character, but from season to season there is one that stands out.
+
+In season 11, which is a very declining one she has big roles and her character is expanded even more: this complies with the rise of female and a bit of decline of male characters, which seems connected with the declining of the show. It is a big unexpected, though, that she has big roles in season 12, where the rating was going a bit up again.
+
+There are big themes that can be linked with Lisa: environment, arts, knowledge. The most prominent in the show is environment and that's probably why Lisa, being sensible with it, still has big roles throughout all the seasons. This very well complies with her character, pretty self evident even just by watching a couple of episodes.
+
+Season 12 is a bit of atypical season, inverting the negative trend, but having Lisa covering big roles. In the figure a lot of words connected to the main themes typical of Lisa can be seen: **chimps** (animals that the family has to save), **subliminal** (a subliminal message by Bart and Lisa feels she has to discover the meaning: that is her curiosity), **linguo** (a grammar robot she has built with her knowledge and study).
+
+<p align="center">
+	<img src="WordClouds/season12_barplot_lisa.png" height=288/>
+</p>
+
+</details>
 
 ---
 
@@ -278,21 +381,4 @@ From the findings it could be suggested that the viewers respond better to more 
 
 Even though the findings suggests some factors that could affect the ratings of the Simpsons, **these factors are not likely explain all the decines in ratings**. Even though the spoken words and the synopsis tell alot about the content of the show, the environment, circumstances, how things are said also affect how people relate to the characters and the show.
 
-
 ---
-
-
-# 5. Webpage Requirements
-This part of the assignment is quite free. The main point of the website is to present your idea/analyses to the world in a way that showcases your use of what you've learned in class. It can be as simple as an oldfashioned static web-page, and as complicated as you want it to be. Let your creativity run wild (but keep in mind that this is not a coding class - we care mostly about content and analysis).
-
-The website should be self-contained and tell the story of your dataset without the need for the Explainer Notebook (the purpose of the notebook is to provide additional details for interested readers). Here are some requirements
-
-The page should say clearly what the dataset is and give the reader some idea of its most important properties (kind of Project Assignment A-style).
-The page should contain your network and text analysis (that's the main part).
-There should be download options for data sets (so the user can play around).
-You must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to an IPython notebook displaying on the nbviewer.
-For hosting, I recommend using your DTU website or github pages.
-
-
-
-
