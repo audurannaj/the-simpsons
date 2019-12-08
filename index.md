@@ -199,7 +199,7 @@ There is also the need to confront this with the audience graphs. Both male adul
 In the figure below it can be seen how **political**, **environmental** and **feminists** topics are combined and distinghuish in particular in season 26: the event is that nigerian princess (her name is Kemi) is given a big role, coming to Springfield to close a deal for uranium with Mr. Burns.
 
 <p align="center">
-	<img src="WordClouds/Season_Synopsis_WordClouds/season26.png" width=432 height=288>
+	<img src="/WordClouds/Season_Synopsis_WordClouds/season26.png" width=432 height=288>
 </p>
 
 
@@ -218,7 +218,7 @@ Overall the analysis of the scripts pretty much confirmed and expanded what was 
 Again the WordCloud example is about season 26: it still shows environmental issues (**fracking** is a technique to expoit resources hidden in the terrain that can be dangerous if not done porperly and a deep study of the land), but also depicts how the show adapts to the current times, by bringin in the innovator **Elon Musk**. 
 
 <p align="center">
-	<img src="WordClouds/Season_Script_WordClouds/season26.png" width=432 height=288>
+	<img src="WordClouds/Season_Script_WordClouds/season26.png" width=432 height=288/>
 </p>
 
 
