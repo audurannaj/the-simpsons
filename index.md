@@ -230,11 +230,10 @@ To do this with all the characters would be again messy and prohibitive, so the 
 
 The characters of the family have not changed their personalities a lot during the seasons, but the two female characters got more space during the years.
 
-Now each character is presented independently. To show each one's analysis click on "Details".
+Now each character is presented independently. To show each one's analysis click on their names.
 
-### 3.3.1 Homer Simpson
 
-<details> <summary>Details</summary>
+<details> <summary>Homer Simpson</summary>
 The first thing that was notices is that a lot of Homer's top-scoring words match the main themes of the respective season. This is logical also thinking that Homer is one of the main characters and the most speaking one and thus contributes a lot to the finding of the themes in the previous iterations of the analysis. Thus his themes pretty much change along with the show's ones.
 
 There is no real comparison one could do in this case of the different language Homes uses. It is then how important or frivolus the topics he talks about are. Among the seasons the words he uses are mostly pretty short, which usually reflects on the words to be common and easy, while long and elaborate words are more complex. This usage suites Homer's character since he is supposed to be simple-minded.
@@ -250,9 +249,7 @@ In the below figures there is a demonstration on how central Homer still is in s
 </details>
 
 
-### 3.3.2 Marge Simpson
-
-<details> <summary>Details</summary>
+<details> <summary>Marge Simpson</summary>
 
 It can be stated that Marge stands out a bit from her mother role after the first seasons, being envolved more with the action, but at the end she doesn't seem too central in distinguishing topics of the seasons. Still her character and characterization seems stronger in the last seasons, even though she has always been a strong woman.
 
@@ -269,9 +266,7 @@ The following figures show how she passed from just "meaningless" words to ident
 </details>
 
 
-### 3.3.3 Bart Simpson
-
-<details> <summary>Details</summary>
+<details> <summary>Bart Simpson</summary>
 
 While with Marge it cannot be seen a big involvement into action, with Bart, with big themes at first and still a lot of important appearences during the decline, it can be stated that there's a lot of action going on, he always putting himself into troubles or putting other people into trouble as well.
 
@@ -288,9 +283,7 @@ The growth is depicted in the WordClouds of seasons 13 and 24. In the first one 
 </details>
 
 
-### 3.3.4 Lisa Simpson
-
-<details> <summary>Details</summary>
+<details> <summary>Lisa Simpson</summary>
 Looks like Lisa's character is more constantly into the main action than his mother, but there is definetly a rise of her role in the lastest seasons. Her interests remain pretty much the same during the seasons, same as her character, but from season to season there is one that stands out.
 
 In season 11, which is a very declining one she has big roles and her character is expanded even more: this complies with the rise of female and a bit of decline of male characters, which seems connected with the declining of the show. It is a big unexpected, though, that she has big roles in season 12, where the rating was going a bit up again.
