@@ -361,14 +361,16 @@ Since the Simpsons family play a major role and **speak 68% of the total number 
 It can be seen that by looking into the synopsis and the scripts there are some changes throughout the seasons that could explain why the ratings and the number of viewers have been declining. The main findings are:
 
 - **Merge** and **Lisa** are gaining a more important role in the series according to all centrality measures of the network, while the importance of **Homer** and **Bart** is declining. 
+- The developement in the networks shows that the **lower rated seasons have fewer nodes and links**.
 - When looking at the **sentiment scores of spoken words** in the seasons it can be seen that it has a **small upwards trend**. It also has a correlation of -0.48 to the ratings, which tells us that while the sentiment score has been going up the ratings have been going down. 
 - The number of **words spoken on average per episode in a season has been falling** almost since the start. The average number of words spoken in an episode in season 1 was 1527 vs. 1289 in season 26. 
 - When looking at the sentiment scores of each character it can be seen that the members of **the Simpsons family are getting slightly happier** in regards to spoken words. Five of the top 20 speaking characters have a noticable high upwards trend: **Milhouse Can Houten**, **Nelson Muntz**, **Lenny Leonard**, **Carl Carlsson** and **Julius Hibbert**.
 - **Merge** and **Lisa** have a higher sentiment score on average than **Homer** and **Bart**.
-The most liked seem to be **music**, **military** and episodes that do not present any major topic, but just concern about the parody of a stereotypical american family.
-- When looking at the td-idf scores of the different seasons, the least liked seasons are those which have high importance on **politics**, **religion** and **ethics**.
-- The topic **environment**, seem to be present along all the observed seasons accoring to the td-idf measure, and seem to be very linked to Lisa's "green" character. It looks like when it comes to animal safeguard people are more sensible than what they are with the wilderness.
-- Looking into the four main characters and their developement in regards to the most important spoken words, their personalities and role does not seem to have changed alot during the seasons.
+- When looking at the **td-idf scores of the different seasons**:
+	- The most liked seasons seem to have **music** or **military** as main topics, or even a non apperant main topic but revolve about the parody of a **stereotypical americal family**. 
+	- The least liked seasons are those which have high importance on **politics**, **religion** and **ethics**.
+	- The topic **environment**, seem to be present along all the observed seasons and is very linked to Lisa's "green" character. It looks like when it comes to animal safeguard people are more sensible than what they are with the wilderness.
+- Looking into the four main characters and their developement in regards to the most important spoken words, their **personalities and role do not seem to have changed alot during the seasons**.
 	- **Bart** has been a rebel throughout the series, but has lately been showing increasing interest in girls.
 	- **Homer** has the biggest role and contributes most to the main topics of the seasons, speaking over 30% of all the spoken words.
 	- **Marge** has been showing bigger importance to motherhood as the show goes on, but stays true to herself.
