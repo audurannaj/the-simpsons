@@ -291,7 +291,7 @@ There are big themes that can be linked with Lisa: environment, arts, knowledge.
 Season 12 is a bit of atypical season, inverting the negative trend, but having Lisa covering big roles. In the figure a lot of words connected to the main themes typical of Lisa can be seen: **chimps** (animals that the family has to save), **subliminal** (a subliminal message by Bart and Lisa feels she has to discover the meaning: that is her curiosity), **linguo** (a grammar robot she has built with her knowledge and study).
 
 <p align="center">
-	<img src="WordClouds/season12_barplot_lisa.png" height="288"/>
+	<img src="WordClouds/season12_barplot_lisa.png"/>
 </p>
 
 </details>
