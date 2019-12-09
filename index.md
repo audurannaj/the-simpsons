@@ -1,11 +1,10 @@
 **The Simpsons** first appeared on the television screen in 1989. Today, it is the longest running animates series of all time. 
 
-Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 years, but over the past decade the series seems to been declining in quality. The ratings and number of viewers have both been decreasing steadily over the years.
+Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 years, but over the past decade the series seems to have been declining in quality. The ratings and number of viewers have both been decreasing steadily over the years.
 
+Some say it's because of new writers, but here the goal is dig into **scripts** and the **synopsis** of each episode in order to see if any patterns can be detected that could help us understand what has happened to the series. 
 
-Some say it's because of new writers, but here the goal is dig into scripts and the synopsis of each episode in order to see if any patterns can be detected that could help us understand what has happened to the series. 
-
-Throughout this project, we looked at networks for each season of the series in order to detect changes between the years. Each network is comprised of characters that appear in an episode's **synopsis** in the season and links between them. We also analyzed a script for each episode of The Simpsons for seasons 1 through 26, as well as the actual **synopsis** for each episode in order to see how the essence of the show has changed. 
+Throughout this project, we looked at networks for each season of the series in order to detect changes between seasons. Each network is comprised of characters that appear in an episode's synopsis in the season and links between them. We also analyzed a script for each episode of The Simpsons for seasons 1 through 26, as well as the actual synopsis for each episode in order to see how the essence of the show has changed. 
 
 >**An explainer notebook detailing all the procedings that went on during this project and more detailed data analysis can be found [here](link_to_notebook).**
 
@@ -14,14 +13,14 @@ Below, a summary of the elements that this project is comprised of can be found.
 ---
 
 # 1. Data
-In order to create the networks and analyze text related to the series, a lot of data needed to be collected and created. 
+In order to create the networks and analyze text related to the series, a lot of data needed to be collected and cleaned. 
 
 The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. 
 
 
 | Dataset             | Info                                                                                          | Originally obtained from       |Size|  |
 |---------------------|-----------------------------------------------------------------------------------------------|---------------------|----|----------|
-| **Episode information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia       | 47KB  | [Download](data_to_download/episode_information.csv) |
+| **Episode Information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia       | 47KB  | [Download](data_to_download/episode_information.csv) |
 | **Ratings**             | Each episode's rating                                                                         | IMDB            |  18KB  | [Download](data_to_download/ratings.csv) |
 | **Demographic Ratings** | Each episode's rating for different demographics                                              | IMDB            |  77KB  | [Download](data_to_download/demographic_ratings.csv) |
 | **Characters**          | Each character that has appeared in The Simpsons                                              | Simpsons.Fandom.com| 21KB | [Download](data_to_download/characters.csv) |
@@ -30,38 +29,38 @@ The following table explains what datasets were used throughout the project, the
 
 The **Episode Information** dataset was obtained from Wikipedia with web-scraping in order to have an overview of relevant information for all the episodes of the series. This information would later be used in order to connect most of the other datasets obtained together. The dataset holds information about 662 episodes of The Simpsons, all the way back from December 17 1989 to May 12 2019. 
 
-The **Ratings** for each episodes were gotten with the same strategy as the episode information, but now [IMDB's rating site for The Simpsons](https://www.imdb.com/search/title/?series=tt0096697&view=simple&count=250&sort=user_rating,desc&ref_=tt_eps_rhs_sm) was scraped. One rating for each episode was obtained along with the episode's name for all episodes to date. These two datasets (Episode Information and Ratings) were then combined in order to have a larger dataset that held more information. 
+The **Ratings** for each episodes were obtained with the same strategy as the episode information, but now [IMDB's rating site for The Simpsons](https://www.imdb.com/search/title/?series=tt0096697&view=simple&count=250&sort=user_rating,desc&ref_=tt_eps_rhs_sm) was scraped. One rating for each episode was obtained along with the episode's name for all episodes to date. These two datasets (Episode Information and Ratings) were then combined in order to have a larger dataset that held more information. 
 
 From this data we could immediately confirm our beliefs about the decline in quality of the series, as can be seen on the graph below.
 
 
 <p align="center">
-<img src="rating_fall.png" width="675" height="405">
+<img src="rating_fall.png" width="675" height="385">
 </p>
 
 
 The **Demographic Ratings** for each episode were obtained in a similar manner that the **Ratings** dataframe was obtained, by scraping *IMDB*. This time, [each episodes rating site](https://www.imdb.com/title/tt0701122/ratings?ref_=tt_ov_rt) was scraped in order to obtain ratings from different age groups for both genders, namely *Males under 18*, *Males between 18 and 29*, *Males between 30 and 44*, *Males over 45*, *Females under 18*, *Females between 18 and 29*, *Females between 30 and 44*, *Females over 45*. Of course this dataset could have been a part of the **Ratings** dataset, but as the idea of scraping for demographic ratings came as the project had already progressed a bit, these dataframes were kept seperate. 
 
-When looking at the distribution of ratings for both genders, it can be seen that males usually tend to rate the series higher than females do, and males give more ratings.
+When looking at the distribution of ratings for both genders, it can be seen that males tend to rate the series higher than females do, and males give more ratings.
 
 <p align="center">
-<img src="dist_ratings_gender.png" width="675" height="405">
+<img src="dist_ratings_gender.png" width="675" height="385">
 </p>
 
-However, as the series has progressed, female ratings have not drastically declined as much as the male ratings. As male give the series a lot more ratings than females do, one could argue that they influence the decline in the ratings much more than females do. 
+However, as the series has progressed, female ratings have not declined as much as the male ratings. In the beginning females did not like the show as much as males, but today their average ratings is approximately the same.
 
 <p align="center">
-<img src="male_groups.png" width="675" height="405">
+<img src="male_groups.png" width="675" height="385">
 </p>
 
 <p align="center">
-<img src="female_groups.png" width="675" height="405">
+<img src="female_groups.png" width="675" height="385">
 </p>
 
-It seems that the series has started to appeal less and less to young males and more and more towards older females, according to these graphs. However, as males rating amounts have dominated the female ones over the years, the series still sees its ratings go down. 
+It seems that the series has started to appeal less and less to young males and more and more to older females, according to these graphs. However, as males rating amounts have dominated the female ones over the years, the series still sees its ratings go down. 
 
 <p align="center">
-<img src="gender_amounts.png" width="675" height="405">
+<img src="gender_amounts.png" width="675" height="385">
 </p>
 
 
@@ -78,8 +77,8 @@ An example of a synopsis which was scraped can be seen below:
 `<p>Thanks to a radio talk show host, <a class="mw-redirect" href="/wiki/Mayor_Quimby" title="Mayor Quimby">Mayor Quimby</a> is pressured into releasing <a class="mw-redirect" href="/wiki/Sideshow_Bob" title="Sideshow Bob">Sideshow Bob</a> from prison. Once out, Bob promptly runs against the mayor and wins. <a class="mw-redirect" href="/wiki/Bart" title="Bart">Bart</a> and <a class="mw-redirect" href="/wiki/Lisa" title="Lisa">Lisa</a> set out to prove Mayor Bob did not legally win.
 </p>`
 
-The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wikipedia page is in the episode and that is how a character will be to the episode. 
 
+The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wikipedia page is in the episode, and those characters are considered to be the main characters of an episode, which will be used for building the networks.
 
 ---
 # 2. The Networks
@@ -96,9 +95,9 @@ The size of each node is dependant on **how many times the character appeared in
 
 The width of each edge is dependant on **how many times two characters appeared together in a synopsis** - the more often, the wider the edge. 
 
-When visualizing the networks, there were no dramatic changes to them through the seasons except for, of course, new characters (nodes) and some different edges introduced. The largest nodes almost always seemed to be **Homer** and **Bart**, with the *center of gravity* of the node, i.e. where the strongest links are, being around The Simpson family. However, when visualizing the three best rated seasons vs. the three worst rated seasons, there seemed to be an apparent contrast in the number of nodes and links in the networks that are the highest rated compared to those that are the lowest rated networks.
+When visualizing the networks, there were no dramatic changes to them through the seasons except for, of course, new characters (nodes) and some different edges introduced. The largest nodes almost always seemed to be **Homer** and **Bart**, with the *center of gravity* of the node, i.e. where the strongest links are, being around The Simpson family. However, when visualizing the three best rated seasons vs. the three worst rated seasons, there seemed to be an apparent contrast in the number of nodes and links in the networks. The highest rated networks seem to consist of much more characters than the lowest rated networks. 
 
-**The three highest rated seasons visualized as networks**
+**The three highest rated seasons visualized as networks:**
 <p align="center">
 <img src="three_best_5.png" width="675" height="405">
 </p>
@@ -111,7 +110,7 @@ When visualizing the networks, there were no dramatic changes to them through th
 <img src="three_best.png" width="675" height="405">
 </p>
 
-**The three lowest rated seasons visualized as networks**
+**The three lowest rated seasons visualized as networks:**
 
 <p align="center">
 <img src="three_worst.png" width="675" height="405">
@@ -125,21 +124,21 @@ When visualizing the networks, there were no dramatic changes to them through th
 <img src="three_worst_3.png" width="675" height="405">
 </p>
 
-When the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. Three centrality measures were calculated for every node of every season, and the regression of those measures were visualized (see below). 
+When the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. Three centrality measures were calculated for every node of every season, and the regression of those measures were visualized for the four main characters (see below). 
 
-**Degree Centrality for each family member over the 30 seasons**
+**Degree Centrality for each family member over the 30 seasons:**
 
 <p align="center">
 <img src="degree_measure.png" width="675" height="1215">
 </p>
 
-**Betweenness Centrality for each family member over the 30 seasons**
+**Betweenness Centrality for each family member over the 30 seasons:**
 
 <p align="center">
 <img src="betweenness_measure.png" width="675" height="1215">
 </p>
 
-**Eigenvector Centrality for each family member over the 30 seasons**
+**Eigenvector Centrality for each family member over the 30 seasons:**
 
 <p align="center">
 <img src="eigen_measure.png" width="675" height="1215">
@@ -157,12 +156,10 @@ The growth of the appearances and influence of the female family members of The 
 
 The series seems to have lost its appeal it had to men and started appealing more to women, according to the demographic ratings. This could be the cause of more episodes featuring **Marge** and **Lisa**, with **Homer** and **Bart** taking a small step back in their dominance over the series. The analysis that was carried out on the networks created does seem to tell a story of these female characters gaining more and more influence in the series, with the two previously dominant male characters having to share the spotlight. 
 
-**Limitations**
 
-These networks are created from the synopsis for each episode of a season. These synopsis sometimes create links between characters which do not represent their interaction within the episode, i.e. if there are subplots (A-plot and B-plot) for an episode, those that appear together in the
-A-plot (the main plot of the episode) are linked with those that appear in the B-plot (the subplot of an episode) maybe without them actually interacting together in the episode. 
+***LIMITATIONS:***
 
-See the work [here](https://audurannaj.github.io/the-simpsons/networks.html)
+> These networks are created from the synopsis for each episode of a season. These synopsis sometimes create links between characters which do not represent their interaction within the episode, i.e. if there are subplots (A-plot and B-plot) for an episode, those that appear together in the A-plot (the main plot of the episode) are linked with those that appear in the B-plot (the subplot of an episode) maybe without them actually interacting together in the episode. 
 
 ---
 
@@ -174,23 +171,23 @@ See the work [here](https://audurannaj.github.io/the-simpsons/networks.html)
 
 To understand the evolution of the show it is important to take a look at the distinghuishing topics treated in every season and wether these topics are appreciated or not by the viewers.
 
-To do that **TF-IDF** score has been used: it combines how many times a word appears in a document (Term Frequency) and how that word is typical of that document, so the number of documents that have that word in it (Inverse Document Frequency). The result is a score for every word in each document, indicating how that word is important in distinguishing that document from the others. This information has then been used to produce **WordClouds** (images containing words that have a size proportional to their score) and barplots.
+To do that **TF-IDF** score has been used: it combines how many times a word appears in a document (Term Frequency) and how rare that word is in regards to it appearance in the compared documents (Inverse Document Frequency). The result is a score for every word in each document, indicating how important that word is in distinguishing that document from the others. This information has then been used to produce **WordClouds** (images containing words that have a size proportional to their score) and barplots.
 
-Confronting a lot of wordclouds was prohibitive and messy, because of the huge number of words and also how different these words are. To make this manageable while keeping it relevant, seven distinct seasons have been analyzed (but each one contributes to the score computation):
+Confronting a lot of wordclouds was prohibitive and messy, because of the huge number of words and how different these words are. To make this manageable while keeping it relevant, seven distinct seasons have been analyzed (but each one contributes to the score computation):
 
-* **Top 2 seasons in the first 9**. This because these are considered the best seasons in the show's history. The ones with the best ranking will be used to be as accurate as possible in the analysis. The resulting seasons are the 5th and the 7th respectively.
-* **Worst 2 seasons after the 17th**. This because the rating decay gets slower after the 17th season. It still remains bad compared to the first seasons, but it's not improving. These seasons can give an insight on the cause.
-* **Seasons 11, 12, 13**. What is that brought the show from such a high rating to a pretty low one? These seasons, which are in the middle of the rating decay, were analyzed: the choice has fallen on these because it happens that season 12 improves the rating of the previous season, just to fall down again with the 13th. This has then to be a focal point for the analysis. The resulting seasons are the 26th and the 24th respectively.
+* **Top 2 seasons in the first 9**. These are considered the best seasons in the show's history. The ones with the best ranking will be used to be as accurate as possible in the analysis. The resulting seasons are the 5th and the 7th respectively.
+* **Worst 2 seasons after the 17th**. This because the rating decay gets slower after the 17th season. These seasons can give insight on the cause. The resulting seasons are the 26th and the 24th respectively.
+* **Seasons 11, 12, 13**. What is that brought the show from such a high rating to a pretty low one? These seasons, which are in the middle of the rating decay, were analyzed: the choice has fallen on these because it happens that season 12 improves the rating of the previous season, just to fall down again with the 13th. This has then to be a focal point for the analysis. 
 
 Some preliminary observations are:
-* It was not easy to see patterns either in the WordClouds or in the barplots: research on the words was required in order to delve deeper into the topics. To learn more about that see the explainer notebook linked at the top of this page
+* It was not easy to see patterns either in the WordClouds or in the barplots: research on the words was required in order to delve deeper into the topics. To learn more about that, see the explainer notebook linked at the top of this page.
 * The show in general does evolve following the real world, following the main topics and the common view on them.
 
 ## 3.1 Synopsis Topics
 
 The first analysis was on the synopsis extracted. A lot of themes and considerations emerged here: the further analysis done on the scripts confirms and expands the findings.
 
-There are a lot of **political** and **ethical** topics, but they seem to be more and more frequent later on in the show: this may arise the suspicion that the show went from representing a parody of a typical american family to educate people on the current relevant hot topics. This might have beeen seen by fans as a forced introduction into the show, changing its nature and so lowering its value. Another possible explanation is just that the few political topics in the first seasons were presented in a different and in a way that better suited the interest of the audience.
+There are a lot of **political** and **ethical** topics, but they seem to be more and more frequent later on in the show: this may arise the suspicion that the show went from representing a parody of a typical american family to educate people on the current relevant hot topics. This might have been seen by fans as a forced introduction into the show, changing its nature and so lowering its value. Another possible explanation is just that the few political topics in the first seasons were presented in a different and in a way that better suited the interest of the audience.
 
 One of the biggest topics is **environment**: it is always present, but after season 10 it presents with more insistence. Looks like the viewers are not liking a lot these issues, probably because they feel like it's a distant problem: vice-versa immigration seems to affect them in a more direct way and it is more interesting to them. This, though, is in contrast with season 5 that exposes the safeguard of animals problem: maybe animated beings have more value to people than plants, or maybe that season was simply very appreciated that this topic didn't affect it too much.
 
@@ -209,7 +206,7 @@ By analyzing all the Simpsons scripts, the previous observations on the synopsis
 
 The **environment** really is a very discussed topic in the Simpsons' show (which was expected given the nature of Lisa's character). Still, looks like it is handled differently by the "declining" season from the first ones. It seems too pervasive and that could have annoyed the audience.
 
-The **military** is a new topic found and it seems to be a well perceived and important argument to the audience, even if not very common and present in few episodes: this can be understood by looking at how much americans feel the importance of having a respected army. Along with this Granpa Abe seems to gain a more relevance as the seasons go on, to the point of having some episodes focused on him. This, on the contrary wrt the military topic, has not brought a lot of interest in the show, because it is more pervasive in more negative seasons: it is present more and more in the lastest ones and the audience may perceive having the focus this much on an old character and flashbacks as boring or not too interesting.
+The **military** is a new topic found and it seems to be a well perceived and important argument to the audience, even if not very common and present in few episodes: this can be understood by looking at how much americans feel the importance of having a respected army. Along with this Granpa Abe seems to gain a more relevance as the seasons go on, to the point of having some episodes focused on him. This, on the contrary with the military topic, has not brought a lot of interest in the show, because it is more pervasive in more negative seasons: it is present more and more in the lastest ones and the audience may perceive having the focus this much on an old character and flashbacks as boring or not too interesting.
 
 **Political** themes seem to be not as evident as in the synopsis analysis, but some **ethic** is put into environmental topics, perceived in different ways depending on how they were presented: looks like the presentations in the first part of the show were more enjoyable for the public. Also a **religious** topic is exposed, but it is likely not really appreciated as it appears in one of the worst seasons.
 
@@ -234,7 +231,7 @@ Now each character is presented independently. To show each one's analysis click
 
 
 <details> <summary>Homer Simpson</summary>
-The first thing that was notices is that a lot of Homer's top-scoring words match the main themes of the respective season. This is logical also thinking that Homer is one of the main characters and the most speaking one and thus contributes a lot to the finding of the themes in the previous iterations of the analysis. Thus his themes pretty much change along with the show's ones.
+The first thing that was noticed is that a lot of Homer's top-scoring words match the main themes of the respective season. This is logical also thinking that Homer is one of the main characters and the most speaking one and thus contributes a lot to the finding of the themes in the previous iterations of the analysis. Thus his themes pretty much change along with the show's ones.
 
 There is no real comparison one could do in this case of the different language Homes uses. It is then how important or frivolus the topics he talks about are. Among the seasons the words he uses are mostly pretty short, which usually reflects on the words to be common and easy, while long and elaborate words are more complex. This usage suites Homer's character since he is supposed to be simple-minded.
 
