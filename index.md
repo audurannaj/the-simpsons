@@ -1,11 +1,10 @@
 **The Simpsons** first appeared on the television screen in 1989. Today, it is the longest running animates series of all time. 
 
-Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 years, but over the past decade the series seems to been declining in quality. The ratings and number of viewers have both been decreasing steadily over the years.
+Over 600 Simpsons episodes in 30 seasons have been realeased over the past 30 years, but over the past decade the series seems to have been declining in quality. The ratings and number of viewers have both been decreasing steadily over the years.
 
+Some say it's because of new writers, but here the goal is dig into **scripts** and the **synopsis** of each episode in order to see if any patterns can be detected that could help us understand what has happened to the series. 
 
-Some say it's because of new writers, but here the goal is dig into scripts and the synopsis of each episode in order to see if any patterns can be detected that could help us understand what has happened to the series. 
-
-Throughout this project, we looked at networks for each season of the series in order to detect changes between the years. Each network is comprised of characters that appear in an episode's **synopsis** in the season and links between them. We also analyzed a script for each episode of The Simpsons for seasons 1 through 26, as well as the actual **synopsis** for each episode in order to see how the essence of the show has changed. 
+Throughout this project, we looked at networks for each season of the series in order to detect changes between seasons. Each network is comprised of characters that appear in an episode's synopsis in the season and links between them. We also analyzed a script for each episode of The Simpsons for seasons 1 through 26, as well as the actual synopsis for each episode in order to see how the essence of the show has changed. 
 
 >**An explainer notebook detailing all the procedings that went on during this project and more detailed data analysis can be found [here](link_to_notebook).**
 
@@ -14,14 +13,14 @@ Below, a summary of the elements that this project is comprised of can be found.
 ---
 
 # 1. Data
-In order to create the networks and analyze text related to the series, a lot of data needed to be collected and created. 
+In order to create the networks and analyze text related to the series, a lot of data needed to be collected and cleaned. 
 
 The following table explains what datasets were used throughout the project, their attributes, size and how they were obtained. 
 
 
 | Dataset             | Info                                                                                          | Originally obtained from       |Size|  |
 |---------------------|-----------------------------------------------------------------------------------------------|---------------------|----|----------|
-| **Episode information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia       | 47KB  | [Download](data_to_download/episode_information.csv) |
+| **Episode Information** | Each episode's relevant information, such as how many viewers saw the episode, airdate, etc.  | Wikipedia       | 47KB  | [Download](data_to_download/episode_information.csv) |
 | **Ratings**             | Each episode's rating                                                                         | IMDB            |  18KB  | [Download](data_to_download/ratings.csv) |
 | **Demographic Ratings** | Each episode's rating for different demographics                                              | IMDB            |  77KB  | [Download](data_to_download/demographic_ratings.csv) |
 | **Characters**          | Each character that has appeared in The Simpsons                                              | Simpsons.Fandom.com| 21KB | [Download](data_to_download/characters.csv) |
@@ -30,13 +29,13 @@ The following table explains what datasets were used throughout the project, the
 
 The **Episode Information** dataset was obtained from Wikipedia with web-scraping in order to have an overview of relevant information for all the episodes of the series. This information would later be used in order to connect most of the other datasets obtained together. The dataset holds information about 662 episodes of The Simpsons, all the way back from December 17 1989 to May 12 2019. 
 
-The **Ratings** for each episodes were gotten with the same strategy as the episode information, but now [IMDB's rating site for The Simpsons](https://www.imdb.com/search/title/?series=tt0096697&view=simple&count=250&sort=user_rating,desc&ref_=tt_eps_rhs_sm) was scraped. One rating for each episode was obtained along with the episode's name for all episodes to date. These two datasets (Episode Information and Ratings) were then combined in order to have a larger dataset that held more information. 
+The **Ratings** for each episodes were obtained with the same strategy as the episode information, but now [IMDB's rating site for The Simpsons](https://www.imdb.com/search/title/?series=tt0096697&view=simple&count=250&sort=user_rating,desc&ref_=tt_eps_rhs_sm) was scraped. One rating for each episode was obtained along with the episode's name for all episodes to date. These two datasets (Episode Information and Ratings) were then combined in order to have a larger dataset that held more information. 
 
 From this data we could immediately confirm our beliefs about the decline in quality of the series, as can be seen on the graph below.
 
 
 <p align="center">
-<img src="rating_fall.png" width="675" height="405">
+<img src="rating_fall.png" width="675" height="385">
 </p>
 
 
