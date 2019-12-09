@@ -41,26 +41,26 @@ From this data we could immediately confirm our beliefs about the decline in qua
 
 The **Demographic Ratings** for each episode were obtained in a similar manner that the **Ratings** dataframe was obtained, by scraping *IMDB*. This time, [each episodes rating site](https://www.imdb.com/title/tt0701122/ratings?ref_=tt_ov_rt) was scraped in order to obtain ratings from different age groups for both genders, namely *Males under 18*, *Males between 18 and 29*, *Males between 30 and 44*, *Males over 45*, *Females under 18*, *Females between 18 and 29*, *Females between 30 and 44*, *Females over 45*. Of course this dataset could have been a part of the **Ratings** dataset, but as the idea of scraping for demographic ratings came as the project had already progressed a bit, these dataframes were kept seperate. 
 
-When looking at the distribution of ratings for both genders, it can be seen that males usually tend to rate the series higher than females do, and males give more ratings.
+When looking at the distribution of ratings for both genders, it can be seen that males tend to rate the series higher than females do, and males give more ratings.
 
 <p align="center">
-<img src="dist_ratings_gender.png" width="675" height="405">
+<img src="dist_ratings_gender.png" width="675" height="385">
 </p>
 
-However, as the series has progressed, female ratings have not drastically declined as much as the male ratings. As male give the series a lot more ratings than females do, one could argue that they influence the decline in the ratings much more than females do. 
+However, as the series has progressed, female ratings have not declined as much as the male ratings. In the beginning females did not like the show as much as males, but today their average ratings is approximately the same.
 
 <p align="center">
-<img src="male_groups.png" width="675" height="405">
+<img src="male_groups.png" width="675" height="385">
 </p>
 
 <p align="center">
-<img src="female_groups.png" width="675" height="405">
+<img src="female_groups.png" width="675" height="385">
 </p>
 
-It seems that the series has started to appeal less and less to young males and more and more towards older females, according to these graphs. However, as males rating amounts have dominated the female ones over the years, the series still sees its ratings go down. 
+It seems that the series has started to appeal less and less to young males and more and more to older females, according to these graphs. However, as males rating amounts have dominated the female ones over the years, the series still sees its ratings go down. 
 
 <p align="center">
-<img src="gender_amounts.png" width="675" height="405">
+<img src="gender_amounts.png" width="675" height="385">
 </p>
 
 
@@ -77,8 +77,7 @@ An example of a synopsis which was scraped can be seen below:
 `<p>Thanks to a radio talk show host, <a class="mw-redirect" href="/wiki/Mayor_Quimby" title="Mayor Quimby">Mayor Quimby</a> is pressured into releasing <a class="mw-redirect" href="/wiki/Sideshow_Bob" title="Sideshow Bob">Sideshow Bob</a> from prison. Once out, Bob promptly runs against the mayor and wins. <a class="mw-redirect" href="/wiki/Bart" title="Bart">Bart</a> and <a class="mw-redirect" href="/wiki/Lisa" title="Lisa">Lisa</a> set out to prove Mayor Bob did not legally win.
 </p>`
 
-The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wikipedia page is in the episode and that is how a character will be to the episode. 
-
+The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wikipedia page is in the episode, and those characters are considered to be the main characters of an episode, which will be used for building the networks.
 
 ---
 # 2. The Networks
