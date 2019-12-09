@@ -378,9 +378,7 @@ It can be seen that by looking into the synopsis and the scripts there are some 
 
 The results of the demographic analysis were that **men are the vast majority of the raters** and the main age group that is rating the series is people from 30-44 for both genders. When looking at the ratings in respect to gender it can be seen that the **fall in the ratings is not as big for the female audience as the male audience**. 
 
-From the findings it could be suggested that the viewers respond better to more sad episodes, where many words are spoken and where **Bart** and **Homer** play a big role. When linking thoses results to the fact that the ratings for women audience have not fallen as much as for the male audience, this hints that women have different prefrences than men in regards to the tv-show.
-
-
+From the findings it could be suggested that the **viewers respond better to more sad episodes**, where **many words are spoken**, where there is **no apperent specific topic** and where **Bart and Homer play a big role**. When linking thoses results to the fact that the ratings for women audience have not fallen as much as for the male audience, this hints that women have different prefrences than men in regards to the tv-show.
 
 Even though the findings suggests some factors that could affect the ratings of the Simpsons, **these factors are not likely explain all the decines in ratings**. Even though the spoken words and the synopsis tell alot about the content of the show, the environment, circumstances, how things are said also affect how people relate to the characters and the show.
 
