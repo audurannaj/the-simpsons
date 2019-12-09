@@ -1,0 +1,520 @@
+,name,aka,first_name
+0,Homer,['Homer'],Homer
+1,Marge,['Marge'],Marge
+2,Bart,['Bart'],Bart
+3,Lisa,['Lisa'],Lisa
+4,Maggie,['Maggie'],Maggie
+5,Abe,['Abe'],Abe
+6,Ned Flanders,"['Ned', 'Flanders']",Ned
+7,Mr. Burns,['Burns'],Burns
+8,Krusty the Clown,"['Krusty', 'the', 'Clown']",Krusty
+9,Moe Szyslak,"['Moe', 'Szyslak']",Moe
+10,Seymour Skinner,"['Seymour', 'Skinner']",Seymour
+11,Milhouse Van Houten,"['Milhouse', 'Van', 'Houten']",Milhouse
+12,Edna Krabappel,"['Edna', 'Krabappel']",Edna
+13,Apu Nahasapeemapetilon,"['Apu', 'Nahasapeemapetilon']",Apu
+14,Eleanor Abernathy,"['Eleanor', 'Abernathy']",Eleanor
+15,Akira,['Akira'],Akira
+16,Ms. Albright,['Albright'],Albright
+17,Woody Allen,"['Woody', 'Allen']",Woody
+18,Aristotle Amadopolis,"['Aristotle', 'Amadopolis']",Aristotle
+19,State Comptroller Atkins,"['State', 'Comptroller', 'Atkins']",State
+20,Mary Bailey,"['Mary', 'Bailey']",Mary
+21,Jasper Beardly,"['Jasper', 'Beardly']",Jasper
+22,Benjamin (nerd),['Benjamin'],Benjamin
+23,Bill (KBBL DJ),['Bill'],Bill
+24,Billy (actor),['Billy'],Billy
+25,Birch Barlow,"['Birch', 'Barlow']",Birch
+26,Black Weasel,"['Black', 'Weasel']",Black
+27,Blue-Haired Lawyer,"['Blue-Haired', 'Lawyer']",Blue-Haired
+28,Patty Bouvier,"['Patty', 'Bouvier']",Patty
+29,Selma Bouvier,"['Selma', 'Bouvier']",Selma
+30,Cowboy Bob,"['Cowboy', 'Bob']",Cowboy
+31,Sideshow Bob,"['Sideshow', 'Bob']",Sideshow
+32,Booberella,['Booberella'],Booberella
+33,Wendell Borton,"['Wendell', 'Borton']",Wendell
+34,Brittany Brockman,"['Brittany', 'Brockman']",Brittany
+35,Don Brodka,"['Don', 'Brodka']",Don
+36,Lucille Botzcowski,"['Lucille', 'Botzcowski']",Lucille
+37,Bumblebee Man,"['Bumblebee', 'Man']",Bumblebee
+38,Larry Burns,"['Larry', 'Burns']",Larry
+39,Capital City Goofball,"['Capital', 'City', 'Goofball']",Capital
+40,Carl Carlson,"['Carl', 'Carlson']",Carl
+41,Cesar,['Cesar'],Cesar
+42,Gary Chalmers,"['Gary', 'Chalmers']",Gary
+43,Charlie (SNPP),['Charlie'],Charlie
+44,Chazz Busby,"['Chazz', 'Busby']",Chazz
+45,Scott Christian,"['Scott', 'Christian']",Scott
+46,Sebastian Cobb,"['Sebastian', 'Cobb']",Sebastian
+47,Colin,['Colin'],Colin
+48,Dr. Hector von Colossus,"['Hector', 'von', 'Colossus']",Hector
+49,Cora,['Cora'],Cora
+50,Mr. Costington,['Costington'],Costington
+51,Arthur Crandall,"['Arthur', 'Crandall']",Arthur
+52,Joey Crusher,"['Joey', 'Crusher']",Joey
+53,Database,['Database'],Database
+54,Declan Desmond,"['Declan', 'Desmond']",Declan
+55,Dewey Largo,"['Dewey', 'Largo']",Dewey
+56,Dwight Diddlehopper,"['Dwight', 'Diddlehopper']",Dwight
+57,Disco Stu,"['Disco', 'Stu']",Disco
+58,Doug (nerd),['Doug'],Doug
+59,Duffman,['Duffman'],Duffman
+60,Eddie,['Eddie'],Eddie
+61,Happy Little Elves,"['Happy', 'Little', 'Elves']",Happy
+62,Ernst,['Ernst'],Ernst
+63,Fat Tony,"['Fat', 'Tony']",Fat
+64,Fallout Boy,"['Fallout', 'Boy']",Fallout
+65,Frankie the Squealer,"['Frankie', 'the', 'Squealer']",Frankie
+66,Maude Flanders,"['Maude', 'Flanders']",Maude
+67,Rod Flanders,"['Rod', 'Flanders']",Rod
+68,Todd Flanders,"['Todd', 'Flanders']",Todd
+69,Doris Freedman,"['Doris', 'Freedman']",Doris
+70,Jonathan Frink,"['Jonathan', 'Frink']",Jonathan
+71,Frog Prince,"['Frog', 'Prince']",Frog
+72,Gabbo,['Gabbo'],Gabbo
+73,Gary (nerd),['Gary'],Gary
+74,Gavin,['Gavin'],Gavin
+75,Alice Glick,"['Alice', 'Glick']",Alice
+76,Gloria Jailbird,"['Gloria', 'Jailbird']",Gloria
+77,Gloria (White Christmas Blues),"['Gloria', 'Christmas']",Gloria
+78,God,['God'],God
+79,Grady,['Grady'],Grady
+80,Frank Grimes,"['Frank', 'Grimes']",Frank
+81,Matt Groening (character),"['Matt', 'Groening']",Matt
+82,Barney Gumble,"['Barney', 'Gumble']",Barney
+83,Gil Gunderson,"['Gil', 'Gunderson']",Gil
+84,Gunter,['Gunter'],Gunter
+85,Handsome Pete,"['Handsome', 'Pete']",Handsome
+86,Judge Constance Harm,"['Judge', 'Constance', 'Harm']",Judge
+87,Herman Hermann,"['Herman', 'Hermann']",Herman
+88,Bernice Hibbert,"['Bernice', 'Hibbert']",Bernice
+89,Julius Hibbert,"['Julius', 'Hibbert']",Julius
+90,Elizabeth Hoover,"['Elizabeth', 'Hoover']",Elizabeth
+91,Lionel Hutz,"['Lionel', 'Hutz']",Lionel
+92,Itchy,['Itchy'],Itchy
+93,Jack Lassen,"['Jack', 'Lassen']",Jack
+94,Jeremy Jailbird,"['Jeremy', 'Jailbird']",Jeremy
+95,Snake Jailbird,"['Snake', 'Jailbird']",Snake
+96,Jake the Barber,"['Jake', 'the', 'Barber']",Jake
+97,Jacques,['Jacques'],Jacques
+98,Comic Book Guy,"['Comic', 'Book', 'Guy']",Comic
+99,Jeremy Freedman,"['Jeremy', 'Freedman']",Jeremy
+100,Jericho,['Jericho'],Jericho
+101,Joey (mafia),['Joey'],Joey
+102,Jimbo Jones,"['Jimbo', 'Jones']",Jimbo
+103,Rachel Jordan,"['Rachel', 'Jordan']",Rachel
+104,Julio,['Julio'],Julio
+105,Kang,['Kang'],Kang
+106,Princess Kashmir,"['Princess', 'Kashmir']",Princess
+107,Kent Brockman,"['Kent', 'Brockman']",Kent
+108,Kodos,['Kodos'],Kodos
+109,Leon Kompowsky,"['Leon', 'Kompowsky']",Leon
+110,Coach Krupt,"['Coach', 'Krupt']",Coach
+111,Rabbi Hyman Krustofsky,"['Rabbi', 'Hyman', 'Krustofsky']",Rabbi
+112,Kumiko Albertson,"['Kumiko', 'Albertson']",Kumiko
+113,Cookie Kwan,"['Cookie', 'Kwan']",Cookie
+114,Chester J. Lampwick,"['Chester', 'J.', 'Lampwick']",Chester
+115,Lard Lad,"['Lard', 'Lad']",Lard
+116,Larry (barfly),['Larry'],Larry
+117,The Leader,"['The', 'Leader']",The
+118,Lenny Leonard,"['Lenny', 'Leonard']",Lenny
+119,Leopold,['Leopold'],Leopold
+120,Leprechaun,['Leprechaun'],Leprechaun
+121,Lewis Clark,"['Lewis', 'Clark']",Lewis
+122,Ling Bouvier,"['Ling', 'Bouvier']",Ling
+123,Professor Lombardo,"['Professor', 'Lombardo']",Professor
+124,Lou,['Lou'],Lou
+125,Louie (mafia),['Louie'],Louie
+126,Helen Lovejoy,"['Helen', 'Lovejoy']",Helen
+127,Jessica Lovejoy,"['Jessica', 'Lovejoy']",Jessica
+128,Lowblow,['Lowblow'],Lowblow
+129,Luann Van Houten,"['Luann', 'Van', 'Houten']",Luann
+130,Lugash,['Lugash'],Lugash
+131,Lurleen Lumpkin,"['Lurleen', 'Lumpkin']",Lurleen
+132,Lyle Lanley,"['Lyle', 'Lanley']",Lyle
+133,Horatio McCallister,"['Horatio', 'McCallister']",Horatio
+134,Mr. McGreg,['McGreg'],McGreg
+135,Jack Marley,"['Jack', 'Marley']",Jack
+136,Marty (KBBL DJ),['Marty'],Marty
+137,Troy McClure,"['Troy', 'McClure']",Troy
+138,Melvin Van Horne,"['Melvin', 'Van', 'Horne']",Melvin
+139,"Roger Meyers, Jr.","['Roger', 'Meyers,']",Roger
+140,Milo,['Milo'],Milo
+141,Hans Moleman,"['Hans', 'Moleman']",Hans
+142,Marvin Monroe,"['Marvin', 'Monroe']",Marvin
+143,Mervin Monroe,"['Mervin', 'Monroe']",Mervin
+144,Nelson Muntz,"['Nelson', 'Muntz']",Nelson
+145,Eddie Muntz,"['Eddie', 'Muntz']",Eddie
+146,Mrs. Muntz,['Muntz'],Muntz
+147,Captain Lance Murdock,"['Captain', 'Lance', 'Murdock']",Captain
+148,Bleeding Gums Murphy,"['Bleeding', 'Gums', 'Murphy']",Bleeding
+149,Lindsey Naegle,"['Lindsey', 'Naegle']",Lindsey
+150,Manjula Nahasapeemapetilon,"['Manjula', 'Nahasapeemapetilon']",Manjula
+151,Sanjay Nahasapeemapetilon,"['Sanjay', 'Nahasapeemapetilon']",Sanjay
+152,The Nahasapeemapetilon Octuplets,"['The', 'Nahasapeemapetilon', 'Octuplets']",The
+153,Old Jewish Man,"['Old', 'Jewish', 'Man']",Old
+154,Number One,"['Number', 'One']",Number
+155,Opal,['Opal'],Opal
+156,Otto Mann,"['Otto', 'Mann']",Otto
+157,MacArthur Parker,"['MacArthur', 'Parker']",MacArthur
+158,Patches,['Patches'],Patches
+159,Lois Pennycandy,"['Lois', 'Pennycandy']",Lois
+160,Phillips,['Phillips'],Phillips
+161,Plopper,['Plopper'],Plopper
+162,Brunella Pommelhorst,"['Brunella', 'Pommelhorst']",Brunella
+163,Poochie,['Poochie'],Poochie
+164,Ruth Powers,"['Ruth', 'Powers']",Ruth
+165,Janey Powell,"['Janey', 'Powell']",Janey
+166,Martha Prince,"['Martha', 'Prince']",Martha
+167,Martin Prince,"['Martin', 'Prince']",Martin
+168,"Martin Prince, Sr.","['Martin', 'Prince,']",Martin
+169,Principal Dondelinger,"['Principal', 'Dondelinger']",Principal
+170,J. Loren Pryor,"['J.', 'Loren', 'Pryor']",J.
+171,Corporal Punishment,"['Corporal', 'Punishment']",Corporal
+172,Arnie Pye,"['Arnie', 'Pye']",Arnie
+173,Pyro,['Pyro'],Pyro
+174,Freddy Quimby,"['Freddy', 'Quimby']",Freddy
+175,Joe Quimby,"['Joe', 'Quimby']",Joe
+176,Martha Quimby,"['Martha', 'Quimby']",Martha
+177,Radioactive Man (character),"['Radioactive', 'Man']",Radioactive
+178,Raphael,['Raphael'],Raphael
+179,Rasputin the Friendly Russian,"['Rasputin', 'the', 'Friendly', 'Russian']",Rasputin
+180,Rex Banner,"['Rex', 'Banner']",Rex
+181,Francine Rhenquist,"['Francine', 'Rhenquist']",Francine
+182,The Rich Texan,"['The', 'Rich', 'Texan']",The
+183,Richard,['Richard'],Richard
+184,Roy,['Roy'],Roy
+185,Luigi Risotto,"['Luigi', 'Risotto']",Luigi
+186,Nick Riviera,"['Nick', 'Riviera']",Nick
+187,Russ Cargill,"['Russ', 'Cargill']",Russ
+188,Sam (barfly),['Sam'],Sam
+189,Gerald Samson,"['Gerald', 'Samson']",Gerald
+190,Ms. Samson,['Samson'],Samson
+191,Hank Scorpio,"['Hank', 'Scorpio']",Hank
+192,Arnold Schwarzenegger,"['Arnold', 'Schwarzenegger']",Arnold
+193,Scratchy,['Scratchy'],Scratchy
+194,Serak the Preparer,"['Serak', 'the', 'Preparer']",Serak
+195,Shary Bobbins,"['Shary', 'Bobbins']",Shary
+196,Shauna Chalmers,"['Shauna', 'Chalmers']",Shauna
+197,Shelby,['Shelby'],Shelby
+198,Sherri Mackleberry,"['Sherri', 'Mackleberry']",Sherri
+199,Jay Sherman,"['Jay', 'Sherman']",Jay
+200,Dave Shutton,"['Dave', 'Shutton']",Dave
+201,Mindy Simmons,"['Mindy', 'Simmons']",Mindy
+202,Agnes Skinner,"['Agnes', 'Skinner']",Agnes
+203,Llewellyn Sinclair,"['Llewellyn', 'Sinclair']",Llewellyn
+204,Smilin' Joe Fission,"[""Smilin'"", 'Joe', 'Fission']",Smilin'
+205,"Waylon Smithers, Jr.","['Waylon', 'Smithers,']",Waylon
+206,Roy Snyder,"['Roy', 'Snyder']",Roy
+207,Bomb Disarming Robot,"['Bomb', 'Disarming', 'Robot']",Bomb
+208,Jebediah Springfield,"['Jebediah', 'Springfield']",Jebediah
+209,Miss Springfield,"['Miss', 'Springfield']",Miss
+210,Dolph Starbeam,"['Dolph', 'Starbeam']",Dolph
+211,Lucius Sweet,"['Lucius', 'Sweet']",Lucius
+212,Drederick Tatum,"['Drederick', 'Tatum']",Drederick
+213,Allison Taylor,"['Allison', 'Taylor']",Allison
+214,Mr. Teeny,['Teeny'],Teeny
+215,Terri Mackleberry,"['Terri', 'Mackleberry']",Terri
+216,Cecil Terwilliger,"['Cecil', 'Terwilliger']",Cecil
+217,Francesca Terwilliger,"['Francesca', 'Terwilliger']",Francesca
+218,Gino Terwilliger,"['Gino', 'Terwilliger']",Gino
+219,Johnny Tightlips,"['Johnny', 'Tightlips']",Johnny
+220,"Timothy Lovejoy, Jr.","['Timothy', 'Lovejoy,']",Timothy
+221,Tina Ballerina,"['Tina', 'Ballerina']",Tina
+222,Titania,['Titania'],Titania
+223,Toshiro,['Toshiro'],Toshiro
+224,Ugolin,['Ugolin'],Ugolin
+225,Kirk Van Houten,"['Kirk', 'Van', 'Houten']",Kirk
+226,Mr. Vanderbilt,['Vanderbilt'],Vanderbilt
+227,Mrs. Vanderbilt,['Vanderbilt'],Vanderbilt
+228,Dr. Velimirovic,['Velimirovic'],Velimirovic
+229,Gina Vendetti,"['Gina', 'Vendetti']",Gina
+230,Ian (Very Tall Man),"['Ian', 'Tall']",Ian
+231,Veterinarian,['Veterinarian'],Veterinarian
+232,Poor Violet,"['Poor', 'Violet']",Poor
+233,Don Vittorio DiMaggio,"['Don', 'Vittorio', 'DiMaggio']",Don
+234,The Warden,"['The', 'Warden']",The
+235,Professor Werner von Brawn,"['Professor', 'Werner', 'von', 'Brawn']",Professor
+236,Alex Whitney,"['Alex', 'Whitney']",Alex
+237,Groundskeeper Willie,"['Groundskeeper', 'Willie']",Groundskeeper
+238,Clancy Wiggum,"['Clancy', 'Wiggum']",Clancy
+239,Ralph Wiggum,"['Ralph', 'Wiggum']",Ralph
+240,Sarah Wiggum,"['Sarah', 'Wiggum']",Sarah
+241,Mr. Winfield,['Winfield'],Winfield
+242,Sylvia Winfield,"['Sylvia', 'Winfield']",Sylvia
+243,Emily Winthrop,"['Emily', 'Winthrop']",Emily
+244,Greta Wolfcastle,"['Greta', 'Wolfcastle']",Greta
+245,Rainier Wolfcastle,"['Rainier', 'Wolfcastle']",Rainier
+246,Artie Ziff,"['Artie', 'Ziff']",Artie
+247,Üter Zörker,"['Üter', 'Zörker']",Üter
+248,Kearney Zzyzwicz,"['Kearney', 'Zzyzwicz']",Kearney
+249,"Kearney Zzyzwicz, Jr.","['Kearney', 'Zzyzwicz,']",Kearney
+250,Abraham II,"['Abraham', 'II']",Abraham
+251,Mona,['Mona'],Mona
+252,Herbert Powell,"['Herbert', 'Powell']",Herbert
+253,Abbie,['Abbie'],Abbie
+254,Picard,['Picard'],Picard
+255,Kirk,['Kirk'],Kirk
+256,Beggar Relative,"['Beggar', 'Relative']",Beggar
+257,Charles Montgomery Burns,"['Charles', 'Montgomery', 'Burns']",Charles
+258,Mary Frowning Cloud,"['Mary', 'Frowning', 'Cloud']",Mary
+259,Happy Dinsdale,"['Happy', 'Dinsdale']",Happy
+260,Dulcine,['Dulcine'],Dulcine
+261,Eckhardt,['Eckhardt'],Eckhardt
+262,Gabby Crouse,"['Gabby', 'Crouse']",Gabby
+263,Winifred Running Goat,"['Winifred', 'Running', 'Goat']",Winifred
+264,Yuma Hickman,"['Yuma', 'Hickman']",Yuma
+265,Hortense,['Hortense'],Hortense
+266,Hubert,['Hubert'],Hubert
+267,Hugo I,"['Hugo', 'I']",Hugo
+268,Humphrey Little Goat,"['Humphrey', 'Little', 'Goat']",Humphrey
+269,Jane Nervous Goat,"['Jane', 'Nervous', 'Goat']",Jane
+270,Jenda,['Jenda'],Jenda
+271,Joe Puffing Goat,"['Joe', 'Puffing', 'Goat']",Joe
+272,Jug Band Manager,"['Jug', 'Band', 'Manager']",Jug
+273,"Maggie, Jr.","['Maggie,']","Maggie,"
+274,Abraham I,"['Abraham', 'I']",Abraham
+275,Amber,['Amber'],Amber
+276,"Bart, Jr.","['Bart,']","Bart,"
+277,Chet,['Chet'],Chet
+278,Claretta,['Claretta'],Claretta
+279,Cyrus,['Cyrus'],Cyrus
+280,Eliza,['Eliza'],Eliza
+281,Garwood,['Garwood'],Garwood
+282,Hiram,['Hiram'],Hiram
+283,Howland,['Howland'],Howland
+284,Hugo II,"['Hugo', 'II']",Hugo
+285,Lambert,['Lambert'],Lambert
+286,Mabel,['Mabel'],Mabel
+287,Old Tut,"['Old', 'Tut']",Old
+288,Orville,['Orville'],Orville
+289,Pippa,['Pippa'],Pippa
+290,Prudence,['Prudence'],Prudence
+291,Rupert,['Rupert'],Rupert
+292,Sven,['Sven'],Sven
+293,Trixie,['Trixie'],Trixie
+294,Tyrone,['Tyrone'],Tyrone
+295,Virgil,['Virgil'],Virgil
+296,Zeke,['Zeke'],Zeke
+297,Stanley,['Stanley'],Stanley
+298,Clowta Stillman,"['Clowta', 'Stillman']",Clowta
+299,Ivy,['Ivy'],Ivy
+300,Zia,['Zia'],Zia
+301,Zorina Ovadia,"['Zorina', 'Ovadia']",Zorina
+302,Gretchen,['Gretchen'],Gretchen
+303,Clancy Bouvier,"['Clancy', 'Bouvier']",Clancy
+304,Jacqueline Bouvier,"['Jacqueline', 'Bouvier']",Jacqueline
+305,Gladys Gurney,"['Gladys', 'Gurney']",Gladys
+306,Alvarine Bisque,"['Alvarine', 'Bisque']",Alvarine
+307,Chester Bouvier,"['Chester', 'Bouvier']",Chester
+308,JoJo Bouvier,"['JoJo', 'Bouvier']",JoJo
+309,Pépé Bouvier,"['Pépé', 'Bouvier']",Pépé
+310,Victor Bouvier,"['Victor', 'Bouvier']",Victor
+311,Victor Bouvier II,"['Victor', 'Bouvier', 'II']",Victor
+312,Cléo Bouvier,"['Cléo', 'Bouvier']",Cléo
+313,Didi Bouvier,"['Didi', 'Bouvier']",Didi
+314,Honoré Bouvier,"['Honoré', 'Bouvier']",Honoré
+315,Marcel Bouvier,"['Marcel', 'Bouvier']",Marcel
+316,Bambi Petitbois,"['Bambi', 'Petitbois']",Bambi
+317,Yves Bouvier,"['Yves', 'Bouvier']",Yves
+318,"Nedward Flanders, Sr.","['Nedward', 'Flanders,']",Nedward
+319,Agnes Flanders,"['Agnes', 'Flanders']",Agnes
+320,Grandma Flanders,"['Grandma', 'Flanders']",Grandma
+321,Augusta Flanders,"['Augusta', 'Flanders']",Augusta
+322,Bonnie Flanders,"['Bonnie', 'Flanders']",Bonnie
+323,Canadian Flanders,"['Canadian', 'Flanders']",Canadian
+324,Connie Flanders,"['Connie', 'Flanders']",Connie
+325,Floradora Flannery,"['Floradora', 'Flannery']",Floradora
+326,Ginger Flanders,"['Ginger', 'Flanders']",Ginger
+327,Jehoshaphat Flanders,"['Jehoshaphat', 'Flanders']",Jehoshaphat
+328,José Flanders,"['José', 'Flanders']",José
+329,Lady Nedderly Flanders,"['Lady', 'Nedderly', 'Flanders']",Lady
+330,Lady Nedebel Flanders,"['Lady', 'Nedebel', 'Flanders']",Lady
+331,Lady Nedwina Dredful,"['Lady', 'Nedwina', 'Dredful']",Lady
+332,Lord Nose,"['Lord', 'Nose']",Lord
+333,Lord Thistlewick Flanders,"['Lord', 'Thistlewick', 'Flanders']",Lord
+334,Maude Flanders (ghost),"['Maude', 'Flanders']",Maude
+335,Nedgar Flanders,"['Nedgar', 'Flanders']",Nedgar
+336,Nediana Flanders,"['Nediana', 'Flanders']",Nediana
+337,Nedmond Flanders,"['Nedmond', 'Flanders']",Nedmond
+338,Nedna Flanders,"['Nedna', 'Flanders']",Nedna
+339,Neduchadnezzar Flanders,"['Neduchadnezzar', 'Flanders']",Neduchadnezzar
+340,Nedwynn Flanders,"['Nedwynn', 'Flanders']",Nedwynn
+341,Sir Nederick Flanders,"['Nederick', 'Flanders']",Nederick
+342,Ted Flanders,"['Ted', 'Flanders']",Ted
+343,Wilhelmina Dümperdorf,"['Wilhelmina', 'Dümperdorf']",Wilhelmina
+344,Winifred Trout,"['Winifred', 'Trout']",Winifred
+345,Clifford Burns,"['Clifford', 'Burns']",Clifford
+346,Cornelia Hernandez,"['Cornelia', 'Hernandez']",Cornelia
+347,Cornelius Burns,"['Cornelius', 'Burns']",Cornelius
+348,Daphne Burns,"['Daphne', 'Burns']",Daphne
+349,Doreena Burns,"['Doreena', 'Burns']",Doreena
+350,Eric Von Burns,"['Eric', 'Von', 'Burns']",Eric
+351,Evelyn Graycomb,"['Evelyn', 'Graycomb']",Evelyn
+352,Franklin Jefferson Burns,"['Franklin', 'Jefferson', 'Burns']",Franklin
+353,Ironfist Burns,"['Ironfist', 'Burns']",Ironfist
+354,Otto Graycomb,"['Otto', 'Graycomb']",Otto
+355,Pepita Hernandez,"['Pepita', 'Hernandez']",Pepita
+356,Wainwright Montgomery Burns,"['Wainwright', 'Montgomery', 'Burns']",Wainwright
+357,Zeph Burns,"['Zeph', 'Burns']",Zeph
+358,Lily Bancroft,"['Lily', 'Bancroft']",Lily
+359,Mimsy Bancroft,"['Mimsy', 'Bancroft']",Mimsy
+360,Lyla,['Lyla'],Lyla
+361,Moshe Bernstein,"['Moshe', 'Bernstein']",Moshe
+362,Saul Bernstein,"['Saul', 'Bernstein']",Saul
+363,George Burns (character),"['George', 'Burns']",George
+364,Maxine Lombard,"['Maxine', 'Lombard']",Maxine
+365,Rachel Krustofsky,"['Rachel', 'Krustofsky']",Rachel
+366,Sophie Krustofsky,"['Sophie', 'Krustofsky']",Sophie
+367,Erin,['Erin'],Erin
+368,Luke Perry (character),"['Luke', 'Perry']",Luke
+369,Barbara Van Horne,"['Barbara', 'Van', 'Horne']",Barbara
+370,Norman Van Horne,"['Norman', 'Van', 'Horne']",Norman
+371,Josh,['Josh'],Josh
+372,Mia Farrow,"['Mia', 'Farrow']",Mia
+373,Chin Ho,"['Chin', 'Ho']",Chin
+374,Holly Hippie,"['Holly', 'Hippie']",Holly
+375,Eartha Kitt (character),"['Eartha', 'Kitt']",Eartha
+376,Princess Penelope,"['Princess', 'Penelope']",Princess
+377,Annie Dubinsky,"['Annie', 'Dubinsky']",Annie
+378,Sheldon Skinner,"['Sheldon', 'Skinner']",Sheldon
+379,Seymour Skinner (real),"['Seymour', 'Skinner']",Seymour
+380,Poonam Nahasapeemapetilon,"['Poonam', 'Nahasapeemapetilon']",Poonam
+381,Sashi Nahasapeemapetilon,"['Sashi', 'Nahasapeemapetilon']",Sashi
+382,Pria Nahasapeemapetilon,"['Pria', 'Nahasapeemapetilon']",Pria
+383,Uma Nahasapeemapetilon,"['Uma', 'Nahasapeemapetilon']",Uma
+384,Anoop Nahasapeemapetilon,"['Anoop', 'Nahasapeemapetilon']",Anoop
+385,Sandeep Nahasapeemapetilon,"['Sandeep', 'Nahasapeemapetilon']",Sandeep
+386,Nabendu Nahasapeemapetilon,"['Nabendu', 'Nahasapeemapetilon']",Nabendu
+387,Gheet Nahasapeemapetilon,"['Gheet', 'Nahasapeemapetilon']",Gheet
+388,Jamshed Nahasapeemapetilon,"['Jamshed', 'Nahasapeemapetilon']",Jamshed
+389,Pahusacheta Nahasapeemapetilon,"['Pahusacheta', 'Nahasapeemapetilon']",Pahusacheta
+390,Kavi Nahasapeemapetilon,"['Kavi', 'Nahasapeemapetilon']",Kavi
+391,Indian Nerd,"['Indian', 'Nerd']",Indian
+392,Apu Nahasapeemapetilon Sr.,"['Apu', 'Nahasapeemapetilon']",Apu
+393,Grandma Van Houten,"['Grandma', 'Van', 'Houten']",Grandma
+394,Grandpa Van Houten,"['Grandpa', 'Van', 'Houten']",Grandpa
+395,Milford Van Houten,"['Milford', 'Van', 'Houten']",Milford
+396,Nana Sophie Mussolini,"['Nana', 'Sophie', 'Mussolini']",Nana
+397,Annika Van Houten,"['Annika', 'Van', 'Houten']",Annika
+398,Norbert Van Houten,"['Norbert', 'Van', 'Houten']",Norbert
+399,Angelica,['Angelica'],Angelica
+400,Judge Muntz,"['Judge', 'Muntz']",Judge
+401,Chuck Muntz,"['Chuck', 'Muntz']",Chuck
+402,Reilly Muntz,"['Reilly', 'Muntz']",Reilly
+403,"Nelson Muntz, Jr.","['Nelson', 'Muntz,']",Nelson
+404,Iggy Wiggum,"['Iggy', 'Wiggum']",Iggy
+405,Wesley Wiggum,"['Wesley', 'Wiggum']",Wesley
+406,Fred Kanneke,"['Fred', 'Kanneke']",Fred
+407,Neil Terwilliger,"['Neil', 'Terwilliger']",Neil
+408,Robert Terwilliger Sr.,"['Robert', 'Terwilliger']",Robert
+409,Dame Judith Terwilliger,"['Dame', 'Judith', 'Terwilliger']",Dame
+410,Dia-Betty,['Dia-Betty'],Dia-Betty
+411,Geech,['Geech'],Geech
+412,Merl,['Merl'],Merl
+413,Erik,['Erik'],Erik
+414,Langdon Alger,"['Langdon', 'Alger']",Langdon
+415,Arthur (Student),['Arthur'],Arthur
+416,Ashley,['Ashley'],Ashley
+417,Becky (Student),['Becky'],Becky
+418,Adrian Belew,"['Adrian', 'Belew']",Adrian
+419,Bashir bin Laden,"['Bashir', 'bin', 'Laden']",Bashir
+420,Bodhi,['Bodhi'],Bodhi
+421,Darryl,['Darryl'],Darryl
+422,Lucas Bortner,"['Lucas', 'Bortner']",Lucas
+423,Jake Boyman,"['Jake', 'Boyman']",Jake
+424,Celeste,['Celeste'],Celeste
+425,Chuck Berger,"['Chuck', 'Berger']",Chuck
+426,Cosine Tangent,"['Cosine', 'Tangent']",Cosine
+427,Coward,['Coward'],Coward
+428,Michael D'Amico,"['Michael', ""D'Amico""]",Michael
+429,Jack Deforest,"['Jack', 'Deforest']",Jack
+430,Ross,['Ross'],Ross
+431,Diggs,['Diggs'],Diggs
+432,Donna,['Donna'],Donna
+433,Donny (The Debarted),['Donny'],Donny
+434,Gus Huebner,"['Gus', 'Huebner']",Gus
+435,Caribbean Boy,"['Caribbean', 'Boy']",Caribbean
+436,Portuguese Boy,"['Portuguese', 'Boy']",Portuguese
+437,Harper Jambowski,"['Harper', 'Jambowski']",Harper
+438,Andy Hamilton,"['Andy', 'Hamilton']",Andy
+439,Howard,['Howard'],Howard
+440,Isabel Gutierrez,"['Isabel', 'Gutierrez']",Isabel
+441,Jaffee,['Jaffee'],Jaffee
+442,Jamie,['Jamie'],Jamie
+443,Jenny,['Jenny'],Jenny
+444,Jimbo Junior,"['Jimbo', 'Junior']",Jimbo
+445,Juliet Hobbes,"['Juliet', 'Hobbes']",Juliet
+446,Kevin (Stealing First Base),"['Kevin', 'First']",Kevin
+447,Kyle LaBianco,"['Kyle', 'LaBianco']",Kyle
+448,Nikki McKenna,"['Nikki', 'McKenna']",Nikki
+449,Megan,['Megan'],Megan
+450,Nina Skalka,"['Nina', 'Skalka']",Nina
+451,Melody Juniper,"['Melody', 'Juniper']",Melody
+452,Freddy,['Freddy'],Freddy
+453,Kyle (3rd Grader),['Kyle'],Kyle
+454,Noah (Father Knows Worst),"['Noah', 'Knows']",Noah
+455,Prune Juice Nerd,"['Prune', 'Juice', 'Nerd']",Prune
+456,Rex (I Love Lisa),"['Rex', 'Love']",Rex
+457,Sara (Student),['Sara'],Sara
+458,Singing Girl,"['Singing', 'Girl']",Singing
+459,Sophie Jensen,"['Sophie', 'Jensen']",Sophie
+460,Samantha Stankey,"['Samantha', 'Stankey']",Samantha
+461,Little Moe Szyslak,"['Little', 'Moe', 'Szyslak']",Little
+462,Taffy,['Taffy'],Taffy
+463,Tanya,['Tanya'],Tanya
+464,Tommy,['Tommy'],Tommy
+465,Tumi,['Tumi'],Tumi
+466,Wanda,['Wanda'],Wanda
+467,Warren (Camper),['Warren'],Warren
+468,Ralph (Moaning Lisa),['Ralph'],Ralph
+469,Anastasia,['Anastasia'],Anastasia
+470,Annie (Ant),['Annie'],Annie
+471,Rosa Barks,"['Rosa', 'Barks']",Rosa
+472,Bitey,['Bitey'],Bitey
+473,Blinky,['Blinky'],Blinky
+474,Bluella,['Bluella'],Bluella
+475,Bobo (Dog),['Bobo'],Bobo
+476,Bolivian Tree Lizard,"['Bolivian', 'Tree', 'Lizard']",Bolivian
+477,Butterfly,['Butterfly'],Butterfly
+478,Canary M. Burns,"['Canary', 'M.', 'Burns']",Canary
+479,Captain Jack,"['Captain', 'Jack']",Captain
+480,Chez Paree Lobsters,"['Chez', 'Paree', 'Lobsters']",Chez
+481,Coltrane,['Coltrane'],Coltrane
+482,Dash Dingo,"['Dash', 'Dingo']",Dash
+483,Dog (SNPP),['Dog'],Dog
+484,Dog O' War,"['Dog', ""O'"", 'War']",Dog
+485,Duff McShark,"['Duff', 'McShark']",Duff
+486,Duncan,['Duncan'],Duncan
+487,Esquilax,['Esquilax'],Esquilax
+488,Feral Things,"['Feral', 'Things']",Feral
+489,Fido,['Fido'],Fido
+490,Fluffy,['Fluffy'],Fluffy
+491,Freedom,['Freedom'],Freedom
+492,Gary the Unicorn,"['Gary', 'the', 'Unicorn']",Gary
+493,General Sherman,"['General', 'Sherman']",General
+494,Furious George,"['Furious', 'George']",Furious
+495,Giuseppe,['Giuseppe'],Giuseppe
+496,Gorilla the Conqueror,"['Gorilla', 'the', 'Conqueror']",Gorilla
+497,Greyhound Puppies,"['Greyhound', 'Puppies']",Greyhound
+498,Henry the Canary,"['Henry', 'the', 'Canary']",Henry
+499,Hercules,['Hercules'],Hercules
+500,Jub-Jub,['Jub-Jub'],Jub-Jub
+501,Loch Ness Monster,"['Loch', 'Ness', 'Monster']",Loch
+502,Lumpy,['Lumpy'],Lumpy
+503,Mojo the Helper Monkey,"['Mojo', 'the', 'Helper', 'Monkey']",Mojo
+504,Pigeon-Rat,['Pigeon-Rat'],Pigeon-Rat
+505,Pokey,['Pokey'],Pokey
+506,Screamapillar,['Screamapillar'],Screamapillar
+507,Simpson Fish,"['Simpson', 'Fish']",Simpson
+508,Snorky,['Snorky'],Snorky
+509,Snowball II,"['Snowball', 'II']",Snowball
+510,Snowball V,"['Snowball', 'V']",Snowball
+511,Spirit Guide,"['Spirit', 'Guide']",Spirit
+512,Stampy,['Stampy'],Stampy
+513,Stingy,['Stingy'],Stingy
+514,Strangles,['Strangles'],Strangles
+515,Taquito,['Taquito'],Taquito
+516,Two-nicorn,['Two-nicorn'],Two-nicorn
+517,Rangemaster,['Rangemaster'],Rangemaster
+518,Grampa,['Grampa'],Grampa
