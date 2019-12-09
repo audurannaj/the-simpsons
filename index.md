@@ -77,6 +77,7 @@ An example of a synopsis which was scraped can be seen below:
 `<p>Thanks to a radio talk show host, <a class="mw-redirect" href="/wiki/Mayor_Quimby" title="Mayor Quimby">Mayor Quimby</a> is pressured into releasing <a class="mw-redirect" href="/wiki/Sideshow_Bob" title="Sideshow Bob">Sideshow Bob</a> from prison. Once out, Bob promptly runs against the mayor and wins. <a class="mw-redirect" href="/wiki/Bart" title="Bart">Bart</a> and <a class="mw-redirect" href="/wiki/Lisa" title="Lisa">Lisa</a> set out to prove Mayor Bob did not legally win.
 </p>`
 
+
 The hyperlinks (`<a></a>`) that are in the synopsis denote which characters wikipedia page is in the episode, and those characters are considered to be the main characters of an episode, which will be used for building the networks.
 
 ---
