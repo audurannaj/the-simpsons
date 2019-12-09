@@ -126,19 +126,19 @@ When visualizing the networks, there were no dramatic changes to them through th
 
 When the centrality measures of these networks were analyzed, the importance of the female family members, i.e. **Marge** and **Lisa** seemed to be getting larger and larger as the seasons went by. Three centrality measures were calculated for every node of every season, and the regression of those measures were visualized for the four main characters (see below). 
 
-**Degree Centrality for each family member over the 30 seasons**
+**Degree Centrality for each family member over the 30 seasons:**
 
 <p align="center">
 <img src="degree_measure.png" width="675" height="1215">
 </p>
 
-**Betweenness Centrality for each family member over the 30 seasons**
+**Betweenness Centrality for each family member over the 30 seasons:**
 
 <p align="center">
 <img src="betweenness_measure.png" width="675" height="1215">
 </p>
 
-**Eigenvector Centrality for each family member over the 30 seasons**
+**Eigenvector Centrality for each family member over the 30 seasons:**
 
 <p align="center">
 <img src="eigen_measure.png" width="675" height="1215">
@@ -156,12 +156,10 @@ The growth of the appearances and influence of the female family members of The 
 
 The series seems to have lost its appeal it had to men and started appealing more to women, according to the demographic ratings. This could be the cause of more episodes featuring **Marge** and **Lisa**, with **Homer** and **Bart** taking a small step back in their dominance over the series. The analysis that was carried out on the networks created does seem to tell a story of these female characters gaining more and more influence in the series, with the two previously dominant male characters having to share the spotlight. 
 
-**Limitations**
 
-These networks are created from the synopsis for each episode of a season. These synopsis sometimes create links between characters which do not represent their interaction within the episode, i.e. if there are subplots (A-plot and B-plot) for an episode, those that appear together in the
-A-plot (the main plot of the episode) are linked with those that appear in the B-plot (the subplot of an episode) maybe without them actually interacting together in the episode. 
+***LIMITATIONS:***
 
-See the work [here](https://audurannaj.github.io/the-simpsons/networks.html)
+> These networks are created from the synopsis for each episode of a season. These synopsis sometimes create links between characters which do not represent their interaction within the episode, i.e. if there are subplots (A-plot and B-plot) for an episode, those that appear together in the A-plot (the main plot of the episode) are linked with those that appear in the B-plot (the subplot of an episode) maybe without them actually interacting together in the episode. 
 
 ---
 
