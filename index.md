@@ -199,7 +199,7 @@ There is also the need to confront this with the audience graphs. Both male adul
 In the figure below it can be seen how **political**, **environmental** and **feminists** topics are combined and distinghuish in particular in season 26: the event is that nigerian princess (her name is Kemi) is given a big role, coming to Springfield to close a deal for uranium with Mr. Burns.
 
 <p align="center">
-	<img src="/WordClouds/Season_Synopsis_WordClouds/season26.png"/>
+	<img src="WordClouds/Season_Synopsis_WordClouds/season26.png"/>
 </p>
 
 
