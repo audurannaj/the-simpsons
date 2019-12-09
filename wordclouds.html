@@ -1,1 +1,182 @@
-hello
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>WordClouds</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+	<h1>TF-IDF WordClouds</h1>
+
+	<p>
+		For each season's script and synopsis the TF-IDF score is computed. It assigns a score to every word in a document: that score indicates how important is the word to the document itself combined with how typical that word is of the document, i.e. how much that word distinguishes that particular document from the others (so if a word is present in only one document a lot of times it'll have a very high score).<br/>
+
+		Here every <b>WordCloud</b> produced is displayed. The dropdown menu will let the reader choose which ones to display:
+		<ul>
+			<li>WordClouds produced from the <b>synopsis of all 30 seasons</b></li>
+			<li>WordClouds produced from the <b>scripts of 26 seasons</b></li>
+			<li>WordClouds produced from the scripts of 26 seasons for every <b>Simpson family member</b></li>
+		</ul> 
+	</p>
+
+
+	<select id="box" name="box" onChange="update();">
+		<option value="synopsis" selected="selected"> Seasons Synopsis </option>
+		<option value="script"> Seasons Script </option>
+		<option value="homer"> Homer Simpson </option>
+		<option value="marge"> Marge Simpson </option>
+		<option value="bart"> Bart Simpson </option>
+		<option value="lisa"> Lisa Simpson </option>
+	</select>
+
+
+	<div id="images" class="container">
+		<p align="center">
+			<img src="WordClouds/Season_Synopsis_WordClouds/season1.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season2.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season3.png"/>
+			<img src="WordClouds/Season_Synopsis_WordClouds/season4.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season5.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season6.png"/>
+			<img src="WordClouds/Season_Synopsis_WordClouds/season7.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season8.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season9.png"/>
+			<img src="WordClouds/Season_Synopsis_WordClouds/season10.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season11.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season12.png"/>
+			<img src="WordClouds/Season_Synopsis_WordClouds/season13.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season14.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season15.png"/>
+			<img src="WordClouds/Season_Synopsis_WordClouds/season16.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season17.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season18.png"/>
+			<img src="WordClouds/Season_Synopsis_WordClouds/season19.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season20.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season21.png"/>
+			<img src="WordClouds/Season_Synopsis_WordClouds/season22.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season23.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season24.png"/>
+			<img src="WordClouds/Season_Synopsis_WordClouds/season25.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season26.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season27.png"/>
+			<img src="WordClouds/Season_Synopsis_WordClouds/season28.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season29.png"/> <img src="WordClouds/Season_Synopsis_WordClouds/season30.png"/>
+		</p>
+	</div>
+
+
+</body>
+
+<script>
+
+	// Update content on dropdown change
+	function update(){
+		var to_display = document.getElementById("box").value;
+
+		// Code to insert, with already the paragraph
+		var html_to_insert = '<p align="center">\n\t';
+
+		// Construct the HTML to insert based on the 
+		switch(to_display) {
+			case "synopsis":
+
+				path = "WordClouds/Season_Synopsis_WordClouds/";
+
+				// Add all images to the html code to insert
+				// Four images per row
+				var i;
+				for (i = 0; i < 30; i++) {
+					html_to_insert += '<img src="' + path + 'season' + (i+1).toString() + '.png"/> ';
+
+					// New row
+					if (i%4 == 0){
+						html_to_insert += "\n\t";
+					}
+				}
+
+				break;
+			
+			case "script":
+				
+				path = "WordClouds/Season_Script_WordClouds/";
+
+				// Add all images to the html code to insert
+				// Four images per row
+				var i;
+				for (i = 0; i < 26; i++) {
+					html_to_insert += '<img src="' + path + 'season' + (i+1).toString() + '.png"/> ';
+
+					// New row
+					if (i%4 == 0){
+						html_to_insert += "\n\t";
+					}
+				}
+
+				break;
+
+			case "homer":
+				
+				path = "WordClouds/Character_Script_WordClouds/Homer Simpson/";
+
+				// Add all images to the html code to insert
+				// Four images per row
+				var i;
+				for (i = 0; i < 26; i++) {
+					html_to_insert += '<img src="' + path + 'season' + (i+1).toString() + '.png"/> ';
+
+					// New row
+					if (i%4 == 0){
+						html_to_insert += "\n\t";
+					}
+				}
+
+				break;
+			
+			case "marge":
+				
+				path = "WordClouds/Character_Script_WordClouds/Marge Simpson/";
+
+				// Add all images to the html code to insert
+				// Four images per row
+				var i;
+				for (i = 0; i < 26; i++) {
+					html_to_insert += '<img src="' + path + 'season' + (i+1).toString() + '.png"/> ';
+
+					// New row
+					if (i%4 == 0){
+						html_to_insert += "\n\t";
+					}
+				}
+
+				break;
+			
+			case "bart":
+				
+				path = "WordClouds/Character_Script_WordClouds/Bart Simpson/";
+
+				// Add all images to the html code to insert
+				// Four images per row
+				var i;
+				for (i = 0; i < 26; i++) {
+					html_to_insert += '<img src="' + path + 'season' + (i+1).toString() + '.png"/> ';
+
+					// New row
+					if (i%4 == 0){
+						html_to_insert += "\n\t";
+					}
+				}
+
+				break;
+			
+			case "lisa":
+				
+				path = "WordClouds/Character_Script_WordClouds/Lisa Simpson/";
+
+				// Add all images to the html code to insert
+				// Four images per row
+				var i;
+				for (i = 0; i < 26; i++) {
+					html_to_insert += '<img src="' + path + 'season' + (i+1).toString() + '.png"/> ';
+
+					// New row
+					if (i%4 == 0){
+						html_to_insert += "\n\t";
+					}
+				}
+
+				break;
+				
+			default:
+				html_to_insert += "Selection not correct";
+				break;
+		}
+
+		// Close the paragraph
+		html_to_insert += "</p>";
+
+		document.getElementById("images").innerHTML = html_to_insert;
+	}
+
+</script>
